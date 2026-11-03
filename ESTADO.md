@@ -18,6 +18,8 @@
 - El repositorio es de la organización de Javier (`inversion-lab`) desde el 2026-10-29.
 
 ## Lo último que se hizo
+- 2026-11-02 · Eduardo decide el horario de la tarea "Bolsa-Radar en vivos del profesor": L-V 11:30 y 12:00 (Nueva
+  York) y 21:40 y 22:00 (Asia). Creada en el Programador de tareas.
 - 2026-11-02 · Eduardo pide que, por norma, cada directo del profesor se analice al quedar grabado y salga en la
   revista. Se crea `local/rolo_vivos.py` (mismo método que Cava: transcripción + Claude Code con esquema fijo + citas
   comprobadas). La hora de Nueva York en la página pasa a ~9:15 (fin del horario de verano en EE. UU.).
@@ -33,19 +35,19 @@
   Primer Trade).
 
 ## Qué falta / próximos pasos
-1. Crear la tarea de Windows "Bolsa-Radar en vivos del profesor" (`local/rolo_vivos.bat`, L-V 12:15, 13:15, 14:15,
-   22:30 y 23:30): el permiso automático la bloqueó; **Eduardo** la aprueba o la crea él.
-2. Analizar el directo de Asia del 2-nov (`XdvYHte72PY`) cuando YouTube publique sus subtítulos: **la consola**.
-3. Cargar saldo en la API de Anthropic para encender `resumen.yml` (lectura con IA en la nube) y apagar la tarea
+1. Analizar el directo de Asia del 2-nov (`XdvYHte72PY`) cuando YouTube publique sus subtítulos: **la consola**.
+2. Cargar saldo en la API de Anthropic para encender `resumen.yml` (lectura con IA en la nube) y apagar la tarea
    "Bolsa-Radar lectura IA" del PC: **Eduardo o Javier**. Después, **la consola** hace el cambio.
-4. Hacer privado el repositorio: **Javier**. Al hacerlo, hay que avisar a Agenda.
-5. Crear la nueva web privada del equipo desde la organización: **Eduardo y Javier**.
+3. Hacer privado el repositorio: **Javier**. Al hacerlo, hay que avisar a Agenda.
+4. Crear la nueva web privada del equipo desde la organización: **Eduardo y Javier**.
 
 ## Bloqueos o esperas
 - La lectura con IA en la nube espera saldo en la API (desde el 2026-10-19).
 - La privacidad del repositorio y la web nueva esperan a Javier (desde el 2026-10-29).
 
 ## Alertas
+- A las 11:30 y a las 21:40 el directo puede no tener subtítulos todavía (YouTube tarda en generarlos); si a las
+  12:00 o a las 22:00 tampoco están, ese directo no se analiza hasta la siguiente ejecución.
 - YouTube bloqueó las descargas automáticas de este PC el 2026-11-02 ("confirma que no eres un bot"). Los directos se
   leyeron desde Chrome con `fundamental/receptor.py`. Si el bloqueo sigue, la tarea automática no podrá bajar
   transcripciones.
