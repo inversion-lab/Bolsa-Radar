@@ -445,8 +445,11 @@ function vivos() {
   const r = D.rolo;
   if (!r) { $("vivos").innerHTML = `<p class="vacio">Sin directos analizados todavía.</p>`; return; }
   $("vivos-meta").textContent = `Canal El Trader Rolo · actualizado ${fechaVivo(r.generado)}`;
-  const prog = r.programados || [];
-  $("vivos").innerHTML = `${prog.length ? `<p class="nota"><b>Programados:</b> ${prog.map((p) => `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.titulo)}</a>`).join(" · ")}</p>` : ""}
+  const prog = r.programados || [], pend = r.pendientes || [];
+  $("vivos").innerHTML = `${pend.length ? `<div class="senal"><div class="fila"><span class="sim">Pendientes de leer</span><span class="chip acento">${pend.length}</span></div>
+      ${pend.map((p) => `<div class="dist"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.titulo || p.id)}</a> · ${esc(p.motivo)}</div>`).join("")}
+      <div class="nota">Lectura manual: en YouTube, "Mostrar transcripción", copiarla toda y pegársela a Claude; o pedirle que la lea desde Chrome.</div></div>` : ""}
+    ${prog.length ? `<p class="nota"><b>Programados:</b> ${prog.map((p) => `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.titulo)}</a>`).join(" · ")}</p>` : ""}
     ${(r.directos || []).map((v, i) => vivoHtml(v, i === 0)).join("") || `<p class="vacio">Sin directos analizados todavía.</p>`}`;
 }
 

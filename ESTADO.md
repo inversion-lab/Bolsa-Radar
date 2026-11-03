@@ -18,6 +18,9 @@
 - El repositorio es de la organización de Javier (`inversion-lab`) desde el 2026-10-29.
 
 ## Lo último que se hizo
+- 2026-11-02 · Eduardo pide un respaldo manual: si YouTube bloquea o tarda, el directo sale como "pendiente" en la
+  revista y se lee pegando la transcripción (`rolo_vivos.py --pegado archivo --inicio "AAAA-MM-DD HH:MM"`) o desde
+  Chrome con `fundamental/receptor.py`. El directo de Asia del 2-nov ya está analizado (leído desde Chrome).
 - 2026-11-02 · Eduardo decide el horario de la tarea "Bolsa-Radar en vivos del profesor": L-V 11:30 y 12:00 (Nueva
   York) y 21:40 y 22:00 (Asia). Creada en el Programador de tareas.
 - 2026-11-02 · Eduardo pide que, por norma, cada directo del profesor se analice al quedar grabado y salga en la
@@ -35,11 +38,10 @@
   Primer Trade).
 
 ## Qué falta / próximos pasos
-1. Analizar el directo de Asia del 2-nov (`XdvYHte72PY`) cuando YouTube publique sus subtítulos: **la consola**.
-2. Cargar saldo en la API de Anthropic para encender `resumen.yml` (lectura con IA en la nube) y apagar la tarea
+1. Cargar saldo en la API de Anthropic para encender `resumen.yml` (lectura con IA en la nube) y apagar la tarea
    "Bolsa-Radar lectura IA" del PC: **Eduardo o Javier**. Después, **la consola** hace el cambio.
-3. Hacer privado el repositorio: **Javier**. Al hacerlo, hay que avisar a Agenda.
-4. Crear la nueva web privada del equipo desde la organización: **Eduardo y Javier**.
+2. Hacer privado el repositorio: **Javier**. Al hacerlo, hay que avisar a Agenda.
+3. Crear la nueva web privada del equipo desde la organización: **Eduardo y Javier**.
 
 ## Bloqueos o esperas
 - La lectura con IA en la nube espera saldo en la API (desde el 2026-10-19).

@@ -15,6 +15,12 @@ subtítulos del directo grabado, así que "sin subtítulos todavía" es normal y
      publica datos/rolo/<id>.json y datos/web/rolo.json (últimos directos + programados) en este repo.
 
   python local/rolo_vivos.py [--ultimos 6] [--video ID] [--sin-push] [--solo-web]
+  python local/rolo_vivos.py --pegado transcripcion.txt [--inicio "AAAA-MM-DD HH:MM"]   # respaldo manual
+
+Respaldo manual (decisión de Eduardo, 2026-11-02): si YouTube bloquea la descarga o tarda, el directo queda como
+PENDIENTE en la revista. Se resuelve de dos formas: (a) Claude en sesión lo lee desde Chrome con fundamental/receptor.py,
+o (b) Eduardo copia la transcripción de YouTube ("Mostrar transcripción" → copiar, formato "(mm:ss) texto") y se procesa
+con --pegado; --inicio (hora de Bogotá en que empezó el directo) permite calcular la hora de cada momento.
 """
 import argparse
 import json
@@ -187,8 +193,35 @@ def extraer(carpeta):
     return d
 
 
-def publicar(programados):
-    """Copia las operativas al repo y arma web/rolo.json (los EN_WEB directos más recientes + programados)."""
+def pegado(archivo, vid=None, inicio=None):
+    """Transcripción copiada a mano de YouTube ("(1:02:03) texto", con título y URL arriba) → carpeta del directo."""
+    txt = Path(archivo).read_text(encoding="utf-8", errors="replace")
+    vid = vid or (re.search(r"(?:v=|youtu\.be/|/live/)([\w-]{11})", txt) or [None, None])[1]
+    if not vid:
+        raise SystemExit("no encuentro el id del video: pásalo con --video")
+    titulo = next((ln.strip() for ln in txt.splitlines() if ln.strip()), "")
+    titulo = re.sub(r"^\(\d+\)\s*|\s*-\s*YouTube$", "", titulo)
+    partes = re.split(r"\((\d{1,2}(?::\d{2}){1,2})\)", txt)
+    bloques = [(seg(partes[i]), " ".join(partes[i + 1].split())) for i in range(1, len(partes) - 1, 2)]
+    bloques = [(t, x) for t, x in bloques if x]
+    if len(bloques) < 20:
+        raise SystemExit(f"solo {len(bloques)} bloques con marca de tiempo: ¿es la transcripción completa?")
+    ini = datetime.strptime(inicio, "%Y-%m-%d %H:%M").replace(tzinfo=BOGOTA) if inicio else None
+    carpeta = FUENTES / vid
+    carpeta.mkdir(parents=True, exist_ok=True)
+    info = {"id": vid, "titulo": titulo, "canal": "El Trader Rolo", "inicio_directo": ini.isoformat() if ini else None,
+            "duracion_seg": bloques[-1][0], "subtitulos": {"origen": "transcripción copiada a mano de YouTube"}}
+    (carpeta / "info.json").write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding="utf-8")
+    (carpeta / "transcripcion.txt").write_text(
+        f"# {titulo} | El Trader Rolo | transcripción copiada a mano\n\n" +
+        "\n".join(f"[{hms(t)}] {x}" for t, x in bloques) + "\n", encoding="utf-8")
+    print(f"{vid}: {len(bloques)} bloques pegados · {titulo}")
+    return carpeta
+
+
+def publicar(programados, pendientes=None):
+    """Copia las operativas al repo y arma web/rolo.json (los EN_WEB directos más recientes + programados + pendientes).
+    pendientes=None conserva los de la publicación anterior que sigan sin operativa."""
     SALIDA.mkdir(parents=True, exist_ok=True)
     todos = []
     for f in FUENTES.glob("*/operativa.json"):
@@ -196,10 +229,17 @@ def publicar(programados):
         (SALIDA / f"{d['video_id']}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
         todos.append(d)
     todos.sort(key=lambda d: d.get("inicio") or "", reverse=True)
+    hechos = {d["video_id"] for d in todos}
+    if pendientes is None:
+        try:
+            pendientes = json.loads(WEB.read_text(encoding="utf-8")).get("pendientes", [])
+        except (OSError, ValueError):
+            pendientes = []
+    pendientes = [p for p in pendientes if p["id"] not in hechos]
     web = {"generado": datetime.now(BOGOTA).isoformat(timespec="minutes"), "canal": CANAL,
-           "programados": programados, "directos": todos[:EN_WEB]}
+           "programados": programados, "pendientes": pendientes, "directos": todos[:EN_WEB]}
     WEB.write_text(json.dumps(web, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    print(f"web/rolo.json: {len(web['directos'])} directos, {len(programados)} programados")
+    print(f"web/rolo.json: {len(web['directos'])} directos, {len(programados)} programados, {len(pendientes)} pendientes")
 
 
 def main():
@@ -208,15 +248,31 @@ def main():
     ap.add_argument("--video")
     ap.add_argument("--sin-push", action="store_true")
     ap.add_argument("--solo-web", action="store_true", help="solo rehace rolo.json con lo ya extraído")
+    ap.add_argument("--pegado", help="archivo con la transcripción copiada a mano de YouTube (respaldo manual)")
+    ap.add_argument("--inicio", help='hora de Bogotá en que empezó el directo, "AAAA-MM-DD HH:MM" (con --pegado)')
     a = ap.parse_args()
-    programados, lista = [], []
+    if a.pegado:
+        extraer(pegado(a.pegado, a.video, a.inicio))
+        publicar([])
+        if not a.sin_push:
+            import publicar_desde_pc as P
+            P.git_push()
+        return
+    programados, lista, pendientes, listado = [], [], {}, False
     try:
         terminados, programados = directos(a.ultimos + 4)
         lista = [(a.video, "")] if a.video else terminados[:a.ultimos]
+        listado = True
     except (Y.Bloqueo, subprocess.TimeoutExpired) as ex:
         print(f"lista de directos: {ex}")
         lista = [(a.video, "")] if a.video else []
     nuevos = 0
+    hechos = {f.parent.name for f in FUENTES.glob("*/operativa.json")}
+    for vid, titulo in lista:  # pendientes = directos más nuevos que el último analizado
+        if vid in hechos:
+            break
+        pendientes[vid] = {"id": vid, "titulo": titulo, "url": f"https://www.youtube.com/watch?v={vid}",
+                           "motivo": "aún sin revisar"}
     for vid, _ in ([] if a.solo_web else lista):
         carpeta = FUENTES / vid
         if (carpeta / "operativa.json").exists():
@@ -225,10 +281,15 @@ def main():
             try:
                 res, ok = Y.bajar(vid, carpeta)
             except Y.Bloqueo:
-                print(f"{vid}: YouTube bloquea; se detiene sin insistir (vía manual: fundamental/receptor.py, autor rolo)")
+                print(f"{vid}: YouTube bloquea; se detiene sin insistir (respaldo manual: --pegado o receptor.py)")
+                for p in pendientes.values():
+                    if p["motivo"] == "aún sin revisar":
+                        p["motivo"] = "YouTube bloqueó la descarga automática: hace falta la lectura manual"
                 break
             if not ok:
                 print(f"{vid}: sin subtítulos todavía; se reintentará en la próxima ejecución")
+                if vid in pendientes:
+                    pendientes[vid]["motivo"] = "YouTube aún no generó los subtítulos; se reintenta en la próxima revisión"
                 continue
             print(f"{vid}: transcripción bajada · {res.get('titulo')}")
         try:
@@ -237,7 +298,7 @@ def main():
         except Exception as ex:  # noqa: BLE001 — un directo fallido no impide los demás
             print(f"{vid}: fallo en la extracción ({ex})")
     print(f"directos nuevos analizados: {nuevos}")
-    publicar(programados)
+    publicar(programados, list(pendientes.values()) if listado else None)
     if not a.sin_push:
         import publicar_desde_pc as P
         P.git_push()
