@@ -1,0 +1,88 @@
+{
+ "resumen": "Pablo Gil analiza el hackeo comunicado por Binance el 30 de octubre, con un impacto estimado de unos 6.300 millones de dólares y la suspensión temporal de las retiradas. Explica que se han congelado unos 3.000 millones, que unos 3.300 millones siguen sin aclarar y que congelar no es lo mismo que recuperar. Según la información preliminar, el ataque entró por el portátil de un ingeniero y llegó a la infraestructura de firma; algunas firmas lo atribuyen a Corea del Norte, aunque eso no está confirmado. Binance ha prometido reembolsar a los clientes con sus propios recursos. El autor separa seguridad, liquidez y solvencia. Sostiene que bitcoin cayó por la incertidumbre y el apalancamiento, no por un fallo del protocolo, y que el incidente no explica por sí solo la debilidad del mercado. Lo más práctico del video es la comparación entre dejar las criptomonedas en un exchange y guardarlas en una wallet fría: la autocustodia reduce el riesgo de contraparte, pero exige guardar bien la frase de recuperación. No está patrocinado, aunque promociona un directo gratuito propio el 9 de noviembre. Concluye que hay que vigilar los riesgos de custodia, que no aparecen en un gráfico de precios.",
+ "temas": [
+  "hackeo de Binance",
+  "Corea del Norte",
+  "bitcoin",
+  "custodia de criptomonedas",
+  "wallet fría frente a exchange",
+  "riesgo de contraparte",
+  "seguridad, liquidez y solvencia"
+ ],
+ "tesis": [
+  {
+   "tipo": "diagnostico",
+   "activo": "bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "",
+   "horizonte": "corto",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "La siguiente pregunta es por qué cayó Bitcoin. No porque se ha demostrado una vulnerabilidad en el protocolo de Bitcoin, sino porque el mercado reacciona a la incertidumbre.",
+   "minuto": "8:03",
+   "conviccion": "alta"
+  },
+  {
+   "tipo": "diagnostico",
+   "activo": "mercado de criptomonedas",
+   "simbolo": "",
+   "direccion": "",
+   "horizonte": "",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "sería un error atribuir toda la debilidad reciente del mercado a la a lo que ha ocurrido en este incidente. Las expectativas de tipos de interés, la liquidez global, el apetito por el riesgo y los flujos de inversión también importan.",
+   "minuto": "8:35",
+   "conviccion": "media"
+  },
+  {
+   "tipo": "recomendacion",
+   "activo": "custodia de bitcoin y criptomonedas",
+   "simbolo": "",
+   "direccion": "",
+   "horizonte": "largo",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "Para alguien que opera con frecuencia, puede resultar práctico mantener una cantidad limitada en una plataforma. Para [...] una inversión a largo plazo, probablemente tiene sentido estudiar la autocustodia, siempre que se comprendan bien sus exigencias técnicas.",
+   "minuto": "10:45",
+   "conviccion": "media"
+  },
+  {
+   "tipo": "diagnostico",
+   "activo": "Binance (riesgo de contraparte)",
+   "simbolo": "",
+   "direccion": "",
+   "horizonte": "corto",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "Un incidente de seguridad no demuestra automáticamente insolvencia, pero puede desencadenar una crisis de confianza que termina afectando a la liquidez.",
+   "minuto": "7:32",
+   "conviccion": "media"
+  }
+ ],
+ "video_id": "8JTerpJTfos",
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-03",
+ "comprobacion_citas": {
+  "tesis": 4,
+  "fragmentos_no_literales": []
+ },
+ "titulo": "¿Qué ha pasado en BINANCE? Corea del norte y el RIESGO que nadie ve",
+ "canal": "Pablo Gil Trader",
+ "fecha": "2026-10-30"
+}

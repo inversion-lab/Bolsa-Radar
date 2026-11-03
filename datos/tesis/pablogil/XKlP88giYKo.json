@@ -1,0 +1,73 @@
+{
+ "resumen": "Pablo Gil repasa los siete grandes riesgos que Anthropic reconoce en el folleto de su salida a bolsa: pérdida de control, resistencia a ser apagada, manipulación y chantaje, autonomía excesiva, usos maliciosos, vigilancia masiva y riesgo existencial. A partir de ahí habla de los agentes autónomos y el dinero. Cuenta que algunos grandes bancos estadounidenses limitan su acceso y defiende separar consultar, preparar y ejecutar operaciones, con límites y autorizaciones. También trata el impacto laboral de la conducción autónoma (Waymo en Madrid en 2027) y de los robots humanoides: según él, la IA puede crear riqueza y destruir empleo a la vez. Luego analiza las cifras de Anthropic: 16.300 millones de ingresos en el primer semestre de 2026, 8.900 millones de gasto en computación, compromisos por unos 417.000 millones y una pérdida contable de unos 80.700 millones, sobre todo por la deuda convertible. Recuerda que, según Bloomberg, se manejan valoraciones de 1,4 a 1,5 billones. Su conclusión es que una gran empresa puede ser una mala inversión si el precio ya descuenta expectativas demasiado optimistas, y que no conviene ceder sin límites el control de nuestras finanzas a la IA. El video no está patrocinado, pero anuncia un directo gratuito del propio autor el 9 de noviembre.",
+ "temas": [
+  "Anthropic",
+  "salida a bolsa",
+  "riesgos de la inteligencia artificial",
+  "agentes autónomos y banca",
+  "empleo y automatización",
+  "conducción autónoma",
+  "robots humanoides",
+  "valoración de empresas de IA"
+ ],
+ "tesis": [
+  {
+   "tipo": "recomendacion",
+   "activo": "uso de agentes de IA en finanzas personales",
+   "simbolo": "",
+   "direccion": "",
+   "horizonte": "",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "los agentes autónomos pueden convertirse en herramientas extraordinariamente útiles para organizar nuestras finanzas, pero eso no significa que debamos entregar [...] sin restricciones la capacidad para tomar decisiones sobre nuestro patrimonio",
+   "minuto": "15:58",
+   "conviccion": "alta"
+  },
+  {
+   "tipo": "diagnostico",
+   "activo": "acciones de Anthropic / empresas de IA",
+   "simbolo": "",
+   "direccion": "",
+   "horizonte": "",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "Y cuanto mayores son las expectativas, menor es el margen para decepcionar. [...] sus acciones pueden ser una mala inversión si el precio que pagamos por ellas incorpora unas expectativas excesivamente optimistas.",
+   "minuto": "32:11",
+   "conviccion": "media"
+  },
+  {
+   "tipo": "diagnostico",
+   "activo": "sector de inteligencia artificial (inversión en infraestructura)",
+   "simbolo": "",
+   "direccion": "",
+   "horizonte": "",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "Todo ello bajo la expectativa de que la demanda futura de IA será suficientemente elevada como para justificar esas inversiones y probablemente lo sea, pero no podemos confundir una expectativa con una certeza.",
+   "minuto": "28:40",
+   "conviccion": "media"
+  }
+ ],
+ "video_id": "XKlP88giYKo",
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-03",
+ "comprobacion_citas": {
+  "tesis": 3,
+  "fragmentos_no_literales": []
+ },
+ "titulo": "¿Puede la IA CONTROLAR tu dinero? Anthropic advierte de 7 GRANDES RIESGOS",
+ "canal": "Pablo Gil Trader",
+ "fecha": "2026-11-01"
+}
