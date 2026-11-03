@@ -20,7 +20,13 @@
 ## Lo último que se hizo
 - 2026-11-03 · Eduardo decide unir las líneas de las plantillas MT5 del profesor con los precios dichos en los
   directos, porque "ahí están las posibilidades de entradas y salidas". Se usa el código de colores del profesor
-  (clase 03): azul = medio, blanca = alto, amarilla = altísimo; roja = máximo (según Eduardo).
+  (clase 03): azul = medio, blanca = alto, amarilla = altísimo.
+- 2026-11-03 · **Corrección de Eduardo:**
+  - se usa SOLO la lógica de colores del profesor, sin rojo; el resto de colores queda "sin clasificar";
+  - los niveles firmes son las líneas de las plantillas (`.tpl`) más los dos precios que dio Eduardo para el oro
+    (3940.514 y 3887.920, en blanco);
+  - los precios de los directos son comentarios de scalp del día, sin la contundencia de esas líneas. La revista
+    marca si cada uno cae sobre una línea o no ("sin línea").
   - `rolo_vivos.py` lee las plantillas del MT5 del PC (`lineas_plantillas`).
   - Al publicar, marca cada entrada, stop, TP, nivel y objetivo que esté a menos de 0,25 % de una línea
     (`marcar_zonas`).
@@ -66,7 +72,9 @@
 
 ## Alertas
 - Las líneas cian y verde de las plantillas quedan "sin clasificar": el profesor no las nombró. Las líneas sin
-  color guardado se toman como rojas, porque es el color por defecto de MT5 (12 en el DXY).
+  color guardado (12 en el DXY) también quedan "sin clasificar".
+- Repo público: el mapa completo de las plantillas (los niveles firmes) NO se publica en la revista; queda en el
+  MT5 del PC hasta que el repo o la web nueva sean privados.
 - A las 11:30 y a las 21:40 el directo puede no tener subtítulos todavía (YouTube tarda en generarlos); si a las
   12:00 o a las 22:00 tampoco están, ese directo no se analiza hasta la siguiente ejecución.
 - YouTube bloqueó las descargas automáticas de este PC el 2026-11-02 ("confirma que no eres un bot"). Los directos se

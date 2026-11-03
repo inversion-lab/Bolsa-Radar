@@ -48,13 +48,16 @@ EN_WEB = 6  # directos que muestra la revista
 
 # Plantillas de zonas del profesor (MT5 del PC). Código de colores dicho por el profesor en la clase 03 (1:10:43):
 # blanco = impacto alto, azul = medio, amarillo = altísimo ("las que mandan la parada"). Decisión de Eduardo
-# (2026-11-03): se usa la lógica del profesor; rojo = el más fuerte según Eduardo (la clase no lo menciona).
+# (2026-11-03): SOLO la lógica del profesor; cualquier otro color (rojo, cian, verde) queda "sin clasificar".
+# Jerarquía (Eduardo, 2026-11-03): los niveles firmes son las líneas de las plantillas (más los dos precios que
+# Eduardo añadió al oro). Los precios dichos en los directos son comentarios de scalp del día: se marca si caen
+# sobre una línea ("zonas") o no (color None = sin línea de plantilla).
 PLANTILLAS = Path(os.environ.get("MT5_PLANTILLAS", os.path.expandvars(
     r"%APPDATA%\MetaQuotes\Terminal\010E047102812FC0C18890992854220E\MQL5\Profiles\Templates")))
 COLORES = {"FFFFFF": "blanca", "FFFFF0": "blanca", "F0FFF0": "blanca", "F5F5F5": "blanca",
            "0000CD": "azul", "000080": "azul", "87CEFA": "azul",
-           "FFFF00": "amarilla", "FF0000": "roja", "FF4500": "roja"}  # cian y verde: sin clasificar
-FUERZA = {"azul": "medio", "blanca": "alto", "amarilla": "altísimo", "roja": "máximo"}
+           "FFFF00": "amarilla"}  # el resto: sin clasificar
+FUERZA = {"azul": "medio", "blanca": "alto", "amarilla": "altísimo"}
 TOLERANCIA = 0.0025  # 0,25 % del precio: ~10 en el oro, ~190 en BTC, ~70 en el Nasdaq
 
 NUM = {"type": ["number", "null"]}
@@ -248,8 +251,8 @@ def lineas_plantillas():
             d = dict(ln.split("=", 1) for ln in o.strip().splitlines() if "=" in ln)
             if d.get("type") != "1" or "value1" not in d:  # solo líneas horizontales
                 continue
-            c = int(d["color"]) if "color" in d else None  # sin color = el de MT5 por defecto (rojo)
-            hexa = "FF0000" if c is None else "%02X%02X%02X" % (c & 255, (c >> 8) & 255, (c >> 16) & 255)
+            c = int(d["color"]) if "color" in d else None  # sin color guardado = el de MT5 por defecto
+            hexa = "defecto" if c is None else "%02X%02X%02X" % (c & 255, (c >> 8) & 255, (c >> 16) & 255)
             lineas.setdefault(clave, []).append((float(d["value1"]), COLORES.get(hexa, "sin clasificar")))
     return lineas
 
@@ -269,6 +272,8 @@ def marcar_zonas(d, lineas):
                 v, g = min(ll, key=lambda t: abs(t[0] - p))
                 if abs(v - p) <= TOLERANCIA * p:
                     zz[campo] = {"color": g, "fuerza": FUERZA.get(g), "distancia": round(v - p, 3)}
+                else:  # el activo tiene plantilla, pero ese precio no cae sobre ninguna línea
+                    zz[campo] = {"color": None}
             if zz:
                 x["zonas"] = zz
     return d

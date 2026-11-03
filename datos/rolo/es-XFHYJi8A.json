@@ -79,7 +79,12 @@
    "minuto": "[1:52]",
    "cita": "con respecto al BTC, eh el BTC sí todavía continúa la operación abierta, continúa en punto de break even.",
    "notas": "Abierta desde la sesión anterior; busca cobrar la ineficiencia del viernes ('operación un poco más ambiciosa'). Sobre el stop dijo: 'Me quedó en 76 994, protegiéndome de los 77000' [1:39:05]. No dio TP. Al final dice que dejó abiertas todas menos la del oro. Tipo marcado como swing porque viene de días anteriores.",
-   "hora_bogota": "09:19"
+   "hora_bogota": "09:19",
+   "zonas": {
+    "stop": {
+     "color": null
+    }
+   }
   },
   {
    "activo": "Nasdaq 100",
@@ -328,7 +333,15 @@
    "minuto": "[8:51]",
    "cita": "Está bien lindo el rango premercado. 28582 aproximadamente, zona superior sobre los 28704",
    "notas": "Rango premercado. Esperaba una corrección para tomar liquidez en la apertura y luego subir.",
-   "hora_bogota": "09:26"
+   "hora_bogota": "09:26",
+   "zonas": {
+    "nivel": {
+     "color": null
+    },
+    "nivel_hasta": {
+     "color": null
+    }
+   }
   },
   {
    "activo": "Nasdaq 100",
@@ -359,7 +372,12 @@
    "minuto": "[1:39:05]",
    "cita": "Me quedó en 76 994, protegiéndome de los 77000 de zona psicológica.",
    "notas": "Zona psicológica; su stop quedó justo debajo, en 76994.",
-   "hora_bogota": "10:57"
+   "hora_bogota": "10:57",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
   },
   {
    "activo": "Petróleo WTI",
@@ -458,7 +476,12 @@
    "temporalidad": null,
    "minuto": "[1:31:03]",
    "cita": "Ahí toca tenerle paciencia esa entradita en el BTC, no la estoy viendo tan bonita.",
-   "hora_bogota": "10:49"
+   "hora_bogota": "10:49",
+   "zonas": {
+    "stop": {
+     "color": null
+    }
+   }
   }
  ],
  "lecciones": [

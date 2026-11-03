@@ -262,7 +262,12 @@
    "minuto": "5:59",
    "cita": "la posición de los 60 está sobre los 79500.",
    "notas": "Orden de compra de unos 60 millones de dólares en el libro de órdenes.",
-   "hora_bogota": "19:52"
+   "hora_bogota": "19:52",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
   },
   {
    "activo": "Bitcoin",
@@ -274,7 +279,12 @@
    "minuto": "6:29",
    "cita": "Vamos a mandarlo para 79600. ¿Por qué 79600? Zona de dolor inferior.",
    "notas": "Objetivo de los cortos, un poco por encima de la liquidez de 79500.",
-   "hora_bogota": "19:52"
+   "hora_bogota": "19:52",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
   },
   {
    "activo": "Petróleo WTI",
@@ -341,7 +351,12 @@
    "temporalidad": null,
    "minuto": "33:34",
    "cita": "No me cierran el corto en el Bitcoin. 79600 se salen.",
-   "hora_bogota": "20:20"
+   "hora_bogota": "20:20",
+   "zonas": {
+    "objetivo": {
+     "color": null
+    }
+   }
   },
   {
    "activo": "Bitcoin",

@@ -492,7 +492,15 @@
    "minuto": "12:48",
    "cita": "anoche proyectamos la caída del Bitcoin hacia los 79700. [...] 79600 y llegó a los 79603.",
    "notas": "Objetivo bajista de la noche, alcanzado: mínimo en 79.603.",
-   "hora_bogota": "08:29"
+   "hora_bogota": "08:29",
+   "zonas": {
+    "nivel": {
+     "color": null
+    },
+    "nivel_hasta": {
+     "color": null
+    }
+   }
   },
   {
    "activo": "Bitcoin",
@@ -504,7 +512,12 @@
    "minuto": "1:15:49",
    "cita": "si perdía los 79000 iban a liquar un poco de posiciones en largo que habían ahí y se iba a caer directico a los 73.",
    "notas": "No está claro quién lo dice. Habla de 73 (73.000) como destino si pierde 79.000.",
-   "hora_bogota": "09:32"
+   "hora_bogota": "09:32",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
   },
   {
    "activo": "Bitcoin",
@@ -516,7 +529,12 @@
    "minuto": "1:20:49",
    "cita": "O sea, que Bitcoin tiene que bajar a los 66,000. Eh, en teoría tenemos una ineficiencia tremenda en BTC, pero es que Bitcoin desde febrero está prácticamente en rango",
    "notas": "La cifra de 66.000 la propone un alumno; el profesor reconoce la ineficiencia pero matiza que el BTC está en rango desde febrero.",
-   "hora_bogota": "09:37"
+   "hora_bogota": "09:37",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
   },
   {
    "activo": "Petróleo",

@@ -411,11 +411,12 @@ const DIR_TXT = { compra: "Compra", venta: "Venta", esperar: "Esperar", "no oper
 const dirClase = (d) => d === "compra" ? "alcista" : d === "venta" ? "bajista" : "";
 const px = (v) => v == null ? "–" : precio(v);
 // precio dicho en el directo + línea de la plantilla del profesor que coincide (código de colores de la clase 03)
-const ZCLASE = { blanca: "z-blanca", azul: "z-azul", amarilla: "z-amarilla", roja: "z-roja" };
+const ZCLASE = { blanca: "z-blanca", azul: "z-azul", amarilla: "z-amarilla" };
 function pz(x, campo) {
   const z = x.zonas?.[campo];
   if (x[campo] == null || !z) return px(x[campo]);
-  const fuerte = z.color === "amarilla" || z.color === "roja";
+  if (!z.color) return `${px(x[campo])}<span class="zona z-sin" title="Comentario de scalp: no cae sobre ninguna línea de la plantilla del profesor">sin línea</span>`;
+  const fuerte = z.color === "amarilla";
   return `${px(x[campo])}<span class="zona ${ZCLASE[z.color] || "z-sin"}${fuerte ? " fuerte" : ""}" title="Línea ${esc(z.color)} de la plantilla del profesor (impacto ${esc(z.fuerza || "sin clasificar")}), a ${esc(String(Math.abs(z.distancia)))} del precio dicho">${esc(z.color)}${z.fuerza ? ` · ${esc(z.fuerza)}` : ""}</span>`;
 }
 function fechaVivo(iso) {
@@ -447,7 +448,7 @@ function vivoHtml(v, abierto) {
     ${(v.lecciones || []).length ? `<h3 class="sub">Lo que repitió</h3><ul class="ficha-lista">${v.lecciones.map((l) => `<li>${esc(l.texto)}</li>`).join("")}</ul>` : ""}
     ${(v.avisos || []).length ? `<p class="nota"><b>Avisos:</b> ${v.avisos.map(esc).join(" · ")}</p>` : ""}
     ${otras.length ? `<details class="mas"><summary>Operaciones de alumnos o sin atribución clara (${otras.length})</summary>${tablaOps(otras)}</details>` : ""}
-    <p class="nota">Junto a cada precio va la línea de la plantilla del profesor que coincide (a menos de 0,25 %): <span class="zona z-azul">azul · medio</span> <span class="zona z-blanca">blanca · alto</span> <span class="zona z-amarilla fuerte">amarilla · altísimo</span> <span class="zona z-roja fuerte">roja · máximo</span>. Ahí están las entradas y salidas posibles.</p>
+    <p class="nota"><b>Los niveles firmes son las líneas de las plantillas del profesor</b>; los precios del directo son comentarios de scalp del día. Junto a cada precio se indica si cae sobre una línea (a menos de 0,25 %), con el código de colores del profesor: <span class="zona z-azul">azul · medio</span> <span class="zona z-blanca">blanca · alto</span> <span class="zona z-amarilla fuerte">amarilla · altísimo</span>, o <span class="zona z-sin">sin línea</span>.</p>
     <p class="nota">Extraído de la transcripción automática (${esc(v.origen)}); citas comprobadas: ${(v.comprobacion_citas?.citas || 0) - (v.comprobacion_citas?.fragmentos_no_literales || []).length} de ${v.comprobacion_citas?.citas || 0}. Los precios abreviados se completan solo si el contexto es inequívoco. Material de estudio, no recomendación.</p></details>`;
 }
 function vivos() {
