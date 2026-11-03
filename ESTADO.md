@@ -1,4 +1,4 @@
-# Estado: Bolsa-Radar (actualizado 2026-11-02)
+# Estado: Bolsa-Radar (actualizado 2026-11-03)
 
 ## En qué vamos
 - La página (https://inversion-lab.github.io/Bolsa-Radar/) se actualiza **solo a las 7, 8 y 9 a. m. de Colombia, de
@@ -18,6 +18,11 @@
 - El repositorio es de la organización de Javier (`inversion-lab`) desde el 2026-10-29.
 
 ## Lo último que se hizo
+- 2026-11-03 · Eduardo decide:
+  - la web nueva se construye sobre las **3 cajas** (1 intradía · corto plazo, 2 mediano, 3 largo), tanto en la lógica
+    como en lo visual. Ya no existe el "cerebro de 4 cajas";
+  - lo que el profesor opera en los directos se debe **correlacionar** con lo que dicen los expertos sobre esos mismos
+    activos, incluidas sus plantillas de precios analizados por años, que van por colores. Eduardo las enviará.
 - 2026-11-02 · Eduardo pide un respaldo manual: si YouTube bloquea o tarda, el directo sale como "pendiente" en la
   revista y se lee pegando la transcripción (`rolo_vivos.py --pegado archivo --inicio "AAAA-MM-DD HH:MM"`) o desde
   Chrome con `fundamental/receptor.py`. El directo de Asia del 2-nov ya está analizado (leído desde Chrome).
@@ -41,7 +46,11 @@
 1. Cargar saldo en la API de Anthropic para encender `resumen.yml` (lectura con IA en la nube) y apagar la tarea
    "Bolsa-Radar lectura IA" del PC: **Eduardo o Javier**. Después, **la consola** hace el cambio.
 2. Hacer privado el repositorio: **Javier**. Al hacerlo, hay que avisar a Agenda.
-3. Crear la nueva web privada del equipo desde la organización: **Eduardo y Javier**.
+3. Crear la nueva web privada del equipo desde la organización: **Eduardo y Javier**. Requisitos de Eduardo
+   (2026-11-03), ver "Lo último".
+4. Recibir de **Eduardo** las plantillas de precios por años y colores de los expertos para NQ (Nasdaq), XAU (oro),
+   DXY (índice dólar) y BTC. Después, **la consola** las pasa a datos (niveles por año y color, sin inventar nada) y
+   las cruza con la operativa de los directos.
 
 ## Bloqueos o esperas
 - La lectura con IA en la nube espera saldo en la API (desde el 2026-10-19).

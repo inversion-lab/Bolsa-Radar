@@ -369,7 +369,7 @@ button.activo:hover { border-color: var(--acento); box-shadow: 0 2px 10px color-
   .niveles { grid-template-columns: 1fr 1fr; }
 }
 
-/* ---------- base de la revista: portada, 4 cajas, ciclo y estudio ---------- */
+/* ---------- base de la revista: portada, 3 cajas, ciclo y estudio ---------- */
 .portada { display: grid; gap: .4rem; padding-block: .6rem .2rem; }
 .portada h1 { font: 800 clamp(1.6rem, 3.6vw, 2.4rem)/1.12 var(--f-titulo); font-stretch: 112%; margin: 0; max-width: 30ch; text-wrap: balance; }
 .piso { font-size: 1.05rem; text-transform: uppercase; letter-spacing: .08em; color: var(--tinta-2); margin: 1.2rem 0 -.2rem; padding-top: .9rem; border-top: 2px solid var(--linea); }

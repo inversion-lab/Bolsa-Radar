@@ -83,7 +83,7 @@ def radar():
 
 
 def cerebro():
-    """Base de la revista: las 4 cajas, el material de estudio, las fuentes y la bitácora viva (carpeta cerebro/ del
+    """Base de la revista: las 3 cajas, el material de estudio, las fuentes y la bitácora viva (carpeta cerebro/ del
     proyecto Trading) → datos/web/estudio.json; y los indicadores del ciclo de la deuda (FRED) → datos/web/ciclo.json.
     Son síntesis propias y datos públicos: nada de la cuenta ni del portafolio personal, ni texto de libros."""
     py = TRADING / ".venv" / "Scripts" / "python.exe"
