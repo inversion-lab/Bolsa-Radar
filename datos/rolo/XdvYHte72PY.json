@@ -1,0 +1,401 @@
+{
+ "resumen": "Directo nocturno (sesión asiática) centrado sobre todo en el oro. El profesor tenía una venta abierta en XAUUSD desde la zona alta del rango (al cierre dijo «desde la zona de los 3958»). La tesis: rechazo sobre la media móvil de momentum en 4 horas para ir a liquidar parcialmente (alrededor del 50%) la ineficiencia que dejó la subida. Según la gestión automática del ETR, el 1:2 (4% de la cartera) quedaba sobre los 3923. La venta volvió a break even un buen rato y después bajó («ya llevamos 131 puntos»). Al final aparecieron señales de lateralización y pidió protegerla en la zona de dolor. La dejó abierta en la cartera grande con margen flotante positivo. Además dijo que tomó una pequeña compra en Bitcoin después de una ruptura y retesteo de la zona de trabajo, aunque el libro de órdenes seguía indicando una intención bajista. Mencionó un largo de scalp en EUR/USD hacia 1.1842-1.1846, pero lo descartó porque el spread era excesivo. No compra petróleo y advirtió del dato de política monetaria de Australia a las 10:30 p. m. Buena parte del directo se dedicó a la herramienta ETR (central de operaciones, lotaje automático, riesgo de 1.75-2% y objetivo de 4%), al torneo y a dudas de alumnos.",
+ "sesion": "Asia",
+ "contexto": "El oro llegó por la mañana a la zona de descuento proyectada (venta en los 70 y caída hasta los 39). Por la noche negocia en un rango entre la zona de los 3970 y la de los 3940, con continuidad bajista en 4 horas y principios de lateralización en 1 hora. Bitcoin vuelve a cotizar sobre los 77.000 después del descuento por el hackeo/robo vinculado a Binance; su tendencia general sigue siendo bajista, pero está en una zona interesante. El petróleo cae hacia la zona de compras de los 95, que se mueve por la guerra en Medio Oriente. Se esperan las elecciones en EE. UU. y una sesión asiática muy volátil mañana, además del dato de política monetaria de Australia a las 10:30 p. m.",
+ "operaciones": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": 3958,
+   "stop": null,
+   "take_profit": 3923,
+   "temporalidad": "4H",
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "1:36:59",
+   "cita": "Tomamos una venta en el petróleo desde la zona de los 3958. lleva un margen flatante positivo bastante interesante.",
+   "notas": "Dijo 'petróleo' por error: el precio 3958 es del oro y en todo el directo la venta es en el oro ('En el oro estamos en corto', 19:13). TP: el 1:2 (4% de la cartera) calculado por el ETR 'sobre los 3923' (43:34), aunque buscan más que 1:2. Habló de invalidación 'sobre los 70' (53:01), pero no dio una cifra exacta de stop. Volvió a break even (24:03, 25:19) y después bajó; al final pidió protegerla en la zona de dolor y la dejó abierta en la cartera grande.",
+   "hora_bogota": "21:28"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "compra",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "1:36:59",
+   "cita": "Tomamos también una pequeña compra en el Bitcoin y no tenemos más en este momento no tenemos más operaciones abiertas.",
+   "notas": "Compra por ruptura y retesteo de la zona de trabajo. En 1:33:28 alguien dice 'Yo tengo esa compra ahí desde los 76500', pero no queda claro si es el profesor, así que la entrada queda en null. No dio stop ni TP.",
+   "hora_bogota": "21:28"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "compra",
+   "estado": "cerrada con pérdida",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "1:07:54",
+   "cita": "Pues yo tenía la compra en Bitcoin desde esta mañana y me estopeó",
+   "notas": "Operación de la sesión de la mañana, cerrada por stop. No dio precios.",
+   "hora_bogota": "20:59"
+  },
+  {
+   "activo": "EUR/USD",
+   "simbolo": "EURUSD",
+   "direccion": "compra",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "4:30",
+   "cita": "Vean, la del eurodólar a mí también me cerró con $92 en positivo",
+   "notas": "Operación de la mañana cerrada en 1:1 ('Con el eurodólar sacamos uno a uno', 24:40) por la gestión automática del 1.8%. No dijo la dirección; se pone compra por defecto, sin confirmar.",
+   "hora_bogota": "19:55"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "compra",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "40:43",
+   "cita": "Esta mañana me pasó a mí con el oro, ¿no? Tomamos una compra por aquí con un riesgo aquí, el uno a dos por aquí la garantizó en uno a dos, se devolvió, me sacó",
+   "notas": "Operación de la mañana cerrada en 1:2 (4% de la cartera); después el precio llegó al objetivo hablado. No dio precios.",
+   "hora_bogota": "20:32"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "compra",
+   "estado": "abierta",
+   "entrada": 3953,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "desconocido",
+   "quien": "alumno",
+   "minuto": "12:49",
+   "cita": "yo en el en el oro, sí, pero en venta, eh, perdón, en compra, perdón, en compra 3953.",
+   "notas": "El alumno preguntó si cerrarla y vender. El profesor le respondió que no copie sus operaciones y que mantenga su propia tesis.",
+   "hora_bogota": "20:04"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": 3973,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "desconocido",
+   "quien": "alumno",
+   "minuto": "46:52",
+   "cita": "le puse 3973 y me dice, \"Ey, cuidado con tu riesgo [...] Ya estoy en una venta, soy sincero, ya estoy en una venta",
+   "notas": "Alumno nuevo que probaba el ETR con stop en 3973; se entiende que la venta es en el oro.",
+   "hora_bogota": "20:38"
+  }
+ ],
+ "niveles": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3970,
+   "nivel_hasta": null,
+   "tipo": "resistencia",
+   "temporalidad": null,
+   "minuto": "3:21",
+   "cita": "Tenemos precio A y precio B de negociación bastante confirmado. Tenemos zona sobre los 70 y tenemos zona sobre los 40.",
+   "notas": "Dijo 'los 70' con el oro cerca de 3950: 3970. Es la zona superior del rango (precio A), donde se tomaron las ventas.",
+   "hora_bogota": "19:54"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3940,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": null,
+   "minuto": "3:21",
+   "cita": "Tenemos zona sobre los 70 y tenemos zona sobre los 40.",
+   "notas": "Dijo 'los 40': 3940 (precio B). Un alumno citó 3940.5 de la plantilla y el profesor confirmó que 'esa de los 40 se puso la semana pasada' (27:38).",
+   "hora_bogota": "19:54"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3949,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": "5m",
+   "minuto": "24:17",
+   "cita": "Aquí tenemos el soporte en el oro, está sobre los 3949.",
+   "notas": "Respuesta a la pregunta por el soporte del retesteo en 5 minutos.",
+   "hora_bogota": "20:15"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3923,
+   "nivel_hasta": null,
+   "tipo": "objetivo",
+   "temporalidad": null,
+   "minuto": "43:34",
+   "cita": "El 4% de la cartera está dando sobre los 3923, pero la operación puede llegar a ser mucho más ambiciosa",
+   "notas": "Es el 1:2 que calcula el ETR para la venta; el objetivo de fondo es liquidar parte de la ineficiencia.",
+   "hora_bogota": "20:35"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3887,
+   "nivel_hasta": null,
+   "tipo": "liquidez",
+   "temporalidad": null,
+   "minuto": "29:14",
+   "cita": "hace 87. Oh, qué bonito nivel. En ese 3887 me aparece.",
+   "notas": "Nivel del Atas que señaló la comunidad. El profesor confirmó: 'bien visto, Atas, hay un bloque de órdenes pendientes. Es tremendo' (37:49), con órdenes de compra fuertes debajo.",
+   "hora_bogota": "20:20"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3895,
+   "nivel_hasta": null,
+   "tipo": "otro",
+   "temporalidad": null,
+   "minuto": "28:16",
+   "cita": "Es a los 3895. Fue explicando algo la clase pasada",
+   "notas": "Zona de referencia de una explicación anterior que iba a borrarse; no está claro si sigue vigente.",
+   "hora_bogota": "20:19"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3807,
+   "nivel_hasta": null,
+   "tipo": "zona de trabajo",
+   "temporalidad": null,
+   "minuto": "9:24",
+   "cita": "la blanca de abajo, ¿no? 3807. Esa la pusimos hace varios días, ¿no?",
+   "notas": "Zona marcada hace días en el gráfico; no se sabe con certeza quién lo dijo.",
+   "hora_bogota": "20:00"
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "nivel": 95,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": null,
+   "minuto": "1:16",
+   "cita": "Petróleo cayendo sobre zona de los 95. Uy, posible interés de compra, aunque nosotros no somos compradores de petróleo.",
+   "notas": "Zona de compras ('Recuerden ustedes los $95', 15:21). No especificó si es WTI o Brent.",
+   "hora_bogota": "19:52"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 77000,
+   "nivel_hasta": null,
+   "tipo": "zona de trabajo",
+   "temporalidad": null,
+   "minuto": "1:31",
+   "cita": "hoy estamos cotizando Bitcoin otra vez sobre los $77,000, punto pasado de invalidación",
+   "notas": "Zona de rechazo y antiguo punto de invalidación.",
+   "hora_bogota": "19:53"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 77900,
+   "nivel_hasta": null,
+   "tipo": "resistencia",
+   "temporalidad": null,
+   "minuto": "42:56",
+   "cita": "métele ventas por allá sobre los 77900 más o menos, espéralo un poquitito más alto",
+   "notas": "Zona para vender, solo si se busca un corto.",
+   "hora_bogota": "20:34"
+  },
+  {
+   "activo": "EUR/USD",
+   "simbolo": "EURUSD",
+   "nivel": 1.1842,
+   "nivel_hasta": 1.1846,
+   "tipo": "soporte",
+   "temporalidad": null,
+   "minuto": "54:55",
+   "cita": "el eurodólar también lo podemos esperar en precio a sobre los 11846 [...] esperarle una gotita más abajo, 1.1842",
+   "notas": "Dijo '11846', es decir 1.1846. Zona inferior del rango lateral.",
+   "hora_bogota": "20:46"
+  }
+ ],
+ "oportunidades": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "condicion": "Continuidad bajista por rechazo sobre la media de momentum de 4H, para liquidar cerca del 50% de la ineficiencia. El trade no está ganado hasta que se rompa la zona inferior del rango.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": 3923,
+   "temporalidad": "4H",
+   "minuto": "53:19",
+   "cita": "Mientras no rompamos toda esta zona, sigue siendo un margen flotante positivo, pero no se gana el trade hasta que nos rompamos esta zona de acá.",
+   "hora_bogota": "20:44"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "esperar",
+   "condicion": "Hacer las entradas antes de las 10:30 p. m. y vigilar/salir hacia las 10:15-10:20, por el dato de política monetaria de Australia, que puede causar mucha volatilidad. Después de la noticia, esperar que el precio vuelva a la zona para entrar mejor posicionados.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "12:06",
+   "cita": "ojalá las las entraditas que hagamos en el oro pudiesen ser antes de las 10:30 buscando salida o monitoreo a las 10:15, 1020. A las 10:30 tenemos Política monetaria de Australia",
+   "hora_bogota": "20:03"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "esperar",
+   "condicion": "Valdría la pena acompañar las compras del bloque de órdenes del Atas más abajo, pero solo con confirmación de que no es una trampa.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "37:49",
+   "cita": "Valdría la pena acompañar a comprarlos, pero eh necesitamos ver que no sea una trampa, ¿no? Necesitamos confirmación para ir a tomarlas.",
+   "hora_bogota": "20:29"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "compra",
+   "condicion": "Ruptura y retesteo limpio de la zona de trabajo (precio A-precio B).",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "18:41",
+   "cita": "si tienen esa ruptura, retesteo bastante limpio de la zona de trabajo, de la zona de precio a precio de negociación y se les da.",
+   "hora_bogota": "20:10"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "venta",
+   "condicion": "Solo si se quiere vender: esperar que suba más, hasta cerca de 77900. La tendencia general es bajista, pero la zona es interesante y vender ahora es arriesgado.",
+   "entrada": 77900,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "42:56",
+   "cita": "si le vas a meter ventas, métele ventas por allá sobre los 77900 más o menos, espéralo un poquitito más alto y lo mandas esas ventas.",
+   "hora_bogota": "20:34"
+  },
+  {
+   "activo": "EUR/USD",
+   "simbolo": "EURUSD",
+   "direccion": "no operar",
+   "condicion": "Planteó un largo de scalp de alto riesgo en 1.1842-1.1846 con invalidación muy cercana hacia la zona superior, pero lo descartó porque el spread se come gran parte del recorrido.",
+   "entrada": 1.1842,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "1:05:39",
+   "cita": "No, no tomen esa operación. Ese spread está mortal.",
+   "hora_bogota": "20:57"
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "direccion": "no operar",
+   "condicion": "El petróleo está en zona de compras sobre los 95, pero el profesor no compra petróleo: le parece caro e inoperable por la guerra.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "15:25",
+   "cita": "Sí, por eso, por eso no la metí. Yo no compro petróleo.",
+   "hora_bogota": "20:06"
+  }
+ ],
+ "lecciones": [
+  {
+   "texto": "No copies las operaciones del profesor ni cambies tu tesis por una perspectiva ajena: aquí no hay verdades absolutas.",
+   "minuto": "13:06"
+  },
+  {
+   "texto": "Un trade no está ganado mientras no rompa la zona objetivo; hasta entonces es solo margen flotante positivo.",
+   "minuto": "53:19"
+  },
+  {
+   "texto": "No te quedes con el 1:2: busca siempre más, y apóyate en la toma parcial automática (50% en 1:2 y después un 20% cada 0.5R).",
+   "minuto": "20:33"
+  },
+  {
+   "texto": "Operar es en un 80% gestión de riesgo y disciplina, y solo en un 20% estrategia; la ganancia sale de ejecutar muchas operaciones con el riesgo controlado.",
+   "minuto": "1:25:04"
+  },
+  {
+   "texto": "Recargar la cuenta para 'gastarla' con lotes altos es un casinazo, no trading: evalúa la cartera por periodos y calcula el riesgo sobre el capital inicial.",
+   "minuto": "36:04"
+  },
+  {
+   "texto": "Cuando aparecen principios de lateralización, protege la operación en la zona de dolor; en la cartera grande no cierres a mano y deja que la gestión automática haga el cálculo.",
+   "minuto": "1:34:55"
+  },
+  {
+   "texto": "Revisa el spread antes de entrar: si se come una parte grande del recorrido esperado, la operación no tiene sentido.",
+   "minuto": "1:05:53"
+  },
+  {
+   "texto": "Al principio maneja una sola cartera.",
+   "minuto": "1:36:29"
+  }
+ ],
+ "avisos": [
+  "Por ahora el ETR y los torneos solo funcionan con Exness; Bitget y HFM ya pasaron sus APIs pero falta la integración.",
+  "Para que el profesor vea tus operaciones, la cuenta de Exness debe estar vinculada como estudiante (partner, opción 'educación/formación'). Si te registraste con Google, no queda vinculada: lo más fácil es crear otra cuenta con otro correo usando el enlace de estudiantes.",
+  "En la plata no tienen convenio de spread y el profesor no la opera.",
+  "El spread nocturno del EUR/USD llegó a comerse alrededor del 33% de la operación.",
+  "Nunca compartas la clave secreta de la API; la clave API pública sí se puede enviar a soporte.",
+  "Después de cada mejora del ETR hay que borrar cookies e historial si aparece el error 502.",
+  "TradingView tiene algo de delay frente a MetaTrader.",
+  "Cuidado con las cuentas falsas y con créditos tipo 'rapid credit'/gota a gota: el equipo nunca escribe a nadie."
+ ],
+ "video_id": "XdvYHte72PY",
+ "titulo": "Plan y Ejecución | Análisis del Mercado en Vivo",
+ "url": "https://www.youtube.com/watch?v=XdvYHte72PY",
+ "inicio": "2026-11-02T19:51:29-05:00",
+ "duracion_seg": 5916,
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-02",
+ "comprobacion_citas": {
+  "citas": 25,
+  "fragmentos_no_literales": []
+ }
+}
