@@ -18,6 +18,14 @@
 - El repositorio es de la organización de Javier (`inversion-lab`) desde el 2026-10-29.
 
 ## Lo último que se hizo
+- 2026-11-03 · Eduardo decide unir las líneas de las plantillas MT5 del profesor con los precios dichos en los
+  directos, porque "ahí están las posibilidades de entradas y salidas". Se usa el código de colores del profesor
+  (clase 03): azul = medio, blanca = alto, amarilla = altísimo; roja = máximo (según Eduardo).
+  - `rolo_vivos.py` lee las plantillas del MT5 del PC (`lineas_plantillas`).
+  - Al publicar, marca cada entrada, stop, TP, nivel y objetivo que esté a menos de 0,25 % de una línea
+    (`marcar_zonas`).
+  - La revista muestra el color y la fuerza junto al precio.
+  - No se publican las plantillas: solo el color de la línea que coincide con un precio ya dicho en el directo.
 - 2026-11-03 · Eduardo decide:
   - la web nueva se construye sobre las **3 cajas** (1 intradía · corto plazo, 2 mediano, 3 largo), tanto en la lógica
     como en lo visual. Ya no existe el "cerebro de 4 cajas";
@@ -57,6 +65,8 @@
 - La privacidad del repositorio y la web nueva esperan a Javier (desde el 2026-10-29).
 
 ## Alertas
+- Las líneas cian y verde de las plantillas quedan "sin clasificar": el profesor no las nombró. Las líneas sin
+  color guardado se toman como rojas, porque es el color por defecto de MT5 (12 en el DXY).
 - A las 11:30 y a las 21:40 el directo puede no tener subtítulos todavía (YouTube tarda en generarlos); si a las
   12:00 o a las 22:00 tampoco están, ese directo no se analiza hasta la siguiente ejecución.
 - YouTube bloqueó las descargas automáticas de este PC el 2026-11-02 ("confirma que no eres un bot"). Los directos se

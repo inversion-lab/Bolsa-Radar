@@ -46,6 +46,17 @@ WEB = REPO / "datos" / "web" / "rolo.json"
 BOGOTA = timezone(timedelta(hours=-5))
 EN_WEB = 6  # directos que muestra la revista
 
+# Plantillas de zonas del profesor (MT5 del PC). Código de colores dicho por el profesor en la clase 03 (1:10:43):
+# blanco = impacto alto, azul = medio, amarillo = altísimo ("las que mandan la parada"). Decisión de Eduardo
+# (2026-11-03): se usa la lógica del profesor; rojo = el más fuerte según Eduardo (la clase no lo menciona).
+PLANTILLAS = Path(os.environ.get("MT5_PLANTILLAS", os.path.expandvars(
+    r"%APPDATA%\MetaQuotes\Terminal\010E047102812FC0C18890992854220E\MQL5\Profiles\Templates")))
+COLORES = {"FFFFFF": "blanca", "FFFFF0": "blanca", "F0FFF0": "blanca", "F5F5F5": "blanca",
+           "0000CD": "azul", "000080": "azul", "87CEFA": "azul",
+           "FFFF00": "amarilla", "FF0000": "roja", "FF4500": "roja"}  # cian y verde: sin clasificar
+FUERZA = {"azul": "medio", "blanca": "alto", "amarilla": "altísimo", "roja": "máximo"}
+TOLERANCIA = 0.0025  # 0,25 % del precio: ~10 en el oro, ~190 en BTC, ~70 en el Nasdaq
+
 NUM = {"type": ["number", "null"]}
 TXT = {"type": "string"}
 TXTN = {"type": ["string", "null"]}
@@ -219,13 +230,58 @@ def pegado(archivo, vid=None, inicio=None):
     return carpeta
 
 
+def lineas_plantillas():
+    """Líneas horizontales de las plantillas de MT5 del profesor → {símbolo: [(precio, grupo de color)]}.
+    El símbolo sale de la propia plantilla (XAUUSDm → XAUUSD). Las plantillas son material del curso: aquí solo se
+    leen; lo único que se publica es el color de la línea que coincide con un precio que el profesor dijo en directo."""
+    lineas = {}
+    for f in PLANTILLAS.glob("*.tpl"):
+        try:
+            s = f.read_text(encoding="utf-16")
+        except (OSError, UnicodeError):
+            continue
+        sim = re.search(r"^symbol=(\S+)", s, re.M)
+        if not sim:
+            continue
+        clave = re.sub(r"m$", "", sim.group(1))
+        for o in re.findall(r"<object>(.*?)</object>", s, re.S):
+            d = dict(ln.split("=", 1) for ln in o.strip().splitlines() if "=" in ln)
+            if d.get("type") != "1" or "value1" not in d:  # solo líneas horizontales
+                continue
+            c = int(d["color"]) if "color" in d else None  # sin color = el de MT5 por defecto (rojo)
+            hexa = "FF0000" if c is None else "%02X%02X%02X" % (c & 255, (c >> 8) & 255, (c >> 16) & 255)
+            lineas.setdefault(clave, []).append((float(d["value1"]), COLORES.get(hexa, "sin clasificar")))
+    return lineas
+
+
+def marcar_zonas(d, lineas):
+    """A cada precio del directo le añade la línea de plantilla más cercana (si está a ≤ TOLERANCIA del precio)."""
+    for clave, campos in (("operaciones", ("entrada", "stop", "take_profit")), ("niveles", ("nivel", "nivel_hasta")),
+                          ("oportunidades", ("entrada", "stop", "objetivo"))):
+        for x in d.get(clave, []):
+            x.pop("zonas", None)
+            zz = {}
+            for campo in campos:
+                p = x.get(campo)
+                ll = lineas.get(x.get("simbolo"))
+                if not isinstance(p, (int, float)) or not p or not ll:
+                    continue
+                v, g = min(ll, key=lambda t: abs(t[0] - p))
+                if abs(v - p) <= TOLERANCIA * p:
+                    zz[campo] = {"color": g, "fuerza": FUERZA.get(g), "distancia": round(v - p, 3)}
+            if zz:
+                x["zonas"] = zz
+    return d
+
+
 def publicar(programados, pendientes=None):
     """Copia las operativas al repo y arma web/rolo.json (los EN_WEB directos más recientes + programados + pendientes).
     pendientes=None conserva los de la publicación anterior que sigan sin operativa."""
     SALIDA.mkdir(parents=True, exist_ok=True)
     todos = []
+    lineas = lineas_plantillas()
     for f in FUENTES.glob("*/operativa.json"):
-        d = json.loads(f.read_text(encoding="utf-8"))
+        d = marcar_zonas(json.loads(f.read_text(encoding="utf-8")), lineas)
         (SALIDA / f"{d['video_id']}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
         todos.append(d)
     todos.sort(key=lambda d: d.get("inicio") or "", reverse=True)
@@ -298,7 +354,7 @@ def main():
         except Exception as ex:  # noqa: BLE001 — un directo fallido no impide los demás
             print(f"{vid}: fallo en la extracción ({ex})")
     print(f"directos nuevos analizados: {nuevos}")
-    publicar(programados, list(pendientes.values()) if listado else None)
+    publicar(programados, list(pendientes.values()) if listado and not a.solo_web else None)
     if not a.sin_push:
         import publicar_desde_pc as P
         P.git_push()

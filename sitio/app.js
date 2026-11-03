@@ -410,6 +410,14 @@ function supervisado() {
 const DIR_TXT = { compra: "Compra", venta: "Venta", esperar: "Esperar", "no operar": "No operar" };
 const dirClase = (d) => d === "compra" ? "alcista" : d === "venta" ? "bajista" : "";
 const px = (v) => v == null ? "–" : precio(v);
+// precio dicho en el directo + línea de la plantilla del profesor que coincide (código de colores de la clase 03)
+const ZCLASE = { blanca: "z-blanca", azul: "z-azul", amarilla: "z-amarilla", roja: "z-roja" };
+function pz(x, campo) {
+  const z = x.zonas?.[campo];
+  if (x[campo] == null || !z) return px(x[campo]);
+  const fuerte = z.color === "amarilla" || z.color === "roja";
+  return `${px(x[campo])}<span class="zona ${ZCLASE[z.color] || "z-sin"}${fuerte ? " fuerte" : ""}" title="Línea ${esc(z.color)} de la plantilla del profesor (impacto ${esc(z.fuerza || "sin clasificar")}), a ${esc(String(Math.abs(z.distancia)))} del precio dicho">${esc(z.color)}${z.fuerza ? ` · ${esc(z.fuerza)}` : ""}</span>`;
+}
 function fechaVivo(iso) {
   if (!iso) return "";
   const d = new Date(iso);
@@ -424,7 +432,7 @@ function vivoHtml(v, abierto) {
   const ops = v.operaciones || [], prof = ops.filter((o) => o.quien === "profesor"), otras = ops.filter((o) => o.quien !== "profesor");
   const filaOp = (o) => `<tr><td><b>${esc(o.activo)}</b>${o.temporalidad ? `<div class="nota">${esc(o.temporalidad)}</div>` : ""}</td>
     <td><span class="chip ${dirClase(o.direccion)}">${esc(DIR_TXT[o.direccion] || o.direccion)}</span></td>
-    <td class="n num">${px(o.entrada)}</td><td class="n num">${px(o.stop)}</td><td class="n num">${px(o.take_profit)}</td>
+    <td class="n num">${pz(o, "entrada")}</td><td class="n num">${pz(o, "stop")}</td><td class="n num">${pz(o, "take_profit")}</td>
     <td>${esc(o.estado)}<div class="nota">${esc(o.tipo)}</div></td><td class="n">${enlaceMin(v, o)}</td>
     <td class="nota">«${esc(o.cita)}»${o.notas ? ` · ${esc(o.notas)}` : ""}</td></tr>`;
   const tablaOps = (lista) => `<div class="tabla-env"><table class="tabla"><thead><tr><th>Activo</th><th>Dirección</th><th class="n">Entrada</th><th class="n">Stop</th><th class="n">TP</th><th>Estado</th><th class="n">Hora</th><th>Lo que dijo</th></tr></thead><tbody>${lista.map(filaOp).join("")}</tbody></table></div>`;
@@ -434,11 +442,12 @@ function vivoHtml(v, abierto) {
   return `<details class="mas vivo" ${abierto ? "open" : ""}><summary>${esc(fechaVivo(v.inicio))} · ${esc(v.sesion)} · ${esc(v.titulo)}</summary>
     <p>${esc(v.resumen)}</p><p class="nota">${esc(v.contexto)} · <a href="${esc(v.url)}" target="_blank" rel="noopener">Ver el directo</a></p>
     <h3 class="sub">Operaciones del profesor</h3>${prof.length ? tablaOps(prof) : `<p class="vacio">No dijo operaciones propias con precio.</p>`}
-    ${opor.length ? `<h3 class="sub">Oportunidades que describe</h3><ul class="ficha-lista">${opor.map((o) => `<li><span class="chip ${dirClase(o.direccion)}">${esc(DIR_TXT[o.direccion] || o.direccion)}</span> <b>${esc(o.activo)}</b>: ${esc(o.condicion)}${o.entrada != null ? ` · entrada ${px(o.entrada)}` : ""}${o.stop != null ? ` · stop ${px(o.stop)}` : ""}${o.objetivo != null ? ` · objetivo ${px(o.objetivo)}` : ""}${o.temporalidad ? ` · ${esc(o.temporalidad)}` : ""} · ${enlaceMin(v, o)}</li>`).join("")}</ul>` : ""}
-    ${Object.keys(porActivo).length ? `<h3 class="sub">Niveles que marcó</h3><div class="tabla-env"><table class="tabla"><thead><tr><th>Activo</th><th>Niveles</th></tr></thead><tbody>${Object.entries(porActivo).map(([a, nn]) => `<tr><td><b>${esc(a)}</b></td><td>${nn.map((n) => `<span class="num">${px(n.nivel)}${n.nivel_hasta != null ? `–${px(n.nivel_hasta)}` : ""}</span> ${esc(n.tipo)}${n.temporalidad ? ` (${esc(n.temporalidad)})` : ""} · ${enlaceMin(v, n)}`).join("<br>")}</td></tr>`).join("")}</tbody></table></div>` : ""}
+    ${opor.length ? `<h3 class="sub">Oportunidades que describe</h3><ul class="ficha-lista">${opor.map((o) => `<li><span class="chip ${dirClase(o.direccion)}">${esc(DIR_TXT[o.direccion] || o.direccion)}</span> <b>${esc(o.activo)}</b>: ${esc(o.condicion)}${o.entrada != null ? ` · entrada ${pz(o, "entrada")}` : ""}${o.stop != null ? ` · stop ${pz(o, "stop")}` : ""}${o.objetivo != null ? ` · objetivo ${pz(o, "objetivo")}` : ""}${o.temporalidad ? ` · ${esc(o.temporalidad)}` : ""} · ${enlaceMin(v, o)}</li>`).join("")}</ul>` : ""}
+    ${Object.keys(porActivo).length ? `<h3 class="sub">Niveles que marcó</h3><div class="tabla-env"><table class="tabla"><thead><tr><th>Activo</th><th>Niveles</th></tr></thead><tbody>${Object.entries(porActivo).map(([a, nn]) => `<tr><td><b>${esc(a)}</b></td><td>${nn.map((n) => `<span class="num">${pz(n, "nivel")}${n.nivel_hasta != null ? `–${pz(n, "nivel_hasta")}` : ""}</span> ${esc(n.tipo)}${n.temporalidad ? ` (${esc(n.temporalidad)})` : ""} · ${enlaceMin(v, n)}`).join("<br>")}</td></tr>`).join("")}</tbody></table></div>` : ""}
     ${(v.lecciones || []).length ? `<h3 class="sub">Lo que repitió</h3><ul class="ficha-lista">${v.lecciones.map((l) => `<li>${esc(l.texto)}</li>`).join("")}</ul>` : ""}
     ${(v.avisos || []).length ? `<p class="nota"><b>Avisos:</b> ${v.avisos.map(esc).join(" · ")}</p>` : ""}
     ${otras.length ? `<details class="mas"><summary>Operaciones de alumnos o sin atribución clara (${otras.length})</summary>${tablaOps(otras)}</details>` : ""}
+    <p class="nota">Junto a cada precio va la línea de la plantilla del profesor que coincide (a menos de 0,25 %): <span class="zona z-azul">azul · medio</span> <span class="zona z-blanca">blanca · alto</span> <span class="zona z-amarilla fuerte">amarilla · altísimo</span> <span class="zona z-roja fuerte">roja · máximo</span>. Ahí están las entradas y salidas posibles.</p>
     <p class="nota">Extraído de la transcripción automática (${esc(v.origen)}); citas comprobadas: ${(v.comprobacion_citas?.citas || 0) - (v.comprobacion_citas?.fragmentos_no_literales || []).length} de ${v.comprobacion_citas?.citas || 0}. Los precios abreviados se completan solo si el contexto es inequívoco. Material de estudio, no recomendación.</p></details>`;
 }
 function vivos() {

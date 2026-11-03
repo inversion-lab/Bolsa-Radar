@@ -81,7 +81,14 @@
    "minuto": "16:36",
    "cita": "Yo vengo en corto desde los 4026.",
    "notas": "Corto de un alumno desde la noche anterior.",
-   "hora_bogota": "08:32"
+   "hora_bogota": "08:32",
+   "zonas": {
+    "entrada": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 2.095
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -113,7 +120,14 @@
    "minuto": "1:20:13",
    "cita": "el mercado iba llegando cercano a los 53, yo vi una zona de confluencia de mínimos y yo tomé una compra y me sacó",
    "notas": "Dijo «los 53», es decir, 3953. Perdió algo menos del 2 % del capital. El profesor dice que no leyó mal el mercado: en teoría allí eran compras.",
-   "hora_bogota": "09:36"
+   "hora_bogota": "09:36",
+   "zonas": {
+    "entrada": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.373
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -175,7 +189,14 @@
    "minuto": "54:29",
    "cita": "Evidenciamos la ruptura de la zona que es aquí esta zonita de los 4 3953.",
    "notas": "Zona de trabajo y soporte relevante. Se rompió en la mañana y su retesteo bajista dio la entrada en corto.",
-   "hora_bogota": "09:10"
+   "hora_bogota": "09:10",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.373
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -187,7 +208,14 @@
    "minuto": "2:16",
    "cita": "Tenemos que eh evaluar la mañana de hoy si los 3940.514 en el precio del oro son esa posición mínima.",
    "notas": "En 1:35 la describe como «soporte eh máximo de de la consolidación de julio» («los 3940»). Planteó cortos controlados por debajo de su ruptura.",
-   "hora_bogota": "08:18"
+   "hora_bogota": "08:18",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.0
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -199,7 +227,14 @@
    "minuto": "1:09:55",
    "cita": "ya el oro nos llegó a de trabajo 3887 donde decíamos que improbable que llegara.",
    "notas": "Zona de trabajo proyectada a la que llegó el oro; allí sugirió tomar ganancias. Antes alguien mencionó el mínimo semanal de 3883 (20:43).",
-   "hora_bogota": "09:26"
+   "hora_bogota": "09:26",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.92
+    }
+   }
   },
   {
    "activo": "Bitcoin",
@@ -211,7 +246,14 @@
    "minuto": "32:34",
    "cita": "ya estamos llegando zona de trabajo 76576, ya volvimos al rango de consolidación del año.",
    "notas": "Reincorporación al rango de consolidación de febrero. El profesor dice que el precio reaccionó ahí.",
-   "hora_bogota": "08:48"
+   "hora_bogota": "08:48",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.457
+    }
+   }
   },
   {
    "activo": "Petróleo WTI",
@@ -288,7 +330,14 @@
    "temporalidad": null,
    "minuto": "1:09:55",
    "cita": "Ya si quieren ya pueden sacarle billete al oro o cierres parciales o lo que quieran.",
-   "hora_bogota": "09:26"
+   "hora_bogota": "09:26",
+   "zonas": {
+    "objetivo": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.92
+    }
+   }
   },
   {
    "activo": "Oro (spot / ETF GLD)",
@@ -314,7 +363,14 @@
    "temporalidad": null,
    "minuto": "32:50",
    "cita": "sería prudente que empezaran por lo menos a obtener ganancias parciales si están, ustedes tienen las zonas de trabajo.",
-   "hora_bogota": "08:49"
+   "hora_bogota": "08:49",
+   "zonas": {
+    "objetivo": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.457
+    }
+   }
   },
   {
    "activo": "Petróleo WTI",

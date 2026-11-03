@@ -143,7 +143,14 @@
    "minuto": "1:26",
    "cita": "quien no tenga cortos debería esperar hasta los 4028 para que empecemos a tomar decisiones.",
    "notas": "Mínimo de confluencia y precio de negociación inferior del rango (lo repite en 9:56: 'mínimo de confluencia sobre los 28').",
-   "hora_bogota": "19:47"
+   "hora_bogota": "19:47",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 0.095
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -155,7 +162,14 @@
    "minuto": "3:14",
    "cita": "tuvimos una sobreextensión de movimiento casi hasta los 75",
    "notas": "Dijo 'los 75' con el oro cerca de 4000-4075, así que se entiende 4075: zona de trabajo superior donde rechazó.",
-   "hora_bogota": "19:49"
+   "hora_bogota": "19:49",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.786
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -167,7 +181,14 @@
    "minuto": "30:33",
    "cita": "Vean, ya llegaron a punto a de negociación 4056 negociación de todas estas noches.",
    "notas": "Zona de negociación donde tomó ganancias del largo.",
-   "hora_bogota": "20:17"
+   "hora_bogota": "20:17",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.226
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -179,7 +200,19 @@
    "minuto": "1:01:43",
    "cita": "Desde esta mañana estaba cotizando entre los, bueno, no lo veía en 67, pero confirmamos 67 y 33.",
    "notas": "Dijo '67 y 33': se completa a 4067 y 4033 por el contexto del oro. Es el rango del día.",
-   "hora_bogota": "20:48"
+   "hora_bogota": "20:48",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.63
+    },
+    "nivel_hasta": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 8.786
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -191,7 +224,14 @@
    "minuto": "51:39",
    "cita": "4036. Volvámonos a ir a la zona inferior de rango.",
    "notas": "Zona inferior del rango, objetivo de vuelta. En 55:37 repite: '36 dijimos'.",
-   "hora_bogota": "20:38"
+   "hora_bogota": "20:38",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -2.37
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -203,7 +243,14 @@
    "minuto": "1:08:25",
    "cita": "La parte superior del precio 4082 confluye con el alto diario y una tomita de liquidez de esta mañana.",
    "notas": "Parte superior del precio. No queda del todo claro si lo dice el profesor o un alumno.",
-   "hora_bogota": "20:54"
+   "hora_bogota": "20:54",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.2
+    }
+   }
   },
   {
    "activo": "Bitcoin",
@@ -254,7 +301,14 @@
    "temporalidad": "1 minuto",
    "minuto": "9:56",
    "cita": "tenemos mínimo de confluencia sobre los 28. No, no corras detrás. Yo preferiría esperarlo allí",
-   "hora_bogota": "19:56"
+   "hora_bogota": "19:56",
+   "zonas": {
+    "entrada": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 0.095
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -267,7 +321,14 @@
    "temporalidad": "1 minuto",
    "minuto": "51:27",
    "cita": "Si vuelven a tener configuración, pues vuelvanlo a llevar a precio. [...] 4036. Volvámonos a ir a la zona inferior de rango.",
-   "hora_bogota": "20:37"
+   "hora_bogota": "20:37",
+   "zonas": {
+    "objetivo": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -2.37
+    }
+   }
   },
   {
    "activo": "Bitcoin",

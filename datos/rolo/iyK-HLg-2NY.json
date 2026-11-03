@@ -65,7 +65,14 @@
    "minuto": "1:01:08",
    "cita": "hijo de pucharos con un largo en el Nasdaq. [...] Lo mandamos hacia zona superior del premercado. Lo mandamos hacia 295 70 más o menos.",
    "notas": "Operación de spike: el stop está «en el spike», sin precio dicho (52:41), y el TP en la parte alta del rango premercado. Dijo «295 70», que interpreto como 29.570. Para darla por buena tiene que romper la zona de 29.568. Al cierre sigue abierta, con flotante positivo y sin TP ni stop tocados.",
-   "hora_bogota": "09:17"
+   "hora_bogota": "09:17",
+   "zonas": {
+    "take_profit": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 14.727
+    }
+   }
   },
   {
    "activo": "Bitcoin",
@@ -145,7 +152,14 @@
    "minuto": "33:05",
    "cita": "ahorita que se vio 40 36 quería abrirla rápido ahí una venta, pero entonces cogió la orden en 40 32",
    "notas": "Dijo «40 32». La quería en 4036 y el retraso de ejecución se la dio en 4032.",
-   "hora_bogota": "08:49"
+   "hora_bogota": "08:49",
+   "zonas": {
+    "entrada": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 1.63
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -161,7 +175,14 @@
    "minuto": "1:25:45",
    "cita": "Yo compré oro en los 21.",
    "notas": "Dijo «los 21» con el oro en el rango 4015-4037; lo completo como 4021.",
-   "hora_bogota": "09:42"
+   "hora_bogota": "09:42",
+   "zonas": {
+    "entrada": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": -4.487
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -177,7 +198,14 @@
    "minuto": "1:28:41",
    "cita": "Yo voy montado en el oro hasta el 48.",
    "notas": "Dijo «el 48»; lo completo como 4048 por el rango del momento. Puede ser el mismo alumno que compró en 4021.",
-   "hora_bogota": "09:45"
+   "hora_bogota": "09:45",
+   "zonas": {
+    "take_profit": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -0.879
+    }
+   }
   },
   {
    "activo": "Petróleo",
@@ -287,7 +315,19 @@
    "minuto": "27:02",
    "cita": "El oro vale entre 4000 e bueno, aquí entre 4015 y 4037 vale el el el oro",
    "notas": "Rango de precio A/precio B de la mañana.",
-   "hora_bogota": "08:43"
+   "hora_bogota": "08:43",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 1.513
+    },
+    "nivel_hasta": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -3.37
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -299,7 +339,19 @@
    "minuto": "4:56",
    "cita": "ruptura sobre esta zona inferior viene siendo acomodación hacia los 3990 o inclusive $4,000",
    "notas": "Objetivo si rompe la parte baja del rango.",
-   "hora_bogota": "08:21"
+   "hora_bogota": "08:21",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 1.129
+    },
+    "nivel_hasta": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -4.192
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -311,7 +363,14 @@
    "minuto": "8:56",
    "cita": "Si sigue bajando, pues lo veremos otra vez en la mañana de hoy sobre 3995",
    "notas": "Objetivo si rompe la zona de dolor.",
-   "hora_bogota": "08:25"
+   "hora_bogota": "08:25",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.808
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -323,7 +382,19 @@
    "minuto": "4:56",
    "cita": "en caso contrario donde tengamos incremento, pues nuevamente nos vamos a los 56 o lo que venimos operando estos días que son los 42",
    "notas": "Dijo «los 56» y «los 42»; con el oro hacia 4030 lo completo como 4056 y 4042. Es el escenario alcista.",
-   "hora_bogota": "08:21"
+   "hora_bogota": "08:21",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 2.086
+    },
+    "nivel_hasta": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.226
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -335,7 +406,19 @@
    "minuto": "10:04",
    "cita": "en el Atas hay muchas órdenes de compra en la zona entre los 4000 y 40154? [...] los 4015, los 4015 son nuestra zona",
    "notas": "Lo de las órdenes de compra en ATAS lo dice un alumno (Fercho); el profesor confirma 4015 como «nuestra zona».",
-   "hora_bogota": "08:26"
+   "hora_bogota": "08:26",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -4.192
+    },
+    "nivel_hasta": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 1.513
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -347,7 +430,14 @@
    "minuto": "1:24:25",
    "cita": "Fíjate que la zona de los 4000 está siendo una zona muy psicológica.",
    "notas": "Zona psicológica que el oro respeta en diario, según lo que comentan.",
-   "hora_bogota": "09:40"
+   "hora_bogota": "09:40",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -4.192
+    }
+   }
   },
   {
    "activo": "Nasdaq 100",
@@ -359,7 +449,14 @@
    "minuto": "14:31",
    "cita": "nos podría regalar el punto del NASDA 29 46 lo está rompiendo inferior. Ojo ahí, eh, 29 457 aproximadamente.",
    "notas": "Parte baja del rango premercado. Dijo «29 457».",
-   "hora_bogota": "08:31"
+   "hora_bogota": "08:31",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 28.894
+    }
+   }
   },
   {
    "activo": "Nasdaq 100",
@@ -371,7 +468,19 @@
    "minuto": "1:01:48",
    "cita": "29 568, más o menos por aquí, por esta zonita. Vamos a ver si la demora es que rompamos esta esta zona de trabajo.",
    "notas": "Parte alta del premercado y TP del largo (29.570, «295 70»). Si la rompe, la operación sale bien.",
-   "hora_bogota": "09:18"
+   "hora_bogota": "09:18",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 16.727
+    },
+    "nivel_hasta": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 14.727
+    }
+   }
   },
   {
    "activo": "Bitcoin",
@@ -482,7 +591,14 @@
    "temporalidad": "1 hora",
    "minuto": "10:44",
    "cita": "Si tendríamos confirmación, podríamos poner nuestro target hacia los 4006 46 o 3995",
-   "hora_bogota": "08:27"
+   "hora_bogota": "08:27",
+   "zonas": {
+    "objetivo": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.808
+    }
+   }
   },
   {
    "activo": "Oro",

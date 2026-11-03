@@ -17,7 +17,14 @@
    "minuto": "1:36:59",
    "cita": "Tomamos una venta en el petróleo desde la zona de los 3958. lleva un margen flatante positivo bastante interesante.",
    "notas": "Dijo 'petróleo' por error: el precio 3958 es del oro y en todo el directo la venta es en el oro ('En el oro estamos en corto', 19:13). TP: el 1:2 (4% de la cartera) calculado por el ETR 'sobre los 3923' (43:34), aunque buscan más que 1:2. Habló de invalidación 'sobre los 70' (53:01), pero no dio una cifra exacta de stop. Volvió a break even (24:03, 25:19) y después bajó; al final pidió protegerla en la zona de dolor y la dejó abierta en la cartera grande.",
-   "hora_bogota": "21:28"
+   "hora_bogota": "21:28",
+   "zonas": {
+    "entrada": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -4.627
+    }
+   }
   },
   {
    "activo": "Bitcoin",
@@ -97,7 +104,14 @@
    "minuto": "12:49",
    "cita": "yo en el en el oro, sí, pero en venta, eh, perdón, en compra, perdón, en compra 3953.",
    "notas": "El alumno preguntó si cerrarla y vender. El profesor le respondió que no copie sus operaciones y que mantenga su propia tesis.",
-   "hora_bogota": "20:04"
+   "hora_bogota": "20:04",
+   "zonas": {
+    "entrada": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.373
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -113,7 +127,14 @@
    "minuto": "46:52",
    "cita": "le puse 3973 y me dice, \"Ey, cuidado con tu riesgo [...] Ya estoy en una venta, soy sincero, ya estoy en una venta",
    "notas": "Alumno nuevo que probaba el ETR con stop en 3973; se entiende que la venta es en el oro.",
-   "hora_bogota": "20:38"
+   "hora_bogota": "20:38",
+   "zonas": {
+    "stop": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": -0.099
+    }
+   }
   }
  ],
  "niveles": [
@@ -127,7 +148,14 @@
    "minuto": "3:21",
    "cita": "Tenemos precio A y precio B de negociación bastante confirmado. Tenemos zona sobre los 70 y tenemos zona sobre los 40.",
    "notas": "Dijo 'los 70' con el oro cerca de 3950: 3970. Es la zona superior del rango (precio A), donde se tomaron las ventas.",
-   "hora_bogota": "19:54"
+   "hora_bogota": "19:54",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 2.901
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -139,7 +167,14 @@
    "minuto": "3:21",
    "cita": "Tenemos zona sobre los 70 y tenemos zona sobre los 40.",
    "notas": "Dijo 'los 40': 3940 (precio B). Un alumno citó 3940.5 de la plantilla y el profesor confirmó que 'esa de los 40 se puso la semana pasada' (27:38).",
-   "hora_bogota": "19:54"
+   "hora_bogota": "19:54",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.514
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -151,7 +186,14 @@
    "minuto": "24:17",
    "cita": "Aquí tenemos el soporte en el oro, está sobre los 3949.",
    "notas": "Respuesta a la pregunta por el soporte del retesteo en 5 minutos.",
-   "hora_bogota": "20:15"
+   "hora_bogota": "20:15",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 4.373
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -175,7 +217,14 @@
    "minuto": "29:14",
    "cita": "hace 87. Oh, qué bonito nivel. En ese 3887 me aparece.",
    "notas": "Nivel del Atas que señaló la comunidad. El profesor confirmó: 'bien visto, Atas, hay un bloque de órdenes pendientes. Es tremendo' (37:49), con órdenes de compra fuertes debajo.",
-   "hora_bogota": "20:20"
+   "hora_bogota": "20:20",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.92
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -187,7 +236,14 @@
    "minuto": "28:16",
    "cita": "Es a los 3895. Fue explicando algo la clase pasada",
    "notas": "Zona de referencia de una explicación anterior que iba a borrarse; no está claro si sigue vigente.",
-   "hora_bogota": "20:19"
+   "hora_bogota": "20:19",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -7.08
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -235,7 +291,14 @@
    "minuto": "42:56",
    "cita": "métele ventas por allá sobre los 77900 más o menos, espéralo un poquitito más alto",
    "notas": "Zona para vender, solo si se busca un corto.",
-   "hora_bogota": "20:34"
+   "hora_bogota": "20:34",
+   "zonas": {
+    "nivel": {
+     "color": "amarilla",
+     "fuerza": "altísimo",
+     "distancia": 84.53
+    }
+   }
   },
   {
    "activo": "EUR/USD",
@@ -314,7 +377,14 @@
    "temporalidad": null,
    "minuto": "42:56",
    "cita": "si le vas a meter ventas, métele ventas por allá sobre los 77900 más o menos, espéralo un poquitito más alto y lo mandas esas ventas.",
-   "hora_bogota": "20:34"
+   "hora_bogota": "20:34",
+   "zonas": {
+    "entrada": {
+     "color": "amarilla",
+     "fuerza": "altísimo",
+     "distancia": 84.53
+    }
+   }
   },
   {
    "activo": "EUR/USD",

@@ -17,7 +17,14 @@
    "minuto": "[5:38]",
    "cita": "continuación alcista de la operación que teníamos anoche, mis estimados traders. [...] cerró en profit ya eh oro 3940 era nuestro target desde anoche.",
    "notas": "Operación de la sesión anterior (noche del domingo). No se dijo el precio de entrada.",
-   "hora_bogota": "09:23"
+   "hora_bogota": "09:23",
+   "zonas": {
+    "take_profit": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.514
+    }
+   }
   },
   {
    "activo": "Petróleo WTI",
@@ -49,7 +56,14 @@
    "minuto": "[11:00]",
    "cita": "Yo solamente tengo este pequeño largo de especulación en el oro, sabiendo que tengo un precio a precio B ahoritica en el premercado.",
    "notas": "Especulación de muy corto plazo protegida sobre la EMA 50 en 1 minuto, con un stop 'a nada' que no cuantificó. Al principio no tenía TP; lo programó a 'los 69' (3969) y luego dijo 'vámonos a buscar los 74' (3974). Al final la plataforma lo cerró en 1:2 por la protección: 'Nos cerró en el uno a dos' [1:34:03].",
-   "hora_bogota": "09:29"
+   "hora_bogota": "09:29",
+   "zonas": {
+    "take_profit": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": -1.099
+    }
+   }
   },
   {
    "activo": "Bitcoin",
@@ -161,7 +175,14 @@
    "minuto": "[1:34:39]",
    "cita": "yo entré, profe, yo entré ahí en el oro en el 53, ¿lo dejo correr o?",
    "notas": "El alumno dijo 'en el 53'; con el oro cerca de 3960 se completa como 3953.",
-   "hora_bogota": "10:52"
+   "hora_bogota": "10:52",
+   "zonas": {
+    "entrada": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.373
+    }
+   }
   },
   {
    "activo": "Nasdaq 100",
@@ -207,7 +228,14 @@
    "minuto": "[1:25]",
    "cita": "Anoche veíamos el oro sobre zonas de los 3940. En este preciso instante está sobre los 3940, haciendo revaluación en momento",
    "notas": "Objetivo de la noche, ya alcanzado; desde ahí sale la especulación alcista.",
-   "hora_bogota": "09:19"
+   "hora_bogota": "09:19",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.514
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -219,7 +247,19 @@
    "minuto": "[1:08:31]",
    "cita": "Aparentemente el oro vale máximo 3965 y vale mínimo 3940. Y esto es lo que nosotros vamos a operar",
    "notas": "Rango de cotización de hoy (precio A / precio B).",
-   "hora_bogota": "10:26"
+   "hora_bogota": "10:26",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.514
+    },
+    "nivel_hasta": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 7.901
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -231,7 +271,14 @@
    "minuto": "[19:46]",
    "cita": "Programémoslo hasta hasta punto hasta zona de trabajo superior. Tenemos 3972.",
    "notas": "Zona de trabajo superior. Prefirió poner el TP antes, en 3969.",
-   "hora_bogota": "09:37"
+   "hora_bogota": "09:37",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 0.901
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -243,7 +290,14 @@
    "minuto": "[19:46]",
    "cita": "No nos vayamos allá. Vámonos a los 69 en aras de de maximizar",
    "notas": "Dijo 'los 69' = 3969.",
-   "hora_bogota": "09:37"
+   "hora_bogota": "09:37",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 3.901
+    }
+   }
   },
   {
    "activo": "Oro",
@@ -255,7 +309,14 @@
    "minuto": "[22:06]",
    "cita": "vámonos a buscar los 74. Zona de zona de qué? Zona de toma de beneficios. [...] 4 horas.",
    "notas": "Dijo 'los 74' = 3974. Más tarde confirma la parte superior en 72-74 [1:38:27].",
-   "hora_bogota": "09:40"
+   "hora_bogota": "09:40",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": -1.099
+    }
+   }
   },
   {
    "activo": "Nasdaq 100",
@@ -279,7 +340,14 @@
    "minuto": "[1:45:03]",
    "cita": "llévenlo hasta 28828 a cierre ustedes",
    "notas": "Objetivo sugerido para el largo; también lo dijo en [1:06:49].",
-   "hora_bogota": "11:03"
+   "hora_bogota": "11:03",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.226
+    }
+   }
   },
   {
    "activo": "Bitcoin",
@@ -357,7 +425,14 @@
    "temporalidad": null,
    "minuto": "[1:06:49]",
    "cita": "Llévala 28 828. [...] garantiza la entrada en uno a tres y déjala que corra.",
-   "hora_bogota": "10:24"
+   "hora_bogota": "10:24",
+   "zonas": {
+    "objetivo": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.226
+    }
+   }
   },
   {
    "activo": "Nasdaq 100",
