@@ -7,7 +7,7 @@ const REPO = "inversion-lab/Bolsa-Radar";
 const BASE = location.hostname.endsWith("github.io")
   ? `https://raw.githubusercontent.com/${REPO}/main/datos/web/`
   : "../datos/web/";
-const ARCHIVOS = ["resumen", "mercado", "agenda", "titulares", "bonos", "valor", "tesis", "radar", "ciclo", "estudio"];
+const ARCHIVOS = ["resumen", "mercado", "agenda", "titulares", "bonos", "valor", "tesis", "radar", "ciclo", "estudio", "rolo"];
 const D = {};
 let temaSel = null, radarSel = 0, grupoSel = "Principales", fichaAbierta = null;
 let idioma = "es";
@@ -83,7 +83,7 @@ async function graficos() {
 }
 function seguro(fn) { try { fn(); } catch (e) { console.error(fn.name, e); } }
 function pintar() {
-  [cajas, ciclo, estudio, frescura, sesiones, lectura, agenda, tablero, supervisado, ideas, titulares, bonos, valor, analistas, radar, pie].forEach(seguro);
+  [cajas, ciclo, estudio, frescura, sesiones, lectura, agenda, tablero, supervisado, vivos, ideas, titulares, bonos, valor, analistas, radar, pie].forEach(seguro);
 }
 
 /* ---------- base de la revista: las 3 cajas, el ciclo de la deuda y el material de estudio ----------
@@ -95,7 +95,7 @@ const CAJAS = [
   { n: 2, nombre: "Mediano plazo", horizonte: "meses a 1–2 años", estado: "borrador", para: "Empresas baratas frente a sus propios 10 años, con calidad y tendencia; divisas y materias primas según el régimen de bonos.",
     ver: [["#t-radar", "Radar S&P 500"], ["#t-valor", "Valor 10 años"], ["#t-ideas", "Ideas"]], estudiar: "a-caja2-mediano", leccion: ["a-04-dinero-y-moneda-de-reserva", "Dinero y monedas"] },
   { n: 1, nombre: "Intradía · corto plazo", horizonte: "minutos a horas · scalp + intradía", estado: "en formación", para: "Operativa diaria guiada en vivo por el profesor del curso Tu Primer Trade (Exness + ETR Edge), con riesgo fijo. Scalp e intradía son la misma operativa: cada operación se etiqueta por su duración (scalp, menos de 1 h; intradía, horas) para medir cuál rinde más.",
-    ver: [["#t-supervisado", "Cómo se opera"], ["#t-agenda", "Agenda"], ["#t-tablero", "Tablero"]], estudiar: "a-caja1-intradia", leccion: ["a-08-como-invertir-segun-el-ciclo", "Cómo invertir"] },
+    ver: [["#t-supervisado", "Cómo se opera"], ["#t-vivos", "En vivo"], ["#t-agenda", "Agenda"], ["#t-tablero", "Tablero"]], estudiar: "a-caja1-intradia", leccion: ["a-08-como-invertir-segun-el-ciclo", "Cómo invertir"] },
 ];
 function cajas() {
   $("cajas").innerHTML = CAJAS.map((c) => `<article class="caja">
@@ -372,7 +372,7 @@ function tablero() {
 }
 
 /* ---------- caja 1: trading supervisado (curso Tu Primer Trade) ---------- */
-const OPERATIVAS = [["Nueva York", 8, 15], ["Asia", 19, 45]];  // hora de Bogotá (UTC−5, sin horario de verano)
+const OPERATIVAS = [["Nueva York", 9, 15], ["Asia", 19, 45]];  // hora de Bogotá; desde el 2026-11-02 Nueva York empieza ~9:18 (fin del horario de verano en EE. UU.)
 function proximaOperativa() {
   const ahora = Date.now();
   const bog = new Date(ahora - 5 * 3600 * 1000);  // reloj de Bogotá leído con getUTC*
@@ -395,7 +395,7 @@ function supervisado() {
   $("supervisado").innerHTML = `
     <p>Los bots se retiraron. El scalp y el intradía se operan <b>en vivo, guiados por el profesor</b>; cada uno ejecuta en su propia cuenta y la plataforma fija el riesgo.</p>
     ${p ? `<div class="senal"><div class="fila"><span class="sim">Próxima operativa: ${esc(p.nombre)}</span><span class="chip acento">${falta < 60 ? `en ${falta} min` : `en ${Math.floor(falta / 60)} h ${falta % 60} min`}</span></div>
-      <div class="dist">Zoom de lunes a viernes: Nueva York 8:15 a. m. · Asia 7:45 p. m. (hora de Bogotá). Se entra desde ETR Edge → Comunidad.</div></div>` : ""}
+      <div class="dist">Zoom de lunes a viernes: Nueva York ~9:15 a. m. (desde el 2-nov, fin del horario de verano en EE. UU.) · Asia 7:45 p. m. (hora de Bogotá). Se entra desde ETR Edge → Comunidad.</div></div>` : ""}
     <h3 class="sub">Reglas que impone ETR Edge</h3>
     <div class="indicadores">${reglas.map(([n, v, d]) => `<div class="indicador"><b>${esc(n)}</b><span class="v num">${esc(v)}</span><span class="nota">${esc(d)}</span></div>`).join("")}</div>
     <h3 class="sub">Cada operación</h3>
@@ -404,6 +404,50 @@ function supervisado() {
       <li>Marcar <b>dónde se invalida</b> la operación (el stop): ETR calcula el lote y el TP.</li>
       <li>Al cerrar, completar el journal y etiquetar la operación: <b>scalp</b> (menos de 1 h) o <b>intradía</b> (horas).</li></ol>
     <p class="nota">Lo que decide el resultado: con el plan puro (riesgo 1,72 contra 4) basta acertar el 30 %; si casi todas las ganadoras se cierran en la protección (+1,8 %), hace falta cerca del 49 %. Lo medimos en el journal. Detalle y paso a paso en <code>curso_tu_primer_trade/</code> del repo del equipo. Material de estudio, no recomendación de inversión.</p>`;
+}
+
+/* ---------- caja 1: en vivos del profesor (local/rolo_vivos.py) ---------- */
+const DIR_TXT = { compra: "Compra", venta: "Venta", esperar: "Esperar", "no operar": "No operar" };
+const dirClase = (d) => d === "compra" ? "alcista" : d === "venta" ? "bajista" : "";
+const px = (v) => v == null ? "–" : precio(v);
+function fechaVivo(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return new Intl.DateTimeFormat("es-CO", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "America/Bogota" }).format(d);
+}
+function enlaceMin(v, x) {
+  const p = String(x.minuto || "").match(/\d+/g);
+  const s = p ? p.map(Number).reduce((a, b) => a * 60 + b, 0) : 0;
+  return `<a href="${esc(v.url)}&t=${s}s" target="_blank" rel="noopener">${esc(x.hora_bogota || x.minuto)}</a>`;
+}
+function vivoHtml(v, abierto) {
+  const ops = v.operaciones || [], prof = ops.filter((o) => o.quien === "profesor"), otras = ops.filter((o) => o.quien !== "profesor");
+  const filaOp = (o) => `<tr><td><b>${esc(o.activo)}</b>${o.temporalidad ? `<div class="nota">${esc(o.temporalidad)}</div>` : ""}</td>
+    <td><span class="chip ${dirClase(o.direccion)}">${esc(DIR_TXT[o.direccion] || o.direccion)}</span></td>
+    <td class="n num">${px(o.entrada)}</td><td class="n num">${px(o.stop)}</td><td class="n num">${px(o.take_profit)}</td>
+    <td>${esc(o.estado)}<div class="nota">${esc(o.tipo)}</div></td><td class="n">${enlaceMin(v, o)}</td>
+    <td class="nota">«${esc(o.cita)}»${o.notas ? ` · ${esc(o.notas)}` : ""}</td></tr>`;
+  const tablaOps = (lista) => `<div class="tabla-env"><table class="tabla"><thead><tr><th>Activo</th><th>Dirección</th><th class="n">Entrada</th><th class="n">Stop</th><th class="n">TP</th><th>Estado</th><th class="n">Hora</th><th>Lo que dijo</th></tr></thead><tbody>${lista.map(filaOp).join("")}</tbody></table></div>`;
+  const opor = v.oportunidades || [];
+  const porActivo = {};
+  (v.niveles || []).forEach((n) => (porActivo[n.activo] = porActivo[n.activo] || []).push(n));
+  return `<details class="mas vivo" ${abierto ? "open" : ""}><summary>${esc(fechaVivo(v.inicio))} · ${esc(v.sesion)} · ${esc(v.titulo)}</summary>
+    <p>${esc(v.resumen)}</p><p class="nota">${esc(v.contexto)} · <a href="${esc(v.url)}" target="_blank" rel="noopener">Ver el directo</a></p>
+    <h3 class="sub">Operaciones del profesor</h3>${prof.length ? tablaOps(prof) : `<p class="vacio">No dijo operaciones propias con precio.</p>`}
+    ${opor.length ? `<h3 class="sub">Oportunidades que describe</h3><ul class="ficha-lista">${opor.map((o) => `<li><span class="chip ${dirClase(o.direccion)}">${esc(DIR_TXT[o.direccion] || o.direccion)}</span> <b>${esc(o.activo)}</b>: ${esc(o.condicion)}${o.entrada != null ? ` · entrada ${px(o.entrada)}` : ""}${o.stop != null ? ` · stop ${px(o.stop)}` : ""}${o.objetivo != null ? ` · objetivo ${px(o.objetivo)}` : ""}${o.temporalidad ? ` · ${esc(o.temporalidad)}` : ""} · ${enlaceMin(v, o)}</li>`).join("")}</ul>` : ""}
+    ${Object.keys(porActivo).length ? `<h3 class="sub">Niveles que marcó</h3><div class="tabla-env"><table class="tabla"><thead><tr><th>Activo</th><th>Niveles</th></tr></thead><tbody>${Object.entries(porActivo).map(([a, nn]) => `<tr><td><b>${esc(a)}</b></td><td>${nn.map((n) => `<span class="num">${px(n.nivel)}${n.nivel_hasta != null ? `–${px(n.nivel_hasta)}` : ""}</span> ${esc(n.tipo)}${n.temporalidad ? ` (${esc(n.temporalidad)})` : ""} · ${enlaceMin(v, n)}`).join("<br>")}</td></tr>`).join("")}</tbody></table></div>` : ""}
+    ${(v.lecciones || []).length ? `<h3 class="sub">Lo que repitió</h3><ul class="ficha-lista">${v.lecciones.map((l) => `<li>${esc(l.texto)}</li>`).join("")}</ul>` : ""}
+    ${(v.avisos || []).length ? `<p class="nota"><b>Avisos:</b> ${v.avisos.map(esc).join(" · ")}</p>` : ""}
+    ${otras.length ? `<details class="mas"><summary>Operaciones de alumnos o sin atribución clara (${otras.length})</summary>${tablaOps(otras)}</details>` : ""}
+    <p class="nota">Extraído de la transcripción automática (${esc(v.origen)}); citas comprobadas: ${(v.comprobacion_citas?.citas || 0) - (v.comprobacion_citas?.fragmentos_no_literales || []).length} de ${v.comprobacion_citas?.citas || 0}. Los precios abreviados se completan solo si el contexto es inequívoco. Material de estudio, no recomendación.</p></details>`;
+}
+function vivos() {
+  const r = D.rolo;
+  if (!r) { $("vivos").innerHTML = `<p class="vacio">Sin directos analizados todavía.</p>`; return; }
+  $("vivos-meta").textContent = `Canal El Trader Rolo · actualizado ${fechaVivo(r.generado)}`;
+  const prog = r.programados || [];
+  $("vivos").innerHTML = `${prog.length ? `<p class="nota"><b>Programados:</b> ${prog.map((p) => `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.titulo)}</a>`).join(" · ")}</p>` : ""}
+    ${(r.directos || []).map((v, i) => vivoHtml(v, i === 0)).join("") || `<p class="vacio">Sin directos analizados todavía.</p>`}`;
 }
 
 /* ---------- ideas ---------- */
