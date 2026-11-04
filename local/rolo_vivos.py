@@ -52,8 +52,8 @@ EN_WEB = 6  # directos que muestra la revista
 # Jerarquía (Eduardo, 2026-11-03): los niveles firmes son las líneas de las plantillas (más los dos precios que
 # Eduardo añadió al oro). Los precios dichos en los directos son comentarios de scalp del día: se marca si caen
 # sobre una línea ("zonas") o no (color None = sin línea de plantilla).
-PLANTILLAS = Path(os.environ.get("MT5_PLANTILLAS", os.path.expandvars(
-    r"%APPDATA%\MetaQuotes\Terminal\010E047102812FC0C18890992854220E\MQL5\Profiles\Templates")))
+# Se buscan en la carpeta de datos de cada MT5 instalado (desde 2026-11-03, el de Exness; antes, el de IC Markets).
+PLANTILLAS = Path(os.environ.get("MT5_PLANTILLAS", os.path.expandvars(r"%APPDATA%\MetaQuotes\Terminal")))
 COLORES = {"FFFFFF": "blanca", "FFFFF0": "blanca", "F0FFF0": "blanca", "F5F5F5": "blanca",
            "0000CD": "azul", "000080": "azul", "87CEFA": "azul",
            "FFFF00": "amarilla"}  # el resto: sin clasificar
@@ -238,7 +238,7 @@ def lineas_plantillas():
     El símbolo sale de la propia plantilla (XAUUSDm → XAUUSD). Las plantillas son material del curso: aquí solo se
     leen; lo único que se publica es el color de la línea que coincide con un precio que el profesor dijo en directo."""
     lineas = {}
-    for f in PLANTILLAS.glob("*.tpl"):
+    for f in sorted(PLANTILLAS.glob("*/MQL5/Profiles/Templates/*.tpl")) + sorted(PLANTILLAS.glob("*.tpl")):
         try:
             s = f.read_text(encoding="utf-16")
         except (OSError, UnicodeError):

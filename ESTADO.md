@@ -21,6 +21,8 @@
 - 2026-11-03 · Eduardo decide unir las líneas de las plantillas MT5 del profesor con los precios dichos en los
   directos, porque "ahí están las posibilidades de entradas y salidas". Se usa el código de colores del profesor
   (clase 03): azul = medio, blanca = alto, amarilla = altísimo.
+- 2026-11-03 · Eduardo cambió el MT5 de IC Markets por el de Exness: las plantillas (con sus dos líneas del oro) se
+  reinstalaron en la carpeta de datos del MT5 de Exness, y `rolo_vivos.py` ahora las busca en cualquier MT5 instalado.
 - 2026-11-03 · **Corrección de Eduardo:**
   - se usa SOLO la lógica de colores del profesor, sin rojo; el resto de colores queda "sin clasificar";
   - los niveles firmes son las líneas de las plantillas (`.tpl`) más los dos precios que dio Eduardo para el oro
