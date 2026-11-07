@@ -1,8 +1,24 @@
 {
- "resumen": "Directo del viernes 6 de noviembre (apertura de Nueva York, cierre de la semana) justo después de los datos de empleo de EE. UU. (NFP e ingresos por hora), que salieron fuertes para el dólar. El profesor trabajó con sesgo bajista en el oro: buscaba ventas que se confirmaban solo si el precio rompía los 4026-4027, con la mira en la ineficiencia de los 3970-3976. Esa ruptura nunca llegó, el oro se quedó entre unos 4031 y 4057 y le invalidó dos ventas («dos invalidaciones hoy»). En el Nasdaq aplicó la estrategia de rango premercado con mapa de calor mixto. Entró en largo, llegó al 1:2 y más tarde la operación se cerró, al parecer en break even. Mantuvo una compra de Bitcoin de 4 horas (entrada 75697, SL 74716, TP 78634) y una venta en eurodólar que cerrará antes de las 5 p. m. Explicó en detalle la plataforma de gestión de riesgo ETR. Cerró diciendo que fue un mal día que devolvió casi el 50% de lo ganado en la semana, aunque la semana terminó en positivo (cartera de 5000 a 6390), y pidió no operar más el viernes.",
+ "resumen": "Sesión de apertura de Nueva York del viernes, justo después de NFP e ingresos por hora, que salieron fuertes y favorecían al dólar. El profesor llegó con sesgo bajista en el oro y lo operó en corto en dos intentos con stops cortos (unos 4043 y luego sobre 4057). Ninguno se validó: el oro no rompió el soporte de 4026-4027, lo absorbieron compradores en 4031-4032 y el índice del dólar devolvió la noticia completa. El profesor dijo que no seguiría con el oro tras dos invalidaciones. En el Nasdaq aplicó la estrategia de rango premercado con mapa de calor mixto: entró en compra y llegó a cumplir 1:2, pero la devolvió hasta su límite o break even. Al cierre mantenía una compra de Bitcoin de 4 horas (entrada 75697, SL 74716, TP 78634) y una venta en EURUSD que cerraría antes de las 5 p. m. Dijo que ese día la comunidad devolvió casi el 50 % de las ganancias de la semana. Aun así, su cartera de 5000 dólares cerró la semana cerca de 6390. Pidió no forzar operaciones el viernes y esperar la apertura del domingo.",
  "sesion": "Nueva York",
- "contexto": "Las nóminas no agrícolas y los ingresos por hora salieron más altos de lo esperado. Eso fortalece el dólar y aumenta la posibilidad de una Fed más restrictiva en diciembre, lo que presiona al oro hacia abajo; después el índice del dólar devolvió toda la noticia. El Nasdaq abrió con mapa de calor mixto y luego los semiconductores se recuperaron (Nvidia, AMD, Micron), mientras que Apple estaba débil. En Bitcoin, el libro de órdenes mostraba las posiciones fuertes abajo, entre 73800 y 74800. El oro quedó en «precio a precio» (en rango) sin romper soporte, y el profesor espera que baje en la apertura del domingo.",
+ "contexto": "Las nóminas no agrícolas y los ingresos por hora salieron más altos de lo esperado. Según el profesor, eso fortalece el dólar, presiona al oro hacia abajo y aumenta la probabilidad de una Fed más restrictiva. Sin embargo, el índice del dólar devolvió toda la noticia en la sesión, el oro se comprimió en un rango entre 4031 y 4056 y nunca rompió 4026. El Nasdaq abrió con mapa de calor mixto y semiconductores en recuperación (Nvidia, AMD, Micron), pero luego lateralizó. Bitcoin seguía dentro del rango y el libro de órdenes mostraba posiciones fuertes abajo, entre 73800 y 74800.",
  "operaciones": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "[5:19]",
+   "cita": "el bueno, la del oro de anoche sí se cerró bien, ¿no?",
+   "notas": "Corto de la sesión de la noche anterior; no se dieron precios.",
+   "hora_bogota": "09:20"
+  },
   {
    "activo": "Oro",
    "simbolo": "XAUUSD",
@@ -15,8 +31,8 @@
    "tipo": "scalp",
    "quien": "profesor",
    "minuto": "[6:52]",
-   "cita": "yo puse un stop loss muy controladito sobre zonas eh apenas de los 40 43",
-   "notas": "Primera venta de corto plazo, en continuación bajista tras la noticia. Dijo 'los 40 43' (4043). No dijo la entrada. Solo se confirmaba rompiendo 4026; proyectaba la ineficiencia de 3970-3976, pero no dijo TP. En [30:36] dice 'Está invalidada la operación de corto plazo' y en [31:03] 'Alguien me acaba de invalidar esa operación chiquitina'.",
+   "cita": "Aquí sí nos toca ser muy escalpistas, nos toca llevarlo un minuto [...] yo puse un stop loss muy controladito sobre zonas eh apenas de los 40 43.",
+   "notas": "Dijo 'los 40 43' con el oro cerca de 4030, es decir, 4043. Corto bajo tesis de ruptura de 4026-4027 hacia la ineficiencia de 3970-3976. Se invalidó en [30:36]: 'Está invalidada la operación de corto plazo'. No dio entrada.",
    "hora_bogota": "09:21",
    "zonas": {
     "stop": {
@@ -38,8 +54,8 @@
    "tipo": "scalp",
    "quien": "profesor",
    "minuto": "[38:07]",
-   "cita": "Lo puse en uno bien y en el otro mal. Vamos a ver. Evaluarlo sobre los 57. Aquí protjámonos por la zona máxima [carraspeo] del rango",
-   "notas": "Segunda venta (reentrada) tras la primera invalidación. Dijo 'los 57' (4057, máximo del rango). No dijo entrada ni TP. En [59:23] dice 'Una operación del oro, pues ya la acabo de invalidar'; en [1:01:11] 'le volvimos 80 al al oro'; en [1:06:30] 'Me me invalido dos veces'.",
+   "cita": "Evaluarlo sobre los 57. Aquí protjámonos por la zona máxima [carraspeo] del rango",
+   "notas": "Reentrada en [36:48] ('entrémosle a ver cómo nos va'). Dijo 'los 57' con el oro cerca de 4033, es decir, 4057. Se invalidó en [59:23] ('ya la acabo de invalidar'). En [1:06:30] dijo: 'Me me invalido dos veces, ya me quedo quieto con el oro'. Mencionó haber devuelto unos 80 en la cuenta auditada.",
    "hora_bogota": "09:53",
    "zonas": {
     "stop": {
@@ -48,22 +64,6 @@
      "distancia": -0.774
     }
    }
-  },
-  {
-   "activo": "Nasdaq 100",
-   "simbolo": "USTEC",
-   "direccion": "compra",
-   "estado": "cerrada en break even",
-   "entrada": null,
-   "stop": null,
-   "take_profit": null,
-   "temporalidad": "1m",
-   "tipo": "intradía",
-   "quien": "profesor",
-   "minuto": "[31:32]",
-   "cita": "Ya se cumplió, ya en este momento se cumplió el 1 a dos, llevemos el uno a se a ver cómo nos va. Se montaron el NASDA conmigo.",
-   "notas": "Largo por ruptura del rango premercado con mapa de calor mixto ('aunque ya estamos montados', [22:25]). Las cifras '043' y '1.2' que dijo no se pueden interpretar con seguridad. El '27 500' como objetivo no se sabe con certeza quién lo dijo. En [1:23:43] dice 'Nasda fue la que se me cerró [...] en break even no sé si le pusimos break even': no es seguro que cerrara exactamente en break even.",
-   "hora_bogota": "09:46"
   },
   {
    "activo": "Bitcoin",
@@ -76,9 +76,9 @@
    "temporalidad": "4h",
    "tipo": "swing",
    "quien": "profesor",
-   "minuto": "[1:42:32]",
-   "cita": "sobre los 75 697. [...] El stop loss mío está sobre los 74 716 y el take profit está sobre los 78 634.",
-   "notas": "Abierta desde la noche anterior ('ese larguito desde anoche'). Compra de visión macro por la zona superior de la consolidación de febrero y una ineficiencia de corto plazo. Sigue abierta al final; no la cierra el fin de semana.",
+   "minuto": "[1:42:17]",
+   "cita": "sobre los 75 697 [...] El stop loss mío está sobre los 74 716 y el take profit está sobre los 78 634.",
+   "notas": "Abierta desde la noche anterior. Compra 'macro' por confluencia con la zona superior del rango de febrero y una ineficiencia de corto plazo. Durante la sesión estuvo en negativo. La deja abierta el fin de semana porque las criptomonedas no cierran.",
    "hora_bogota": "10:57",
    "zonas": {
     "entrada": {
@@ -95,7 +95,7 @@
    }
   },
   {
-   "activo": "Eurodólar",
+   "activo": "Euro/Dólar",
    "simbolo": "EURUSD",
    "direccion": "venta",
    "estado": "abierta",
@@ -107,28 +107,44 @@
    "quien": "profesor",
    "minuto": "[1:44:36]",
    "cita": "Quedamos abiertos. Eh, compra en Bitcoin, venta en eurodólar. venta en euroar también la cerraremos antes de las 5 de la tarde esté donde esté.",
-   "notas": "No dijo entrada, stop ni TP. Dice que va en positivo pequeño y que la cerrará antes de las 5 p. m. para evitar gaps. Puede ser la orden que abrió durante la demostración del ETR (ejemplo de stop en 1.1161, TP en 1.11347), pero no se confirma.",
+   "notas": "Sin precios dichos. Dijo que iba en un 'positivo chicorio' y que la cerraría antes del cierre para evitar gaps. En [15:51] mencionó una venta en el 'donar' (probablemente el dólar) con stop muy ajustado, ya en break even; no está claro si es esta misma operación.",
    "hora_bogota": "10:59"
   },
   {
-   "activo": "Dólar (activo no claro)",
-   "simbolo": "no claro (dijo 'donar')",
+   "activo": "Nasdaq 100",
+   "simbolo": "USTEC",
+   "direccion": "compra",
+   "estado": "cerrada",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": "1m",
+   "tipo": "scalp",
+   "quien": "profesor",
+   "minuto": "[31:32]",
+   "cita": "Ya se cumplió, ya en este momento se cumplió el 1 a dos, llevemos el uno a se a ver cómo nos va. Se montaron el NASDA conmigo.",
+   "notas": "Estrategia de rango premercado con mapa de calor mixto; ya estaba dentro en [22:25]. Llegó a cumplir 1:2, pero en [1:23:43] dijo que se le cerró 'el límite' y no sabía si le habían puesto break even ('yo lo devolví'). Resultado final incierto. El objetivo de 27500 lo mencionó alguien sin identificar.",
+   "hora_bogota": "09:46"
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
    "direccion": "venta",
-   "estado": "desconocido",
+   "estado": "cerrada con pérdida",
    "entrada": null,
    "stop": null,
    "take_profit": null,
    "temporalidad": null,
-   "tipo": "scalp",
+   "tipo": "desconocido",
    "quien": "profesor",
-   "minuto": "[15:36]",
-   "cita": "¿Qué hice yo aquí con el donar? ¿Dónde puse es el don? Está en ventas, ¿verdad? [...] ahí ya la llamo en break even",
-   "notas": "La transcripción no deja claro de qué activo habla (posiblemente un par con el dólar). Dice que la protegió en break even. No hay cifras.",
-   "hora_bogota": "09:30"
+   "minuto": "[23:04]",
+   "cita": "Ah, el petróleo ya ayer me invalidó, ¿eh?",
+   "notas": "Operación del día anterior; no dijo la dirección explícitamente. La venta es una inferencia por su comentario de que el petróleo sigue bajando. Sin precios.",
+   "hora_bogota": "09:38"
   },
   {
    "activo": "Apple",
-   "simbolo": "Apple",
+   "simbolo": "AAPL",
    "direccion": "compra",
    "estado": "cerrada",
    "entrada": null,
@@ -137,9 +153,9 @@
    "temporalidad": null,
    "tipo": "swing",
    "quien": "profesor",
-   "minuto": "[21:07]",
-   "cita": "Apple, sí, ayer cerré la posición de Apple, no les dije que le iba a cerrar.",
-   "notas": "Posición de portafolio cerrada el día anterior por desconfianza en lo fundamental. No hay cifras.",
+   "minuto": "[21:20]",
+   "cita": "broadcom Apple, sí, ayer cerré la posición de Apple, no les dije que le iba a cerrar.",
+   "notas": "Compra de portafolio cerrada el día anterior por desconfianza en los fundamentales de Apple. Sin precios.",
    "hora_bogota": "09:36"
   },
   {
@@ -155,13 +171,36 @@
    "quien": "alumno",
    "minuto": "[5:32]",
    "cita": "A mí también se me cerró en stop profit en el en el montado desde los 40 80 otra vez en venta.",
-   "notas": "Operación de un alumno de la noche anterior. Dijo 'los 40 80' (4080). Otro alumno cuenta un primer take profit en 4060 y que ganó 600.",
+   "notas": "Alumno; dijo 'los 40 80', es decir, 4080.",
    "hora_bogota": "09:20",
    "zonas": {
     "entrada": {
      "color": "blanca",
      "fuerza": "alto",
      "distancia": 2.2
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": 4060,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "alumno",
+   "minuto": "[5:45]",
+   "cita": "me puso un stock, un primer day profit en 4060 y luego lo bajó. me lo reprogramó y me saqué ambos. Le saqué 600.",
+   "notas": "Alumno; primer TP parcial en 4060 y ganancia de 600.",
+   "hora_bogota": "09:20",
+   "zonas": {
+    "take_profit": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -3.774
     }
    }
   },
@@ -176,10 +215,10 @@
    "temporalidad": null,
    "tipo": "swing",
    "quien": "alumno",
-   "minuto": "[41:25]",
+   "minuto": "[1:25]",
    "cita": "Yo tengo una venta en los 40 75. ¿Qué me aconseja usted? ¿La cierro ahorita por fin de semana o la dejo abierta? No, déjala abierta.",
-   "notas": "Venta de un alumno; el profesor le dice que la deje abierta. Dijo 'los 40 75' (4075).",
-   "hora_bogota": "09:56",
+   "notas": "Marca real [41:25]. Venta del alumno en 4075; el profesor le dijo que la dejara abierta.",
+   "hora_bogota": "09:16",
    "zonas": {
     "entrada": {
      "color": "blanca",
@@ -196,13 +235,45 @@
    "entrada": null,
    "stop": null,
    "take_profit": null,
+   "temporalidad": null,
+   "tipo": "desconocido",
+   "quien": "alumno",
+   "minuto": "[1:29:31]",
+   "cita": "Yo estoy en el petróleo en ventas. Sí. Este, vos decís que esperarlo hasta los 88, 200 es mucho",
+   "notas": "Alumno (Fercho). El profesor recomendó cerrar el petróleo antes del cierre del viernes por riesgo de gap. Objetivo 'los 88' no confirmado.",
+   "hora_bogota": "10:44"
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
    "temporalidad": "4h",
    "tipo": "swing",
    "quien": "alumno",
    "minuto": "[1:06:07]",
-   "cita": "Tengo un trade abierto desde el tretesteo y rechazo que tuvo el petróleo en un momento de 4 horas",
-   "notas": "Venta de un alumno desde un rechazo en 4 horas (menciona 'eso 92' sin claridad). Fercho también está en ventas de petróleo ([1:29:31]); el profesor recomienda cerrar antes del fin de semana si es de corto plazo.",
+   "cita": "Tengo un trade abierto desde el tretesteo y rechazo que tuvo el petróleo en un momento de 4 horas [...] ahí voy margen positivo desde bien arriba.",
+   "notas": "Alumno; la dirección (venta) se infiere de la respuesta del profesor: 'el petróleo sigue bajando'.",
    "hora_bogota": "10:21"
+  },
+  {
+   "activo": "Nasdaq 100 x100",
+   "simbolo": "USTECx100",
+   "direccion": "compra",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[1:10:18]",
+   "cita": "Porque yo tengo ese con ese le saqué $00 ahorita.",
+   "notas": "Alumno que operó el Nasdaq x100; el profesor le advirtió del apalancamiento. Monto ilegible; dirección inferida (la comunidad iba en compras).",
+   "hora_bogota": "10:25"
   }
  ],
  "niveles": [
@@ -215,7 +286,7 @@
    "temporalidad": "1m",
    "minuto": "[12:45]",
    "cita": "Ruptura sobre los 4026.542 542 nos da confirmuración de aceleración bajista en el oro y le sacamos billetes.",
-   "notas": "Nivel clave del día: el trade de venta solo se gana con la ruptura de los 26. No se rompió.",
+   "notas": "Soporte relevante cuya ruptura validaba los cortos. No se rompió en la sesión.",
    "hora_bogota": "09:27",
    "zonas": {
     "nivel": {
@@ -238,8 +309,8 @@
    "tipo": "ineficiencia",
    "temporalidad": "4h",
    "minuto": "[6:12]",
-   "cita": "Hablamos de 30, bueno, 3 3976 aproximadamente sobre los 3970",
-   "notas": "Ineficiencia de 4 horas como objetivo de una corrección más profunda si rompía 4027.",
+   "cita": "Acompañamos a a cobrar ineficiencia 4 horas. [...] Hablamos de 30, bueno, 3 3976 aproximadamente sobre los 3970",
+   "notas": "Objetivo de la corrección más profunda si se rompía 4026.",
    "hora_bogota": "09:21",
    "zonas": {
     "nivel": {
@@ -257,13 +328,32 @@
   {
    "activo": "Oro",
    "simbolo": "XAUUSD",
+   "nivel": 4015,
+   "nivel_hasta": null,
+   "tipo": "ineficiencia",
+   "temporalidad": null,
+   "minuto": "[34:39]",
+   "cita": "hasta el hasta el la el testeo de ineficiencia de los 40 15, creo que está por allá",
+   "notas": "Dijo 'los 40 15', es decir, 4015. No está claro si lo dijo el profesor o un participante.",
+   "hora_bogota": "09:49",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 1.513
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
    "nivel": 4031,
    "nivel_hasta": 4032,
    "tipo": "soporte",
    "temporalidad": "1m",
    "minuto": "[28:34]",
-   "cita": "Les está pareciendo muy atractivo la zona de los 4031.",
-   "notas": "Zona donde compraban contratos y no dejaban caer el precio. También dice que el piso está en 4033 ([43:02]).",
+   "cita": "Les está pareciendo muy atractivo la zona de los 4031. Pero tampoco lo dejan subir.",
+   "notas": "Zona donde se compraban contratos fuertes y no dejaban caer el precio.",
    "hora_bogota": "09:43",
    "zonas": {
     "nivel": {
@@ -285,9 +375,9 @@
    "nivel_hasta": null,
    "tipo": "liquidez",
    "temporalidad": null,
-   "minuto": "[29:46]",
-   "cita": "Sí, en Atas hay unas órdenes puestas en 40 22",
-   "notas": "Órdenes grandes vistas en ATAS. Dijo '40 22'. No queda claro si lo dijo el profesor o un alumno.",
+   "minuto": "[29:31]",
+   "cita": "Sí, en Atas hay unas órdenes puestas en 40 22 fues. Ahí están, ahí están esa monstruosidad.",
+   "notas": "Órdenes grandes vistas en ATAS; dijo '40 22', es decir, 4022.",
    "hora_bogota": "09:44",
    "zonas": {
     "nivel": {
@@ -300,13 +390,32 @@
   {
    "activo": "Oro",
    "simbolo": "XAUUSD",
+   "nivel": 4033,
+   "nivel_hasta": null,
+   "tipo": "zona de trabajo",
+   "temporalidad": null,
+   "minuto": "[42:47]",
+   "cita": "Eh, 40 33 en aproximación, como 4032 y está en zona de dolor.",
+   "notas": "Precio del momento, descrito como zona de dolor.",
+   "hora_bogota": "09:57",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.63
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
    "nivel": 4047,
    "nivel_hasta": null,
    "tipo": "resistencia",
    "temporalidad": "1m",
    "minuto": "[32:19]",
    "cita": "si rompe los 47 ya reincorporación al al movimiento de ayer.",
-   "notas": "Dijo 'los 47' (4047).",
+   "notas": "Dijo 'los 47', es decir, 4047. Su ruptura indicaba reincorporación alcista.",
    "hora_bogota": "09:47",
    "zonas": {
     "nivel": {
@@ -323,10 +432,10 @@
    "nivel_hasta": 4057,
    "tipo": "resistencia",
    "temporalidad": "1m",
-   "minuto": "[38:07]",
-   "cita": "Evaluarlo sobre los 57. Aquí protjámonos por la zona máxima [carraspeo] del rango",
-   "notas": "Máximo del rango; antes dijo que tenía pinta de consolidarlo hacia los 56 ([32:36]). Ahí puso el stop de la segunda venta.",
-   "hora_bogota": "09:53",
+   "minuto": "[32:48]",
+   "cita": "Esto tiene más pinta de quererlo consolidar hacia los 56.",
+   "notas": "Dijo 'los 56'. Máximo del rango; en [37:00] la llamó 'Zona de trabajo de los 57' y puso ahí el stop del segundo corto.",
+   "hora_bogota": "09:47",
    "zonas": {
     "nivel": {
      "color": "blanca",
@@ -341,35 +450,16 @@
    }
   },
   {
-   "activo": "Oro",
-   "simbolo": "XAUUSD",
-   "nivel": 4015,
-   "nivel_hasta": null,
-   "tipo": "ineficiencia",
-   "temporalidad": null,
-   "minuto": "[34:39]",
-   "cita": "hasta el testeo de ineficiencia de los 40 15, creo que está por allá, por allá abajito",
-   "notas": "Quién lo dice es dudoso (podría ser un alumno).",
-   "hora_bogota": "09:49",
-   "zonas": {
-    "nivel": {
-     "color": "azul",
-     "fuerza": "medio",
-     "distancia": 1.513
-    }
-   }
-  },
-  {
    "activo": "Bitcoin",
    "simbolo": "BTCUSD",
    "nivel": 75404,
    "nivel_hasta": 75407,
    "tipo": "zona de trabajo",
    "temporalidad": "4h",
-   "minuto": "[13:37]",
-   "cita": "El Bitcoin nuevamente está en zona de compras. Ruptura de los 75404. Bajo tesis de retesteo pueden empezar a tomar.",
-   "notas": "En [5:19] la llama zona de control 75407.",
-   "hora_bogota": "09:28",
+   "minuto": "[5:19]",
+   "cita": "Bitcoin llegó a zona de control 75407.",
+   "notas": "En [13:37]: 'Ruptura de los 75404. Bajo tesis de retesteo pueden empezar a tomar.'",
+   "hora_bogota": "09:20",
    "zonas": {
     "nivel": {
      "color": "amarilla",
@@ -391,8 +481,8 @@
    "tipo": "liquidez",
    "temporalidad": null,
    "minuto": "[1:26:10]",
-   "cita": "pero las posiciones fuertes están 74800, 74700, 7400, 73800.",
-   "notas": "Libro de órdenes: posiciones grandes abajo; 55% compras frente a 44% ventas, lo esperan abajo.",
+   "cita": "las posiciones fuertes están 74800, 74700, 7400, 73800.",
+   "notas": "Libro de órdenes con posiciones fuertes abajo; 55 % compras frente a 44 % ventas, 'lo están esperando es abajo'.",
    "hora_bogota": "10:41",
    "zonas": {
     "nivel": {
@@ -408,18 +498,6 @@
    }
   },
   {
-   "activo": "Petróleo WTI",
-   "simbolo": "XTIUSD",
-   "nivel": 90.04,
-   "nivel_hasta": null,
-   "tipo": "zona de trabajo",
-   "temporalidad": null,
-   "minuto": "[37:42]",
-   "cita": "US Soil sobre los 9004.",
-   "notas": "Dijo '9004' / 'los 904' ([23:04]); se interpreta como 90.04, pero no es seguro.",
-   "hora_bogota": "09:52"
-  },
-  {
    "activo": "Nasdaq 100",
    "simbolo": "USTEC",
    "nivel": 27500,
@@ -427,8 +505,8 @@
    "tipo": "objetivo",
    "temporalidad": null,
    "minuto": "[31:44]",
-   "cita": "Hasta los 27 500. 2700.",
-   "notas": "Respuesta a '¿hasta dónde?' del largo en el Nasdaq; no es claro quién lo dijo.",
+   "cita": "Sí, profe, pero ¿hasta dónde? Hasta los 27 500. 2700.",
+   "notas": "Respuesta a un alumno; no queda claro si fue el profesor quien la dio.",
    "hora_bogota": "09:46",
    "zonas": {
     "nivel": {
@@ -442,19 +520,19 @@
    "activo": "Oro",
    "simbolo": "XAUUSD",
    "direccion": "venta",
-   "condicion": "Solo con ruptura confirmada de los 4026-4027; si no la hay, se espera lateralización.",
+   "condicion": "Solo con ruptura confirmada de 4026-4027, para ir a cobrar la ineficiencia de 4 horas en 3970-3976. Sin ruptura se esperaba lateralización. No se cumplió.",
    "entrada": null,
    "stop": null,
-   "objetivo": 3970,
+   "objetivo": 3976,
    "temporalidad": "1m",
    "minuto": "[11:49]",
-   "cita": "E necesitamos si se genera esa ruptura sobre los 4027, eh, nos vamos duro en cortos.",
+   "cita": "si se genera esa ruptura sobre los 4027, eh, nos vamos duro en cortos.",
    "hora_bogota": "09:26",
    "zonas": {
     "objetivo": {
      "color": "azul",
      "fuerza": "medio",
-     "distancia": 2.901
+     "distancia": -3.099
     }
    }
   },
@@ -462,7 +540,7 @@
    "activo": "Oro",
    "simbolo": "XAUUSD",
    "direccion": "no operar",
-   "condicion": "No meter compras con el eje fundamental negativo; tras dos invalidaciones, quedarse quieto el resto del viernes.",
+   "condicion": "No meter compras con el eje fundamental en contra (noticias favorables al dólar), aunque lo técnico sugiera subida.",
    "entrada": null,
    "stop": null,
    "objetivo": null,
@@ -475,20 +553,20 @@
    "activo": "Oro",
    "simbolo": "XAUUSD",
    "direccion": "esperar",
-   "condicion": "Espera una bajada adicional en la apertura del domingo para liquidar ineficiencias.",
+   "condicion": "Tras dos invalidaciones, no operar más el oro el viernes. Se espera que baje en la apertura del domingo para liquidar ineficiencias.",
    "entrada": null,
    "stop": null,
    "objetivo": null,
    "temporalidad": null,
    "minuto": "[1:11:36]",
-   "cita": "hoy no va a ser. Muy seguramente en la apertura del domingo lo vamos a ver bajando una gotita más a ver si Liquidan hace ineficiencias",
+   "cita": "Eh, hoy no, hoy no va a ser. Muy seguramente en la apertura del domingo lo vamos a ver bajando una gotita más a ver si Liquidan hace ineficiencias",
    "hora_bogota": "10:26"
   },
   {
-   "activo": "Eurodólar",
+   "activo": "Euro/Dólar",
    "simbolo": "EURUSD",
    "direccion": "venta",
-   "condicion": "Pullback para continuar el movimiento bajista por la fortaleza del dólar.",
+   "condicion": "Pullback para continuar el movimiento bajista a corto plazo, por fortaleza del dólar.",
    "entrada": null,
    "stop": null,
    "objetivo": null,
@@ -498,30 +576,36 @@
    "hora_bogota": "09:19"
   },
   {
+   "activo": "Dólar/Yen",
+   "simbolo": "USDJPY",
+   "direccion": "compra",
+   "condicion": "Si el índice del dólar tiene momentum (pullback del DXY).",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[12:58]",
+   "cita": "Revisen momentum el índice del dólar, lo que nos mandaría eurodólar para abajo, dólar yen para arriba.",
+   "hora_bogota": "09:28"
+  },
+  {
    "activo": "Bitcoin",
    "simbolo": "BTCUSD",
    "direccion": "compra",
-   "condicion": "Retesteo tras la ruptura de 75404, con advertencia de que BTC 'no siempre se pone la corbata'.",
-   "entrada": 75404,
+   "condicion": "Retesteo tras la ruptura de 75404, en zona de compras.",
+   "entrada": null,
    "stop": null,
    "objetivo": null,
-   "temporalidad": "4h",
+   "temporalidad": null,
    "minuto": "[13:37]",
-   "cita": "Ruptura de los 75404. Bajo tesis de retesteo pueden empezar a tomar.",
-   "hora_bogota": "09:28",
-   "zonas": {
-    "entrada": {
-     "color": "amarilla",
-     "fuerza": "altísimo",
-     "distancia": 3.351
-    }
-   }
+   "cita": "El Bitcoin nuevamente está en zona de compras. Ruptura de los 75404. Bajo tesis de retesteo pueden empezar a tomar.",
+   "hora_bogota": "09:28"
   },
   {
    "activo": "Nasdaq 100",
    "simbolo": "USTEC",
    "direccion": "esperar",
-   "condicion": "Rango premercado con mapa de calor mixto (1 hora): esperar la ruptura hacia un lado y tomar posición contraria cuando desacelere.",
+   "condicion": "Con rango premercado y mapa de calor mixto (1 hora), esperar la ruptura hacia un lado y tomar posición contraria cuando desacelere (toma de liquidez).",
    "entrada": null,
    "stop": null,
    "objetivo": null,
@@ -531,61 +615,73 @@
    "hora_bogota": "09:25"
   },
   {
-   "activo": "Petróleo WTI",
-   "simbolo": "XTIUSD",
+   "activo": "Tesla",
+   "simbolo": "TSLA",
    "direccion": "no operar",
-   "condicion": "No dejar ventas de corto plazo en oro o petróleo abiertas el fin de semana; cerrar antes de las 5 p. m.",
+   "condicion": "No comprar Tesla con el eje del gobierno en contra.",
    "entrada": null,
    "stop": null,
    "objetivo": null,
    "temporalidad": null,
-   "minuto": "[1:29:31]",
+   "minuto": "[42:06]",
+   "cita": "No, menos con todo el gobierno del eje del gobierno en contra, ¿cómo le va a meter compra",
+   "hora_bogota": "09:57"
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "direccion": "no operar",
+   "condicion": "No dejar posiciones de corto plazo en petróleo ni en oro abiertas el fin de semana; cerrarlas antes de las 5 p. m. del viernes.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[1:29:47]",
    "cita": "ciérrenme antes de las 5 de la tarde que les cierre el mercado, ciérrenme posiciones de lo que es oro y petróleo",
    "hora_bogota": "10:44"
   }
  ],
  "lecciones": [
   {
-   "texto": "Un trade no es ganador hasta que rompe el nivel de confirmación; antes de eso no hay que dar la ganancia por segura.",
-   "minuto": "[29:58]"
-  },
-  {
-   "texto": "No se opera el momento de la noticia (es especulación); se espera la neutralización y se opera en la dirección del resultado.",
+   "texto": "No se operan las noticias: el movimiento inmediato es especulación; se espera la neutralización y se opera según el resultado del dato.",
    "minuto": "[38:51]"
   },
   {
-   "texto": "No se entra en contra del eje fundamental aunque lo técnico lo sugiera: eso es 'operar un gráfico'.",
-   "minuto": "[39:45]"
+   "texto": "Un trade no es ganador hasta que rompe el nivel que lo valida (aquí 4026), aunque vaya en flotante positivo.",
+   "minuto": "[29:58]"
   },
   {
-   "texto": "Con rango premercado y mapa de calor mixto en el Nasdaq, el primer impulso suele devolverse; con todo en rojo o todo en verde se sigue la dirección.",
+   "texto": "No entrar en contra del eje fundamental aunque lo técnico lo sugiera; eso es 'operar un gráfico'.",
+   "minuto": "[40:00]"
+  },
+  {
+   "texto": "Con mapa de calor mixto y rango premercado en el Nasdaq, esperar la ruptura y operar la desaceleración; con el mapa todo en rojo o todo en verde, seguir la dirección.",
    "minuto": "[26:44]"
   },
   {
-   "texto": "Cerrar el oro y el petróleo de corto plazo antes del cierre del viernes para evitar gaps.",
-   "minuto": "[1:29:31]"
+   "texto": "Las posiciones de corto plazo en oro y petróleo se cierran antes del cierre del viernes para evitar gaps; los swings sí pueden quedar abiertos.",
+   "minuto": "[1:29:47]"
   },
   {
-   "texto": "Aceptar la pérdida y no alargar el stop loss para proteger un número de cartera alcanzado (barrera psicológica).",
-   "minuto": "[1:37:08]"
-  },
-  {
-   "texto": "El riesgo se calcula sobre el capital inicial del periodo: el ETR arriesga el 1,72% para un objetivo del 4% y protege la operación automáticamente.",
+   "texto": "El riesgo se calcula sobre el capital inicial del periodo: stop de 1,72 %, objetivo de 4 % con cierre parcial del 50 % y stop protegido.",
    "minuto": "[47:09]"
   },
   {
-   "texto": "Los viernes no se debe operar fuerte ni devolver al mercado las ganancias de la semana.",
-   "minuto": "[1:43:24]"
+   "texto": "Aceptar la pérdida y no alargar el stop por miedo a bajar de un número psicológico de la cuenta.",
+   "minuto": "[1:37:20]"
+  },
+  {
+   "texto": "Los viernes no hay que meterle duro: no devolver al mercado las ganancias de la semana.",
+   "minuto": "[1:43:40]"
   }
  ],
  "avisos": [
-  "No operar el USTEC X100 (Nasdaq multiplicado por 100): 'Esa vaina es un quemador de cuentas'; usar el USTEC normal.",
-  "En el ETR, el capital inicial se pone en la unidad de moneda de la cuenta (cent si la cuenta es cent).",
-  "El ETR no puede bloquear ni congelar el stop loss de las operaciones.",
-  "El ETR no es un bot: es trading manual con la gestión de riesgo automatizada.",
-  "Durante el directo la plataforma estuvo instalando parches y se pudieron perder los gráficos un rato.",
+  "No operar el Nasdaq x100 (USTEC x100): está muy apalancado, un microlote equivale a un lote y es 'un quemador de cuentas'; se opera el USTEC normal.",
+  "La plataforma ETR no bloquea operaciones ni puede congelar el stop loss; solo gestiona el riesgo (lotaje, SL de 1,72 %, TP de 4 %, protección automática). No es un bot.",
+  "Durante el directo, los técnicos de la plataforma instalaban parches y dejaron a los usuarios sin gráficos por unos minutos.",
+  "En el torneo hay que hacer al menos dos operaciones cada día hábil o se queda eliminado.",
   "Cuidado con cuentas falsas que se hacen pasar por el profesor: él nunca envía mensajes ni sigue a nadie.",
-  "Plataformas que usan: OKX para cripto, un bróker de CFDs para corto plazo y Bitget para portafolio de acciones."
+  "Para cuentas en centavos, en el ETR se pone como capital inicial lo que aparezca en la unidad de moneda de la cuenta."
  ],
  "video_id": "QvTmksLwr68",
  "titulo": "Cierre Semanal: Lectura, Gestión y Próximos Escenarios",
@@ -593,14 +689,9 @@
  "inicio": "2026-11-06T09:15:03-05:00",
  "duracion_seg": 6544,
  "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
- "fecha_extraccion": "2026-11-06",
+ "fecha_extraccion": "2026-11-07",
  "comprobacion_citas": {
-  "citas": 28,
-  "fragmentos_no_literales": [
-   {
-    "minuto": "[34:39]",
-    "fragmento": "hasta el testeo de ineficiencia de los 40 15, creo que está por allá, por allá abajito"
-   }
-  ]
+  "citas": 34,
+  "fragmentos_no_literales": []
  }
 }

@@ -1,7 +1,7 @@
 {
- "resumen": "Directo nocturno marcado por las elecciones de medio término en EE. UU. y movimientos especulativos. El profesor arrancó con sesgo bajista de corto plazo en el oro: abrió una venta con la herramienta ETR (0,05 lotes) buscando la zona de 3.900 y las órdenes de compra acumuladas en 3.890-3.896, con el stop en 3.952. El índice del dólar se desplomó, el oro rompió al alza y la venta terminó en stop (-1,43 % de la cartera, unos -71 USD). Él mismo reconoció que lo había previsto mal y cambió el sesgo a alcista. Luego hizo un largo en EURUSD en un pullback de 1 minuto, que cerró con ganancia, y una compra en el oro que también se fue a stop («dos stoplos seguidos», cerca del 3,4 % de la cartera en total). En el día suma dos ventas del oro positivas (en la madrugada y la mañana, antes del directo), una compra en BTC positiva (+1,68 %), el EURUSD positivo y las dos pérdidas del oro de la noche. Terminó antes de tiempo porque no quería «echarse un casinazo» con la noticia. Su consigna: no perseguir el precio, vigilar los extremos del rango de 4 horas (sobre todo la zona de compras de 3.890-3.897) y operar mañana la apertura de Nueva York.",
+ "resumen": "Directo nocturno durante la noche electoral de las elecciones de medio término en Estados Unidos, con mucha especulación por los boletines de resultados. El profesor abrió una venta en el oro con la herramienta ETR, buscando 3900 como take profit y con el stop en 3952. Su idea era cobrar la caída hacia la zona de órdenes masivas de compra (3890-3897) y luego comprar fuerte ahí. El índice del dólar cayó en picada, el oro rompió al alza y la venta se cerró con -1,43 % de la cartera (unos -71 USD). Después perdió también una compra en el oro: dos stops seguidos, alrededor del -3,4 % según él. En cambio, una compra en el EURUSD, abierta en un pullback con velas de 1 minuto, se cerró en el take profit con ganancia. Antes del directo, ese mismo día, había ganado dos ventas en el oro y una compra en el BTC. Su balance fue que perdió por perseguir el precio. Cerró pidiendo no operar durante el conteo de votos, vigilar los extremos del rango de 4 horas del oro (3890-3897 abajo y 3970 arriba) y volver en la apertura de Nueva York.",
  "sesion": "Asia",
- "contexto": "Según el profesor, el mercado estaba tranquilo hasta que el escrutinio de las elecciones de EE. UU. provocó movimientos erráticos. A ratos caía todo a la vez (oro, Bitcoin, Nasdaq, DXY), y después el DXY y los bonos se desplomaron mientras los demócratas iban ganando, lo que empujó el oro al alza. En 4 horas ve el oro lateralizando, con un rango aproximado entre 3.890 y 3.970, y el precio en la «zona de dolor» intermedia. Japón estaba de festivo, así que esperaba poca volatilidad asiática. Para él, el movimiento tendencial real se verá a medianoche o al día siguiente.",
+ "contexto": "Para el profesor, la noche se movía por especulación electoral: el DXY y los bonos de 2 y 10 años caían mientras ganaban los demócratas, y el Nasdaq, el BTC y el petróleo también bajaban. En 4 horas espera que el oro se lateralice en un rango amplio, con una zona de compras institucionales de 3890 a 3897 (muchos contratos límite) y un techo cerca de 3970. Según él, con el reparto de votos los activos se movían «como un yoyo». Además, Japón estaba en festivo, así que esperaba poca volatilidad asiática.",
  "operaciones": [
   {
    "activo": "Oro",
@@ -11,12 +11,12 @@
    "entrada": null,
    "stop": 3952,
    "take_profit": 3900,
-   "temporalidad": "4H",
+   "temporalidad": "4h",
    "tipo": "intradía",
    "quien": "profesor",
    "minuto": "[12:52]",
-   "cita": "Entonces si nosotros ya sabemos que el precio muy seguramente lo veremos bajando sobre los 3,900. Ponemos una venta hacia zona de los 3,900. Tenemos el cálculo automático. Lotaje 0.05 lotes, revisar operación, eh, confirmar y ya tenemos aperturada.",
-   "notas": "Se abrió con la herramienta ETR por take profit, buscando un 4 % del valor del activo. Stop dicho en [14:02]: 'el stoplos queda ubicado sobre 3952'. No dijo el precio de entrada. Más tarde comentó que mandó el TP 'hasta la zona de liquidación' (posible 3887, ver [22:23]). Cerró en stop: 'Una pérdida del 1.43% del valor de la cartera [...] Menos 71 dolaritos' ([32:40]).",
+   "cita": "Ponemos una venta hacia zona de los 3,900. Tenemos el cálculo automático. Lotaje 0.05 lotes, revisar operación, eh, confirmar y ya tenemos aperturada.",
+   "notas": "Abierta con la herramienta ETR por take profit; él la describió como un posible swing con margen amplio. No dijo la entrada. A las [14:02] dijo: «el stoplos queda ubicado sobre 3952». A las [32:56] la cerró: «Una pérdida del 1.43% del valor de la cartera [...] Menos 71 dolaritos», porque el DXY cayó y el oro subió. Dijo que la tomó en la cartera ETR y no en la otra.",
    "hora_bogota": "19:59",
    "zonas": {
     "stop": {
@@ -37,16 +37,16 @@
    "entrada": null,
    "stop": null,
    "take_profit": null,
-   "temporalidad": null,
-   "tipo": "desconocido",
+   "temporalidad": "1m",
+   "tipo": "scalp",
    "quien": "profesor",
    "minuto": "[1:35:58]",
    "cita": "Y ahoritica una venta y una compra en el oro. las dos me votaron, por eso pues mejor mejor tener prudencia ahoritica en horas de la noche.",
-   "notas": "Segunda pérdida de la noche. En [1:11:33] dice: 'Me estoy llevando eh dos stoplos seguidos con el oro'. No dijo entrada, stop ni TP. En [1:20:08] cita pérdidas de 1,707 % y 1,438 % de la cartera; probablemente esta compra es la de 1,7 %.",
+   "notas": "Compra después de la venta perdida. No dijo entrada, stop ni TP. A las [1:11:33] dijo: «Me estoy llevando eh dos stoplos seguidos con el oro». También reconoció que perdió por perseguir el precio.",
    "hora_bogota": "21:22"
   },
   {
-   "activo": "Euro/dólar",
+   "activo": "Euro/Dólar",
    "simbolo": "EURUSD",
    "direccion": "compra",
    "estado": "cerrada con ganancia",
@@ -57,8 +57,8 @@
    "tipo": "scalp",
    "quien": "profesor",
    "minuto": "[37:01]",
-   "cita": "Metimos un larguito en el eurodólar. Ah, y ese sí me quedé callado cuando lo lo metí ahoritica. Vean, vean dónde lo metimos. Lo metimos ahoritica en el pullback. Ah, son velas de un minuto.",
-   "notas": "Puso el TP en una 'zona de posible contracción' de 4 horas, sin decir precio ([58:20]). Cerró en [1:08:49] ('ya me cerraron la operación del eurodólar'). En el resumen final la llama 'una operación bastante bonita'.",
+   "cita": "Metimos un larguito en el eurodólar. [...] Lo metimos ahoritica en el pullback. Ah, son velas de un minuto.",
+   "notas": "Puso el TP en una zona de posible contracción del gráfico de 4 horas, pero no dijo la cifra. A las [1:08:49] dijo: «ya me cerraron la operación del eurodólar», y a las [1:36:22] la calificó de «operación bastante bonita». Se entiende que cerró en el take profit.",
    "hora_bogota": "20:23"
   },
   {
@@ -72,10 +72,10 @@
    "temporalidad": null,
    "tipo": "intradía",
    "quien": "profesor",
-   "minuto": "[13:03]",
-   "cita": "Ahorita me volvió a cerrar otra operación del Bitcoin que tomé bonita en uno a uno.",
-   "notas": "Se abrió durante el día. En [22:49] dice: 'abrí una operación bastante bonita en compra en el BTC y un pullback me frego'. Cerró con +1,68 % de la cartera ([23:29]) en ratio 1:1. Sin precios dichos.",
-   "hora_bogota": "19:59"
+   "minuto": "[23:04]",
+   "cita": "abrí una operación bastante bonita en compra en el BTC y un pullback me frego.",
+   "notas": "Abierta antes del directo. A las [13:03] dijo: «me volvió a cerrar otra operación del Bitcoin que tomé bonita en uno a uno». Cerró con +1,68 % de la cartera, al 1:1 por un pullback, según él.",
+   "hora_bogota": "20:10"
   },
   {
    "activo": "Oro",
@@ -89,101 +89,38 @@
    "tipo": "intradía",
    "quien": "profesor",
    "minuto": "[23:15]",
-   "cita": "Hoy hicimos uno a la Ah, este se cerró a la 1:57 de la mañana de hoy, que fue la la venta del oro de ayer. Hicimos una venta en el en el oro también con $90. Este se cerró al 100% con el más 4% de cartera. Este otro se cerró en $90 con el 2 el 1.8% de la cartera",
-   "notas": "Son dos ventas del oro anteriores al directo (madrugada y mañana), las dos positivas (+4 % y +1,8 % de la cartera). Una de ellas fue la de 'cobrar la ineficiencia' de la mañana. Sin precios dichos.",
+   "cita": "este se cerró a la 1:57 de la mañana de hoy, que fue la la venta del oro de ayer. Hicimos una venta en el en el oro también con $90. Este se cerró al 100% con el más 4% de cartera. Este otro se cerró en $90 con el 2 el 1.8% de la cartera",
+   "notas": "Son dos ventas en el oro anteriores al directo, ambas positivas: una de +4 % y otra de +1,8 % de la cartera. La de la mañana buscaba cerrar una ineficiencia cerca de 3940. No dijo los precios.",
    "hora_bogota": "20:10"
   },
   {
    "activo": "Oro",
    "simbolo": "XAUUSD",
-   "direccion": "venta",
+   "direccion": "compra",
    "estado": "desconocido",
    "entrada": null,
    "stop": null,
    "take_profit": null,
-   "temporalidad": "H4",
+   "temporalidad": null,
    "tipo": "desconocido",
    "quien": "alumno",
-   "minuto": "[15:38]",
-   "cita": "Yo me monté en un corto, muchachos. Pues en el retesteo en H4 ambos yo estoy en un corto amplio, ¿no?",
-   "notas": "No está claro quién habla; parece un alumno o Alejo. No se atribuye al profesor.",
-   "hora_bogota": "20:02"
+   "minuto": "[24:44]",
+   "cita": "Me va a perdonar Alejo, pero yo la tomé teniendo en cuenta el DXY, o sea, en largos.",
+   "notas": "Un alumno compró oro guiándose por la caída del DXY. No dio precios.",
+   "hora_bogota": "20:11"
   }
  ],
  "niveles": [
-  {
-   "activo": "Bitcoin",
-   "simbolo": "BTCUSD",
-   "nivel": 76576,
-   "nivel_hasta": 76800,
-   "tipo": "zona de trabajo",
-   "temporalidad": null,
-   "minuto": "[03:55]",
-   "cita": "ya que otra vez volvemos a zona de los 76,576 con el con el BTC, donde lo más interesante sería, si no están acompañando al precio en el decrecimiento, buscar otra vez compras sobre esta zona",
-   "notas": "En [01:09] menciona que el BTC volvió 'sobre $76,800'. Es la misma zona que operaba la noche anterior.",
-   "hora_bogota": "19:50",
-   "zonas": {
-    "nivel": {
-     "color": "blanca",
-     "fuerza": "alto",
-     "distancia": 0.457
-    },
-    "nivel_hasta": {
-     "color": null
-    }
-   }
-  },
-  {
-   "activo": "Oro",
-   "simbolo": "XAUUSD",
-   "nivel": 3917,
-   "nivel_hasta": null,
-   "tipo": "soporte",
-   "temporalidad": null,
-   "minuto": "[01:21]",
-   "cita": "también vemos el oro haciendo un pequeñito descuento hacia zonas de los 3,917 aproximadamente, zonas de soportes ya evaluados eh con anterioridad, inclusive target de cierre de ineficiencia de esta mañana",
-   "notas": "Soporte ya evaluado y objetivo de la ineficiencia de la mañana.",
-   "hora_bogota": "19:48",
-   "zonas": {
-    "nivel": {
-     "color": null
-    }
-   }
-  },
-  {
-   "activo": "Oro",
-   "simbolo": "XAUUSD",
-   "nivel": 3889,
-   "nivel_hasta": 3896,
-   "tipo": "zona de trabajo",
-   "temporalidad": "4H",
-   "minuto": "[11:10]",
-   "cita": "pues eso es lo que buscaría yo o buscaríamos nosotros como punto de interés por aquí en los 89, 96, por aquí en toda esta región de punto inferior",
-   "notas": "Dijo 'los 89, 96' con el oro cerca de 3.900, es decir 3889-3896. Es la zona de compras con muchos contratos límite acumulados y la parte baja del rango de 4 horas.",
-   "hora_bogota": "19:58",
-   "zonas": {
-    "nivel": {
-     "color": "blanca",
-     "fuerza": "alto",
-     "distancia": -1.08
-    },
-    "nivel_hasta": {
-     "color": "blanca",
-     "fuerza": "alto",
-     "distancia": -8.08
-    }
-   }
-  },
   {
    "activo": "Oro",
    "simbolo": "XAUUSD",
    "nivel": 3890,
    "nivel_hasta": 3897,
    "tipo": "zona de trabajo",
-   "temporalidad": "4H",
+   "temporalidad": "4h",
    "minuto": "[1:34:37]",
-   "cita": "zona inferior sobre los 97 a los 90 aproximadamente donde vemos los bloques de orden expuesto sobre toda esta zona. Están viendo un gráfico de 4 horas ahí deberíamos tomar oportunidades.",
-   "notas": "Dijo 'los 97 a los 90', que se completa como 3897-3890. Es la zona de compras para rastrear según el cierre del directo.",
+   "cita": "zona inferior sobre los 97 a los 90 aproximadamente donde vemos los bloques de orden expuesto sobre toda esta zona.",
+   "notas": "Dijo «los 97 a los 90», con el oro cerca de 3900, o sea 3897-3890. Es una zona de compras con muchas órdenes límite. A las [11:10] la mencionó como «en los 89, 96».",
    "hora_bogota": "21:21",
    "zonas": {
     "nivel": {
@@ -201,13 +138,66 @@
   {
    "activo": "Oro",
    "simbolo": "XAUUSD",
+   "nivel": 3970,
+   "nivel_hasta": null,
+   "tipo": "resistencia",
+   "temporalidad": "4h",
+   "minuto": "[1:34:37]",
+   "cita": "estamos hablando 30 a 3970 zona máxima de cotización de hoy",
+   "notas": "Techo del rango de 4 horas. A las [1:04:49] dijo: «a nivel técnico es zona de ventas». A las [50:16] también lo dio como proyección alcista («en proyección 3970»).",
+   "hora_bogota": "21:21",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 2.901
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3900,
+   "nivel_hasta": null,
+   "tipo": "objetivo",
+   "temporalidad": "4h",
+   "minuto": "[12:52]",
+   "cita": "Entonces si nosotros ya sabemos que el precio muy seguramente lo veremos bajando sobre los 3,900.",
+   "notas": "Take profit de la venta del profesor.",
+   "hora_bogota": "19:59",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3917,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": null,
+   "minuto": "[01:21]",
+   "cita": "vemos el oro haciendo un pequeñito descuento hacia zonas de los 3,917 aproximadamente, zonas de soportes ya evaluados",
+   "notas": "También fue el objetivo de cierre de ineficiencia de la mañana.",
+   "hora_bogota": "19:48",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
    "nivel": 3887,
    "nivel_hasta": null,
    "tipo": "liquidez",
    "temporalidad": null,
    "minuto": "[22:23]",
-   "cita": "¿Ustedes dónde tomaron el profit? Hacia liquidación de aquí abajito, supongo yo. Liquidación de la 3887.",
-   "notas": "Zona de liquidez o de apertura masiva de órdenes adonde mandó su TP. No es seguro que la cifra la diga el profesor.",
+   "cita": "Liquidación de la 3887.",
+   "notas": "Zona de liquidación y de apertura masiva de órdenes; allí mandó su profit. La cita es corta y pudo decirla otra persona.",
    "hora_bogota": "20:09",
    "zonas": {
     "nivel": {
@@ -220,38 +210,19 @@
   {
    "activo": "Oro",
    "simbolo": "XAUUSD",
-   "nivel": 3952,
+   "nivel": 3958,
    "nivel_hasta": null,
-   "tipo": "otro",
+   "tipo": "liquidez",
    "temporalidad": null,
-   "minuto": "[14:02]",
-   "cita": "Se apertura la operación, el stoplos queda ubicado sobre 3952",
-   "notas": "Nivel de invalidación (stop) de la venta del oro.",
-   "hora_bogota": "20:00",
+   "minuto": "[1:14:50]",
+   "cita": "En orden límit para el oro se empezaron a colocar órdenes de venta en los 3958.",
+   "notas": "Lo dijo un alumno (Iván, con datos en tiempo real) y el profesor lo confirmó: «Ya, ya veo el bloque de órdenes allí».",
+   "hora_bogota": "21:01",
    "zonas": {
     "nivel": {
      "color": "blanca",
      "fuerza": "alto",
-     "distancia": 1.373
-    }
-   }
-  },
-  {
-   "activo": "Oro",
-   "simbolo": "XAUUSD",
-   "nivel": 3970,
-   "nivel_hasta": null,
-   "tipo": "objetivo",
-   "temporalidad": null,
-   "minuto": "[50:16]",
-   "cita": "Mandémoslo hasta la misma zona. Mandémoslo por lo menos en proyección 3970.",
-   "notas": "Proyección alcista tras la ruptura del DXY. En [1:04:49], ante la pregunta de un alumno sobre un corto en 3970, responde: 'a nivel técnico es zona de ventas'. Al cierre la cita como zona máxima de cotización del día.",
-   "hora_bogota": "20:37",
-   "zonas": {
-    "nivel": {
-     "color": "azul",
-     "fuerza": "medio",
-     "distancia": 2.901
+     "distancia": -4.627
     }
    }
   },
@@ -260,11 +231,11 @@
    "simbolo": "XAUUSD",
    "nivel": 3893,
    "nivel_hasta": 3972,
-   "tipo": "zona de trabajo",
-   "temporalidad": "4H",
+   "tipo": "otro",
+   "temporalidad": "4h",
    "minuto": "[1:03:10]",
-   "cita": "En 4 horas ya tenemos confirmación de precio a precio. Veo 3893 y 3972 como precio hay precio pues es un rango grande pero es de 4 horas.",
-   "notas": "Rango precio A / precio B de 4 horas. No se sabe con certeza si habla el profesor o un alumno.",
+   "cita": "En 4 horas ya tenemos confirmación de precio a precio. Veo 3893 y 3972 como precio hay precio",
+   "notas": "Rango de precio A a precio B en 4 horas. No queda claro quién habla; el profesor lo respalda a continuación.",
    "hora_bogota": "20:50",
    "zonas": {
     "nivel": {
@@ -280,40 +251,21 @@
    }
   },
   {
-   "activo": "Oro",
-   "simbolo": "XAUUSD",
-   "nivel": 3958,
-   "nivel_hasta": null,
-   "tipo": "resistencia",
-   "temporalidad": null,
-   "minuto": "[1:15:02]",
-   "cita": "En orden límit para el oro se empezaron a colocar órdenes de venta en los 3958.",
-   "notas": "Lo dijo un alumno (Iván) con datos en tiempo real. El profesor confirma: 'Ya, ya veo el bloque de órdenes allí'.",
-   "hora_bogota": "21:01",
-   "zonas": {
-    "nivel": {
-     "color": "blanca",
-     "fuerza": "alto",
-     "distancia": -4.627
-    }
-   }
-  },
-  {
-   "activo": "Índice del dólar",
-   "simbolo": "DXY",
-   "nivel": 101.382,
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 76576,
    "nivel_hasta": null,
    "tipo": "zona de trabajo",
    "temporalidad": null,
-   "minuto": "[38:54]",
-   "cita": "Sí, mira, 101 382, uno de nuestras zonitas interesantes",
-   "notas": "Dijo '101 382'; se interpreta como 101,382. En [41:10]: 'el índice del dólar rompiendo la zona de los 101'.",
-   "hora_bogota": "20:25",
+   "minuto": "[03:55]",
+   "cita": "otra vez volvemos a zona de los 76,576 con el con el BTC, donde lo más interesante sería, si no están acompañando al precio en el decrecimiento, buscar otra vez compras sobre esta zona",
+   "notas": "Zona de compras, la misma de la noche anterior. A las [01:09] mencionó el BTC sobre 76.800.",
+   "hora_bogota": "19:50",
    "zonas": {
     "nivel": {
      "color": "blanca",
      "fuerza": "alto",
-     "distancia": -0.0
+     "distancia": 0.457
     }
    }
   },
@@ -325,8 +277,8 @@
    "tipo": "mínimo",
    "temporalidad": null,
    "minuto": "[01:49]",
-   "cita": "es el Nasdaq que se que cayó, continuó cayendo aún más hacia zonas de los 27,930.",
-   "notas": "Mínimo de la caída del Nasdaq.",
+   "cita": "el Nasdaq que se que cayó, continuó cayendo aún más hacia zonas de los 27,930.",
+   "notas": "",
    "hora_bogota": "19:48",
    "zonas": {
     "nivel": {
@@ -335,16 +287,23 @@
    }
   },
   {
-   "activo": "Petróleo WTI",
-   "simbolo": "XTIUSD",
-   "nivel": 93,
+   "activo": "Índice del dólar",
+   "simbolo": "DXY",
+   "nivel": 101.382,
    "nivel_hasta": null,
-   "tipo": "mínimo",
-   "temporalidad": null,
-   "minuto": "[02:05]",
-   "cita": "También vimos una caída bastante profunda, relativamente hablando, insisto, eh, del petróleo hacia zona de los $93",
-   "notas": "No precisa si es WTI o Brent.",
-   "hora_bogota": "19:49"
+   "tipo": "zona de trabajo",
+   "temporalidad": "4h",
+   "minuto": "[38:54]",
+   "cita": "101 382, uno de nuestras zonitas interesantes",
+   "notas": "A las [41:10] dijo que el DXY rompía la zona de los 101 y que el oro seguiría subiendo.",
+   "hora_bogota": "20:25",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -0.0
+    }
+   }
   },
   {
    "activo": "Petróleo WTI",
@@ -353,29 +312,10 @@
    "nivel_hasta": null,
    "tipo": "objetivo",
    "temporalidad": null,
-   "minuto": "[1:12:51]",
-   "cita": "Y nosotros tenemos una zona técnica. Ah, hasta los 91. Mira, tenemos zonas de trabajo en el petróleo también, ¿no? Recuerden, pero prácticamente esas zonas de trabajo del petróleo es de cinco en cinco",
-   "notas": "Respuesta a '¿hasta dónde llevaría el petróleo?' con el precio rompiendo los 95. No precisa si es WTI o Brent.",
+   "minuto": "[1:12:37]",
+   "cita": "El petróleo está rompiendo los 95, ¿cierto? Y nosotros tenemos una zona técnica. Ah, hasta los 91.",
+   "notas": "La pregunta es de un alumno; la respuesta parece del profesor, que añade que las zonas del petróleo se trabajan de cinco en cinco. A las [02:05] mencionó la caída hacia 93.",
    "hora_bogota": "20:59"
-  },
-  {
-   "activo": "Bitcoin",
-   "simbolo": "BTCUSD",
-   "nivel": 75000,
-   "nivel_hasta": null,
-   "tipo": "objetivo",
-   "temporalidad": null,
-   "minuto": "[1:31:38]",
-   "cita": "Bitin yéndose para abajo en este momento hacia zona de los 75.",
-   "notas": "Dijo 'los 75'; con el BTC en 76.000 se interpreta como 75.000. Es una descripción del movimiento, no una operación.",
-   "hora_bogota": "21:18",
-   "zonas": {
-    "nivel": {
-     "color": "blanca",
-     "fuerza": "alto",
-     "distancia": -38.715
-    }
-   }
   }
  ],
  "oportunidades": [
@@ -383,144 +323,110 @@
    "activo": "Oro",
    "simbolo": "XAUUSD",
    "direccion": "compra",
-   "condicion": "Que el precio llegue a la zona de apertura de órdenes límite (3890-3897) del rango de 4 horas. Ahí entrar agresivo, con stops pequeños para maximizar lotaje, sin importar el factor fundamental.",
+   "condicion": "Si el precio llega a la zona de apertura de órdenes de 3890-3897, comprar con decisión y stops muy pequeños, sin importar el factor fundamental.",
    "entrada": null,
    "stop": null,
    "objetivo": null,
-   "temporalidad": "4H",
+   "temporalidad": "4h",
    "minuto": "[1:33:59]",
-   "cita": "Si por x motivo llegamos a ver en zona de aperturación de órdenes, en toda esta zona el precio del oro, pues ya sabemos que entramos en una zona de compras, independientemente del del factor fundamental, aquí va a reaccionar el precio fuerte hacia arriba.",
+   "cita": "Si por x motivo llegamos a ver en zona de aperturación de órdenes, en toda esta zona el precio del oro, pues ya sabemos que entramos en una zona de compras, independientemente del del factor fundamental",
    "hora_bogota": "21:20"
   },
   {
    "activo": "Oro",
    "simbolo": "XAUUSD",
-   "direccion": "esperar",
-   "condicion": "No poner órdenes límite en la zona, porque la mecha puede sacar el stop. Esperar la reacción.",
-   "entrada": null,
-   "stop": null,
-   "objetivo": null,
-   "temporalidad": "4H",
-   "minuto": "[1:34:52]",
-   "cita": "Pregunta de orden límite, no porque no sabemos la mecha y la mecha los puede sacar y después se va a favor de ustedes.",
-   "hora_bogota": "21:21"
-  },
-  {
-   "activo": "Oro",
-   "simbolo": "XAUUSD",
-   "direccion": "no operar",
-   "condicion": "Precio en la zona intermedia del rango («zona de dolor»). Operar solo en los extremos.",
-   "entrada": null,
-   "stop": null,
-   "objetivo": null,
-   "temporalidad": "4H",
-   "minuto": "[1:27:19]",
-   "cita": "Entonces, ¿por qué van a tomar ventas allá? Isas donde no saben qué es lo que va a pasar. [...] en realidad uno deberías buscar operar extremos en estos casos.",
-   "hora_bogota": "21:14"
-  },
-  {
-   "activo": "Oro",
-   "simbolo": "XAUUSD",
    "direccion": "venta",
-   "condicion": "En teoría, a nivel técnico, si llega a 3970 (extremo superior del rango).",
-   "entrada": 3970,
+   "condicion": "En el extremo superior del rango de 4 horas (cerca de 3970) hay zona técnica de ventas; trabajar solo los extremos, nunca el medio del rango.",
+   "entrada": null,
    "stop": null,
    "objetivo": null,
-   "temporalidad": "4H",
+   "temporalidad": "4h",
    "minuto": "[1:04:49]",
-   "cita": "¿Podemos cirer un corto? Suerte. Ah, sí, en en teoría sí, a nivel técnico es zona de ventas, muchachos.",
-   "hora_bogota": "20:51",
-   "zonas": {
-    "entrada": {
-     "color": "azul",
-     "fuerza": "medio",
-     "distancia": 2.901
-    }
-   }
+   "cita": "Ah, sí, en en teoría sí, a nivel técnico es zona de ventas, muchachos.",
+   "hora_bogota": "20:51"
   },
   {
    "activo": "Oro",
    "simbolo": "XAUUSD",
    "direccion": "no operar",
-   "condicion": "No meter ventas contra un movimiento alcista fuerte sin confirmación técnica de desaceleración en 1 minuto (invalidación de la estructura, momentum).",
-   "entrada": null,
-   "stop": null,
-   "objetivo": null,
-   "temporalidad": "1m",
-   "minuto": "[39:06]",
-   "cita": "No especulen así, muchachos, hasta que no tengan confirmación. ¿Cuál es la confirmación técnica en un minuto de que se desaceleró?",
-   "hora_bogota": "20:26"
-  },
-  {
-   "activo": "Bitcoin",
-   "simbolo": "BTCUSD",
-   "direccion": "compra",
-   "condicion": "Buscar compras otra vez en la zona de 76.576 si el precio no sigue bajando.",
-   "entrada": null,
-   "stop": null,
-   "objetivo": null,
-   "temporalidad": null,
-   "minuto": "[03:55]",
-   "cita": "donde lo más interesante sería, si no están acompañando al precio en el decrecimiento, buscar otra vez compras sobre esta zona me parecería bastante interesante.",
-   "hora_bogota": "19:50"
-  },
-  {
-   "activo": "Mercado general",
-   "simbolo": "otro",
-   "direccion": "esperar",
-   "condicion": "No tocar los activos mientras salen los boletines electorales. Esperar a que se calme y operar la apertura de Nueva York al día siguiente.",
+   "condicion": "No operar en la zona intermedia del rango («zona de dolor») ni mientras salen los boletines electorales; esperar a mañana.",
    "entrada": null,
    "stop": null,
    "objetivo": null,
    "temporalidad": null,
    "minuto": "[1:32:59]",
-   "cita": "Mis estimados traders, si quieren dejemos hasta acá, dejemos hasta acá porque no nos vamos a echar un casinazo y pues no vale la pena perseguir el precio. Más bien esperemos a que se atenúe la la qué la elecciones y mañana operamos en consecuencia.",
+   "cita": "Mis estimados traders, si quieren dejemos hasta acá, dejemos hasta acá porque no nos vamos a echar un casinazo y pues no vale la pena perseguir el precio.",
    "hora_bogota": "21:19"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "compra",
+   "condicion": "Buscar compras en la zona de 76.576 si no se acompañó la caída.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[03:55]",
+   "cita": "si no están acompañando al precio en el decrecimiento, buscar otra vez compras sobre esta zona me parecería bastante interesante.",
+   "hora_bogota": "19:50"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "no operar",
+   "condicion": "No vender el oro mientras el DXY siga cayendo con fuerza.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": "1m",
+   "minuto": "[38:10]",
+   "cita": "No, ahí no hay ventas. Ah, no tocaba entrar en ventas. No, yo sé que yo estoy seguro que ya nadie mete ventas así de locos.",
+   "hora_bogota": "20:25"
   }
  ],
  "lecciones": [
   {
-   "texto": "Con gestión de riesgo estricta (hasta ~1,7 % por operación), dos pérdidas seguidas suman ~3,4 % y no te sacan del juego.",
-   "minuto": "[1:12:11]"
-  },
-  {
-   "texto": "No mantener abierta una operación perdedora por ego: es mejor gestionarla.",
-   "minuto": "[27:49]"
-  },
-  {
-   "texto": "En noticias o elecciones el movimiento es especulativo: no perseguir el precio ni especular sin confirmación técnica.",
-   "minuto": "[39:06]"
-  },
-  {
-   "texto": "Operar los extremos del rango (precio A / precio B), no la zona intermedia o «zona de dolor» de indecisión.",
-   "minuto": "[1:27:03]"
-  },
-  {
-   "texto": "No poner órdenes límite en las zonas de interés, porque la mecha puede sacar el stop antes de que el precio vaya a favor.",
-   "minuto": "[1:34:52]"
-  },
-  {
-   "texto": "Los gaps no son vacíos mágicos: el mercado solo los cierra si se cumplen los principios de eficiencia.",
+   "texto": "Un gap no se cierra porque sí: solo lo cierra el mercado si cumple principios de eficiencia.",
    "minuto": "[09:28]"
   },
   {
-   "texto": "Los cruces de medias no son señales automáticas: arriba confirman fuerza bajista, abajo alcista, y los cruces continuos con el precio confirman un rango.",
-   "minuto": "[1:28:39]"
+   "texto": "No hay que comerse un stop por ego: si se invalida la idea, se gestiona y se sale.",
+   "minuto": "[27:32]"
   },
   {
-   "texto": "Rastrear el índice del dólar (momentum en 1 minuto) para operar el oro, el refugio que se mueve contra el DXY.",
-   "minuto": "[38:23]"
+   "texto": "Con gestión de riesgo estricta (cerca del 1,7 % por operación), dos pérdidas seguidas son un 3,4 % y no te sacan del juego.",
+   "minuto": "[1:12:11]"
+  },
+  {
+   "texto": "En noticias no se especula sin confirmación técnica de desaceleración en 1 minuto; antes de eso no tienes nada.",
+   "minuto": "[39:06]"
+  },
+  {
+   "texto": "Opera los extremos del rango y no la zona intermedia o «zona de dolor», como quien compra camionetas a 10 y las vende a 15.",
+   "minuto": "[1:26:48]"
+  },
+  {
+   "texto": "Los cruces de medias no son señales automáticas; si se cruzan una y otra vez con el precio, confirman un rango.",
+   "minuto": "[1:28:25]"
+  },
+  {
+   "texto": "No pongas órdenes límite en las zonas, porque la mecha puede sacarte y después el precio se va a tu favor.",
+   "minuto": "[1:34:52]"
+  },
+  {
+   "texto": "En eventos como elecciones es mejor no perseguir el precio y operar con conciencia cuando el mercado se calme.",
+   "minuto": "[1:31:49]"
   }
  ],
  "avisos": [
-  "El Nasdaq no se puede abrir desde la plataforma o herramienta ETR (se menciona en [1:01:24]; no está claro quién lo dice).",
-  "El oro no tiene mapa de calor; el mapa de calor que muestran es del SP500.",
-  "La plataforma tiene retraso (delay) de unos 4 segundos al abrir operaciones; a veces no toma la orden.",
-  "La herramienta ETR ahora permite abrir operaciones por take profit, además de por stop loss. Limita la pérdida máxima a ~1,7 % de la cartera.",
-  "La herramienta tiende a cerrar las operaciones en 1:1 por los pullbacks; el profesor dice que le está costando sacar 1:2.",
-  "Festivo en Japón: se espera poca volatilidad asiática.",
-  "Al día siguiente hay balanza comercial y PMI no manufacturero del ISM; el horario de la oficina se corrió una hora (arrancan 9:15).",
-  "Advierte sobre cuentas falsas y estafadores que lo suplantan: él nunca escribe ni manda mensajes a nadie."
+  "El Nasdaq no se puede abrir desde la plataforma ETR ([1:01:24]).",
+  "La plataforma tiene delay al abrir o cerrar órdenes (a veces unos 4 segundos o más) y una vez no tomó una orden ([1:01:01]).",
+  "La herramienta ETR ahora permite calcular las operaciones por take profit, además de por stop loss ([11:37]).",
+  "El oro no tiene mapa de calor en la herramienta; el mapa de calor es para el SP500 ([25:36]).",
+  "Japón estaba en festivo, así que se esperaba poca volatilidad asiática ([21:31]).",
+  "Advirtió sobre cuentas falsas y estafadores que prometen un win rate del 96 %: él nunca escribe a nadie ([1:11:33]).",
+  "Por las elecciones de EE. UU. cree que la volatilidad especulativa seguirá; recomendó operar en la apertura de Nueva York ([1:36:47])."
  ],
  "video_id": "Al-2ECZhIV4",
  "titulo": "Disciplina en Acción | Análisis del Mercado en Vivo",
@@ -528,9 +434,9 @@
  "inicio": "2026-11-03T19:46:56-05:00",
  "duracion_seg": 5850,
  "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
- "fecha_extraccion": "2026-11-04",
+ "fecha_extraccion": "2026-11-07",
  "comprobacion_citas": {
-  "citas": 27,
+  "citas": 22,
   "fragmentos_no_literales": []
  }
 }
