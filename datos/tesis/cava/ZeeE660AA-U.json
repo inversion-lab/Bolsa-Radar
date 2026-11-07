@@ -1,15 +1,15 @@
 {
- "resumen": "José Luis Cava analiza la fuerte caída de las bolsas (Nasdaq 100 más de un 10 % por debajo de los máximos de octubre) el día de las elecciones de medio mandato en EE. UU. Sostiene que no hay un problema macroeconómico ni riesgo de recesión: el Brent ha caído desde 117-118 y apunta a 100, la rentabilidad del bono a 10 años baja porque [Bessent] compra en el tramo largo, y el RSP (S&P 500 equiponderado) está en máximos. Según él, el problema se limita a la inteligencia artificial y los semiconductores: los gestores estaban sobreapalancados, los CDS de las empresas de IA se han disparado y han tenido que vender, incluso oro, para conseguir liquidez. En el ETF SOXX espera un rebote en la zona de 465, pero si pierde 455 cree que irá a 367; ve la tendencia semanal bajista y piensa que los gestores aún no han terminado de vender. Para que se forme un suelo harían falta inyecciones de liquidez de la Fed (Kevin [Warsh]) y un acuerdo político para comprar acciones; además cree que la preocupación por los centros de datos se disipará tras las elecciones. Concluye que un rebote a corto plazo es muy probable (noviembre es estacionalmente alcista, el put/call está en 0,86 y el índice de la CNN marca miedo extremo), pero que después seguirá la tendencia bajista y que el suelo aún no se ha visto. No consta que el video esté patrocinado.",
+ "resumen": "José Luis Cava analiza la fuerte caída de las bolsas: el Nasdaq 100 ha caído más del 10 % desde los máximos de octubre. Opina que no hay un problema macroeconómico ni riesgo de recesión en EE. UU. Se apoya en la caída del Brent, que según él va hacia 100, en el descenso de la rentabilidad del bono a 10 años y en que el RSP (el S&P 500 equiponderado) está en máximos. Atribuye el problema solo al sector de la inteligencia artificial y los semiconductores: los gestores de fondos estaban sobreapalancados, se dispararon los CDS de las empresas de IA y el desapalancamiento fue brusco, hasta el punto de vender oro para conseguir liquidez. Cree que no han terminado de vender. Para el ETF SOXX ve tendencia bajista y probable caída hacia 367 si pierde 455, aunque espera un rebote en la zona actual. Para que se forme un suelo harían falta inyecciones de liquidez de la Fed y un acuerdo político de apoyo a la IA (compra de acciones por el Gobierno). Su conclusión: con la estacionalidad favorable de noviembre, el put/call en máximos de un año y el índice de la CNN en miedo extremo, es muy probable un rebote a corto plazo, pero después volverá la tendencia bajista y el suelo aún no se ha visto. No se menciona patrocinio.",
  "temas": [
-  "semiconductores e inteligencia artificial",
+  "inteligencia artificial",
+  "semiconductores",
   "desapalancamiento de gestores de fondos",
   "petróleo Brent",
-  "bono americano a 10 años",
-  "riesgo de recesión en EE. UU.",
-  "elecciones de medio mandato",
+  "bono estadounidense a 10 años",
+  "recesión",
   "liquidez de la Fed",
+  "elecciones de medio mandato EE. UU.",
   "estacionalidad de noviembre",
-  "sentimiento y ratio put/call",
   "oro"
  ],
  "tesis": [
@@ -25,13 +25,13 @@
    "fecha_limite": "",
    "condicion": "",
    "activa_desde_ya": true,
-   "cita": "de los 117, 118, me refiero al Bren al contado y ven ustedes como da la sensación de que se va a encaminar a la zona de 100",
-   "minuto": "01:26",
+   "cita": "la cotización del precio del petróleo se ha desplomado desde la zona de los 117, 118, me refiero al Brent al contado, y ven ustedes cómo da la sensación de que se va a encaminar a la zona de 100",
+   "minuto": "1:11",
    "conviccion": "media"
   },
   {
    "tipo": "diagnostico",
-   "activo": "rentabilidad del bono americano a 10 años",
+   "activo": "rentabilidad del bono estadounidense a 10 años",
    "simbolo": "BONO10",
    "direccion": "baja",
    "horizonte": "",
@@ -41,14 +41,14 @@
    "fecha_limite": "",
    "condicion": "",
    "activa_desde_ya": true,
-   "cita": "nuestro amigo [Bessent] ha hecho muy bien su trabajo y la [rentabilidad] del bono americano está cayendo. ¿Por qué está cayendo? Muy sencillo, porque [Bessent] está comprando en el lado largo de la curva.",
-   "minuto": "01:39",
+   "cita": "la rentabilidad del bono americano está cayendo. ¿Por qué está cayendo? Muy sencillo, porque [Bessent] está comprando en el lado largo de la curva",
+   "minuto": "1:39",
    "conviccion": "alta"
   },
   {
    "tipo": "diagnostico",
-   "activo": "economía de EE. UU. / S&P 500 equiponderado (RSP)",
-   "simbolo": "RSP",
+   "activo": "economía de EE. UU.",
+   "simbolo": "",
    "direccion": "",
    "horizonte": "",
    "nivel": null,
@@ -58,7 +58,7 @@
    "condicion": "",
    "activa_desde_ya": true,
    "cita": "la conclusión primera a la que yo llego es que aquí no hay problemas macroeconómicos y la economía de los Estados Unidos no corre riesgos de caer en recesión",
-   "minuto": "02:36",
+   "minuto": "2:49",
    "conviccion": "alta"
   },
   {
@@ -73,8 +73,8 @@
    "fecha_limite": "",
    "condicion": "",
    "activa_desde_ya": true,
-   "cita": "han vendido oro para obtener liquidez de donde fuese, de tal manera que el sector de la tecnología ha hundido la cotización del oro",
-   "minuto": "07:01",
+   "cita": "han vendido oro para obtener liquidez de donde fuese. De tal manera que el sector de la tecnología ha hundido la cotización del oro",
+   "minuto": "7:06",
    "conviccion": "alta"
   },
   {
@@ -89,8 +89,8 @@
    "fecha_limite": "",
    "condicion": "",
    "activa_desde_ya": true,
-   "cita": "Yo lo que espero ahora es que en esta zona pueda rebotar.",
-   "minuto": "05:53",
+   "cita": "Yo lo que espero ahora que en esta zona pueda rebotar.",
+   "minuto": "5:53",
    "conviccion": "media"
   },
   {
@@ -103,10 +103,10 @@
    "magnitud_pct": null,
    "fecha_desde": "",
    "fecha_limite": "",
-   "condicion": "si pierde la zona de 455 (cotiza en 461)",
+   "condicion": "si pierde la zona de 455",
    "activa_desde_ya": false,
-   "cita": "si perdiera la zona del 455, dado que ahora está en 461, a mí me da la sensación de que se iría a la zona de precios de marzo de 2026, que como pueden ver ustedes en el gráfico que se encuentra en torno a 367",
-   "minuto": "05:53",
+   "cita": "si perdiera la zona del 455, dado que ahora está en 461, a mí me da la sensación de que se iría a la zona de precios de marzo de 2026, que como pueden ver ustedes en el gráfico, que se encuentra en torno a 367",
+   "minuto": "5:53",
    "conviccion": "media"
   },
   {
@@ -121,31 +121,15 @@
    "fecha_limite": "",
    "condicion": "",
    "activa_desde_ya": true,
-   "cita": "yo creo que no han acabado de vender. Esta gente está pilladísima. Bien, bien. O sea, que lo más probable es que caiga la zona del 367 el índice semiconductores. Yo creo que sí.",
-   "minuto": "07:30",
+   "cita": "yo creo que no han acabado de vender. Esta gente está pilladísima. [...] lo más probable es que caiga la zona de 367 el índice semiconductores. Yo creo que sí.",
+   "minuto": "7:16",
    "conviccion": "media"
   },
   {
-   "tipo": "diagnostico",
-   "activo": "ETF de semiconductores SOXX",
-   "simbolo": "SOXX",
-   "direccion": "baja",
-   "horizonte": "largo",
-   "nivel": null,
-   "magnitud_pct": null,
-   "fecha_desde": "",
-   "fecha_limite": "",
-   "condicion": "",
-   "activa_desde_ya": true,
-   "cita": "desde un punto de vista de medio y largo plazo, desde un punto de vista gráficos semanales, yo lo que veo es que la tendencia es bajista y que lo que podemos esperar ahora es como mucho un rebote",
-   "minuto": "06:08",
-   "conviccion": "alta"
-  },
-  {
    "tipo": "prediccion",
-   "activo": "liquidez de la Reserva Federal",
+   "activo": "Fed / liquidez",
    "simbolo": "",
-   "direccion": "sube",
+   "direccion": "",
    "horizonte": "mediano",
    "nivel": null,
    "magnitud_pct": null,
@@ -153,15 +137,15 @@
    "fecha_limite": "",
    "condicion": "",
    "activa_desde_ya": true,
-   "cita": "yo lo que creo es que por una parte Kevin [Warsh] [...] va a tener que inyectar liquidez en el sistema. ¿Para qué? Para que haya liquidez suficiente.",
-   "minuto": "08:43",
+   "cita": "Kevin [Warsh] [...] va a tener que inyectar liquidez en el sistema",
+   "minuto": "8:42",
    "conviccion": "media"
   },
   {
    "tipo": "prediccion",
-   "activo": "preocupación política por los centros de datos",
+   "activo": "preocupación por los centros de datos",
    "simbolo": "",
-   "direccion": "baja",
+   "direccion": "",
    "horizonte": "corto",
    "nivel": null,
    "magnitud_pct": null,
@@ -169,8 +153,8 @@
    "fecha_limite": "",
    "condicion": "cuando acaben las elecciones",
    "activa_desde_ya": false,
-   "cita": "yo lo que creo es que cuando acaben las elecciones, esta preocupación por los centros de datos se va a desvanecer. Sí, quedarán algún latigazo, pero se va a desvanecer.",
-   "minuto": "09:37",
+   "cita": "cuando acaben las elecciones esta preocupación por los centros de datos se va a desvanecer. Sí, quedarán algún latigazo, pero se va a desvanecer.",
+   "minuto": "9:37",
    "conviccion": "media"
   },
   {
@@ -185,8 +169,8 @@
    "fecha_limite": "",
    "condicion": "",
    "activa_desde_ya": true,
-   "cita": "Por lo tanto, en conclusión, yo creo que un rebote a corto plazo es muy probable",
-   "minuto": "11:07",
+   "cita": "en conclusión, yo creo que un rebote a corto plazo es muy probable",
+   "minuto": "11:06",
    "conviccion": "alta"
   },
   {
@@ -201,19 +185,19 @@
    "fecha_limite": "",
    "condicion": "tras el rebote a corto plazo",
    "activa_desde_ya": true,
-   "cita": "y que seguidamente la tendencia se reenudará, ¿de acuerdo? Porque esto es una masa que va a una gran velocidad y se necesitaría mucha energía para pararla. ¿De acuerdo? Por lo tanto, yo creo que el suelo aún no lo hemos visto.",
-   "minuto": "11:07",
-   "conviccion": "alta"
+   "cita": "y que seguidamente la tendencia se renovará, ¿de acuerdo? Porque esto es una masa que va a una gran velocidad [...] yo creo que los el suelo aún no lo hemos visto.",
+   "minuto": "11:06",
+   "conviccion": "media"
   }
  ],
  "video_id": "ZeeE660AA-U",
  "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
- "fecha_extraccion": "2026-11-05",
+ "fecha_extraccion": "2026-11-07",
  "comprobacion_citas": {
-  "tesis": 12,
+  "tesis": 11,
   "fragmentos_no_literales": []
  },
- "titulo": "Los gestores están MUERTOS de MIEDO porque siguen cargaditos. José Luis Cava",
+ "titulo": "¿Qué temen los gestores de fondos? José Luis Cava",
  "canal": "Jose Luis Cava",
  "fecha": "2026-11-03"
 }

@@ -1,0 +1,20 @@
+{
+ "resumen": "Es un video promocional de Pablo Gil para su propio producto: anuncia un directo especial el 9 de noviembre de 2026, en el que abrirá las inscripciones de una nueva edición de «Seminarios», su mentoría grupal de pago de análisis de mercados. Explica que al inversor no le falta información (tipos de interés, inflación, bancos centrales, geopolítica, resultados, bolsa, oro, bitcoin). Según él, lo difícil es decidir qué hacer con ella, cuándo actuar, cuándo esperar y qué tendría que pasar para cambiar de opinión. Promete que en el directo analizará el contexto macroeconómico y geopolítico y activos como la bolsa, el oro y bitcoin, con escenarios y condiciones de confirmación. No da ninguna opinión, previsión ni recomendación concreta sobre ningún activo. Lo único que pide es que la gente se registre en el directo y en la mentoría de 12 meses.",
+ "temas": [
+  "promoción de mentoría Seminarios",
+  "toma de decisiones en incertidumbre",
+  "análisis de escenarios",
+  "directo del 9 de noviembre"
+ ],
+ "tesis": [],
+ "video_id": "OgXtiPmnpp4",
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-07",
+ "comprobacion_citas": {
+  "tesis": 0,
+  "fragmentos_no_literales": []
+ },
+ "titulo": "Clase de SEMINARIOS en directo: Cómo tomar decisiones de inversión en un entorno de incertidumbre",
+ "canal": "Pablo Gil Trader",
+ "fecha": "2026-11-06"
+}

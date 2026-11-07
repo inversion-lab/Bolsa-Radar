@@ -1,19 +1,19 @@
 {
- "resumen": "Pablo Gil repasa los siete grandes riesgos que Anthropic reconoce en el folleto de su salida a bolsa: pérdida de control, resistencia a ser apagada, manipulación y chantaje, autonomía excesiva, usos maliciosos, vigilancia masiva y riesgo existencial. A partir de ahí habla de los agentes autónomos y el dinero. Cuenta que algunos grandes bancos estadounidenses limitan su acceso y defiende separar consultar, preparar y ejecutar operaciones, con límites y autorizaciones. También trata el impacto laboral de la conducción autónoma (Waymo en Madrid en 2027) y de los robots humanoides: según él, la IA puede crear riqueza y destruir empleo a la vez. Luego analiza las cifras de Anthropic: 16.300 millones de ingresos en el primer semestre de 2026, 8.900 millones de gasto en computación, compromisos por unos 417.000 millones y una pérdida contable de unos 80.700 millones, sobre todo por la deuda convertible. Recuerda que, según Bloomberg, se manejan valoraciones de 1,4 a 1,5 billones. Su conclusión es que una gran empresa puede ser una mala inversión si el precio ya descuenta expectativas demasiado optimistas, y que no conviene ceder sin límites el control de nuestras finanzas a la IA. El video no está patrocinado, pero anuncia un directo gratuito del propio autor el 9 de noviembre.",
+ "resumen": "Pablo Gil repasa los siete grandes riesgos que Anthropic menciona en la documentación de su salida a bolsa: pérdida de control, resistencia a ser apagada, manipulación y chantaje, autonomía excesiva, usos maliciosos, vigilancia masiva y riesgo existencial. A partir de ahí se pregunta cuánto control deberíamos ceder a los agentes autónomos sobre nuestro dinero. Recomienda poner permisos y límites, por ejemplo que la IA pueda consultar o preparar operaciones pero que los pagos o las inversiones necesiten confirmación del usuario. También habla del efecto de los coches sin conductor (Waymo) y de los robots humanoides en el empleo. Su idea es que la IA puede crear riqueza y destruir empleo a la vez, y que la transición puede ser rápida y desigual. Sobre las cuentas de Anthropic da estas cifras: 16.300 millones de ingresos en el primer semestre de 2026, unos 8.900 millones gastados en computación, 417.000 millones en compromisos de gasto y una pérdida contable de unos 80.700 millones, que en gran parte se debe a deuda convertible. Advierte de que una valoración de 1,4 a 1,5 billones deja poco margen para decepcionar. El video no está patrocinado, pero promociona un directo gratuito del autor el 9 de noviembre. No da predicciones concretas de precio sobre activos que se puedan medir.",
  "temas": [
   "Anthropic",
-  "salida a bolsa",
+  "salida a bolsa de Anthropic",
   "riesgos de la inteligencia artificial",
   "agentes autónomos y banca",
-  "empleo y automatización",
   "conducción autónoma",
   "robots humanoides",
+  "empleo y productividad",
   "valoración de empresas de IA"
  ],
  "tesis": [
   {
    "tipo": "recomendacion",
-   "activo": "uso de agentes de IA en finanzas personales",
+   "activo": "gestión del patrimonio personal con agentes de IA",
    "simbolo": "",
    "direccion": "",
    "horizonte": "",
@@ -29,7 +29,7 @@
   },
   {
    "tipo": "diagnostico",
-   "activo": "acciones de Anthropic / empresas de IA",
+   "activo": "acciones de Anthropic (salida a bolsa)",
    "simbolo": "",
    "direccion": "",
    "horizonte": "",
@@ -45,10 +45,10 @@
   },
   {
    "tipo": "diagnostico",
-   "activo": "sector de inteligencia artificial (inversión en infraestructura)",
+   "activo": "inversión en infraestructura de IA",
    "simbolo": "",
    "direccion": "",
-   "horizonte": "",
+   "horizonte": "largo",
    "nivel": null,
    "magnitud_pct": null,
    "fecha_desde": "",
@@ -58,13 +58,29 @@
    "cita": "Todo ello bajo la expectativa de que la demanda futura de IA será suficientemente elevada como para justificar esas inversiones y probablemente lo sea, pero no podemos confundir una expectativa con una certeza.",
    "minuto": "28:40",
    "conviccion": "media"
+  },
+  {
+   "tipo": "prediccion",
+   "activo": "empleo / mercado laboral",
+   "simbolo": "",
+   "direccion": "",
+   "horizonte": "largo",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "La inteligencia artificial va a crear más riqueza o va a destruir más empleo. Mi respuesta es que ambas cosas pueden ocurrir simultáneamente",
+   "minuto": "21:27",
+   "conviccion": "media"
   }
  ],
  "video_id": "XKlP88giYKo",
  "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
- "fecha_extraccion": "2026-11-03",
+ "fecha_extraccion": "2026-11-07",
  "comprobacion_citas": {
-  "tesis": 3,
+  "tesis": 4,
   "fragmentos_no_literales": []
  },
  "titulo": "¿Puede la IA CONTROLAR tu dinero? Anthropic advierte de 7 GRANDES RIESGOS",
