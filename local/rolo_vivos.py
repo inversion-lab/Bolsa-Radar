@@ -32,7 +32,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-TRADING = Path(os.environ.get("TRADING_DIR", r"C:\Users\franc\OneDrive\Desktop\Proyectos Python\Trading"))
+TRADING = Path(os.environ.get("TRADING_DIR") or (r"C:\Users\franc\OneDrive\Desktop\Proyectos Python\Trading" if Path(r"C:\Users\franc\OneDrive\Desktop\Proyectos Python\Trading").exists() else str(Path.home() / "Proyectos" / "Trading")))
 sys.path.insert(0, str(TRADING))
 sys.path.insert(0, str(REPO / "local"))
 from fundamental import youtube as Y  # noqa: E402
