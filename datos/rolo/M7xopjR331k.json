@@ -1,0 +1,515 @@
+{
+ "resumen": "Sesión nocturna (apertura de Asia) previa al dato de inflación (CPI) del día siguiente. El profesor llegó con un largo en oro ya cerrado y un corto en oro abierto desde 4139, tomado en la zona de 4143 que había proyectado por la mañana, con objetivo en 4113. Al cumplirse el target pasó el stop al nivel de 1:2. Cuando entraron los asiáticos a comprar, el precio lo sacó con ganancia en ese 1:2. Después esperó un nuevo rechazo en 4143 para vender otra vez, pero el oro cayó antes de llegar y no entró (\"se nos fue\"). Parte de la comunidad sí tomó ese corto y él les pidió dejarlo correr hacia 4113. Por la mañana había tenido dos pérdidas (EURUSD y oro) y una operación ganadora; con esa sola ganancia la cartera quedó en 6.182, y lo usó como ejemplo de gestión de riesgo. Además vigiló largos en EURUSD y USDJPY, que no deben quedar abiertos antes de la noticia, y una venta de BTC en 76.200 que no llegó. Gran parte del directo fue análisis macro de la profesora Paula sobre oro, índices, BTC, plata y cobre, sin operaciones. Al final la comunidad sumaba unos 5.542 de beneficio en la sesión de Asia.",
+ "sesion": "Asia",
+ "contexto": "El oro llegó a la zona de 4143, que el profesor ve como zona de ventas de corto plazo y punto de ruptura pendiente. Espera la ruptura con el dato de inflación de mañana, con previsión de 2,8 anual y 0,3 mensual. En 4 horas ve daño de la estructura bajista, pero en diario aún no hay cambio. Según Paula, el oro está en una zona mensual clave cerca de 4.000. El índice del dólar sigue alto y el petróleo, que viene cayendo, está en torno a 85. En índices, el Nasdaq tiene daño estructural diario, mientras S&P 500 y Dow Jones siguen sólidos. El BTC respeta la zona semanal cercana al precio medio de los inversores de corto plazo (74.500).",
+ "operaciones": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "compra",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "[01:10]",
+   "cita": "acabamos de cerrar la operación en largo en el en el oro que les estaba comentando hace unos minutitos allí por el Telegram",
+   "notas": "En [08:33] dice que sacó unos 200 dólares en el largo en la cartera de TR, en la apertura; se atribuye al profesor por contexto (habla de 'esta otra cartera' con el corto). No dio entrada, stop ni TP.",
+   "hora_bogota": "19:48"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": 4139,
+   "stop": null,
+   "take_profit": 4113,
+   "temporalidad": "1 minuto",
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "[04:13]",
+   "cita": "Yo lo tomé en los 4139. En la otra cartera",
+   "notas": "Corto sobre la zona de 4143. Al cumplir el target movió el stop al nivel de 1:2 y lo dejó correr buscando 4113 ('los 13'), sin TP fijo. Cerró en el 1:2 cuando entraron compradores asiáticos ([13:31] 'Ah, me cerró... me va a cerrar en el stop profit'; [15:09] 'Entraron a cerrarme mí en uno a dos'). El precio exacto de cierre no se dijo.",
+   "hora_bogota": "19:51",
+   "zonas": {
+    "entrada": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 4.523
+    },
+    "take_profit": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 0.156
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": 4113,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "alumno",
+   "minuto": "[1:32:12]",
+   "cita": "No, yo la tengo abierta. Yo voy ahí.",
+   "notas": "Corto en oro de varios alumnos de la comunidad; el profesor dice que muchos lo cerraron a mitad del rango y pide dejarlo correr hacia los 13 (4113). Al final dice que va 'encaminadísimo para su take profit'.",
+   "hora_bogota": "21:19",
+   "zonas": {
+    "take_profit": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 0.156
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "alumno",
+   "minuto": "[1:05:28]",
+   "cita": "yo tomé ese corto y ya llevo el uno el uno el uno del uno ganado, el 1% de la cuenta. [...] Sí, señor. Y voy por el uno a dos.",
+   "notas": "Alumno con el corto en 1:1 (1% de la cuenta) buscando 1:2.",
+   "hora_bogota": "20:53"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "cerrada",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "alumno",
+   "minuto": "[14:54]",
+   "cita": "Profe, ya me cerró el 11 en el oro. ¿Nos podemos otra vez para abajo?",
+   "notas": "El alumno dice que le cerró 'el 11'; precio y dirección no son seguros (se asume venta porque pregunta si volver a bajar).",
+   "hora_bogota": "20:02"
+  },
+  {
+   "activo": "Petróleo Brent",
+   "simbolo": "XBRUSD",
+   "direccion": "compra",
+   "estado": "abierta",
+   "entrada": 89,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "desconocido",
+   "quien": "alumno",
+   "minuto": "[07:38]",
+   "cita": "Yo tomé, yo sí tomé petróleo, pero lo tomé en el petróleo Brent 89 [...] Todavía la tengo abierta.",
+   "notas": "La dirección no se dijo explícitamente; se infiere compra porque el profesor esperaba posiciones en 87 en el WTI. El profesor no la tomó.",
+   "hora_bogota": "19:55"
+  },
+  {
+   "activo": "EURUSD",
+   "simbolo": "EURUSD",
+   "direccion": "compra",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "alumno",
+   "minuto": "[1:05:28]",
+   "cita": "cogí yo cogí largos en el eurodólar y y largos en el dólar yen.",
+   "notas": "Operación de un alumno.",
+   "hora_bogota": "20:53"
+  },
+  {
+   "activo": "USDJPY",
+   "simbolo": "USDJPY",
+   "direccion": "compra",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "alumno",
+   "minuto": "[1:05:28]",
+   "cita": "cogí yo cogí largos en el eurodólar y y largos en el dólar yen.",
+   "notas": "Operación de un alumno.",
+   "hora_bogota": "20:53"
+  }
+ ],
+ "niveles": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 4143,
+   "nivel_hasta": null,
+   "tipo": "resistencia",
+   "temporalidad": null,
+   "minuto": "[50:42]",
+   "cita": "ya saben que esta zona de los 43 es una zona de posicionamiento fuerte de ventas, eh, de corto plazo",
+   "notas": "Zona de ventas por rechazo proyectada desde la mañana; su ruptura confirmaría continuación alcista.",
+   "hora_bogota": "20:38",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.523
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 4113,
+   "nivel_hasta": null,
+   "tipo": "objetivo",
+   "temporalidad": null,
+   "minuto": "[05:39]",
+   "cita": "Vamos a buscar 4113 de la noche de hoy",
+   "notas": "Objetivo de los cortos; 'máxima proyección 4113' al cierre.",
+   "hora_bogota": "19:53",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 0.156
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 4121,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": null,
+   "minuto": "[05:39]",
+   "cita": "Movimiento bajista en el oro bajo ruptura de los 4121.",
+   "notas": "En [08:21] lo menciona como 'ruptura de los 22' (4122) como confirmación para ir a 4113.",
+   "hora_bogota": "19:53",
+   "zonas": {
+    "nivel": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": -7.844
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 4100,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": null,
+   "minuto": "[03:47]",
+   "cita": "tuvimos un descuento bastante robusto, robusto hacia los $4,100",
+   "notas": "En [1:33:17] alguien menciona además una posición fuerte en ATAS en 4100.",
+   "hora_bogota": "19:51",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.245
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 4000,
+   "nivel_hasta": null,
+   "tipo": "zona de trabajo",
+   "temporalidad": "mensual",
+   "minuto": "[23:04]",
+   "cita": "es una zona mensual clave y esa zona mensual pues está alrededor de aquí de 4,000",
+   "notas": "Lectura de la profesora Paula; considera 3.400-3.600 un escenario 'hiperácido' poco probable.",
+   "hora_bogota": "20:10",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -4.192
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3400,
+   "nivel_hasta": 3600,
+   "tipo": "otro",
+   "temporalidad": "semanal",
+   "minuto": "[25:04]",
+   "cita": "cuando estábamos hablando de 3,400 o 3,600 [...] la estructura de precio hasta esta zona es totalmente viable",
+   "notas": "Escenario de retroceso profundo / cobertura institucional; Paula dice que no es el más probable.",
+   "hora_bogota": "20:12",
+   "zonas": {
+    "nivel": {
+     "color": null
+    },
+    "nivel_hasta": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 76200,
+   "nivel_hasta": null,
+   "tipo": "zona de trabajo",
+   "temporalidad": "4 horas",
+   "minuto": "[18:55]",
+   "cita": "76 200 para venderlo y buscar pues targets inferiores.",
+   "notas": "Zona de ventas en el pullback de la tendencia bajista de 4 h; no llegó en el día.",
+   "hora_bogota": "20:06",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -183.894
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 74500,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": "semanal",
+   "minuto": "[1:15:21]",
+   "cita": "74,500 está ahí, ¿sí? 74,500. Ese es el precio promedio",
+   "notas": "Precio medio de los inversores de corto plazo (on-chain), zona semanal que según Paula defenderán; antes lo había dado como 74.000.",
+   "hora_bogota": "21:03",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 45000,
+   "nivel_hasta": 49000,
+   "tipo": "otro",
+   "temporalidad": null,
+   "minuto": "[30:36]",
+   "cita": "El de largo plazo están alrededor de los 45 49,000",
+   "notas": "Precio medio de los inversores de largo plazo.",
+   "hora_bogota": "20:18",
+   "zonas": {
+    "nivel": {
+     "color": null
+    },
+    "nivel_hasta": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "EURUSD",
+   "simbolo": "EURUSD",
+   "nivel": 1.12125,
+   "nivel_hasta": null,
+   "tipo": "otro",
+   "temporalidad": null,
+   "minuto": "[16:27]",
+   "cita": "tenemos una invalidación sobre los 1.12125.",
+   "notas": "Nivel de invalidación del largo de continuación en EURUSD; cifra tal como la dijo.",
+   "hora_bogota": "20:04"
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "nivel": 86,
+   "nivel_hasta": 87,
+   "tipo": "zona de trabajo",
+   "temporalidad": null,
+   "minuto": "[07:17]",
+   "cita": "Hoy hablábamos de los $87 para buscar eh posición. 86 87.",
+   "notas": "Zona de entrada esperada por la mañana; no llegó. La dirección no se dijo.",
+   "hora_bogota": "19:55"
+  }
+ ],
+ "oportunidades": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "condicion": "Esperar que el precio llegue a 4143 y rechace para vender buscando 4113; no llegó y se escapó.",
+   "entrada": 4143,
+   "stop": null,
+   "objetivo": 4113,
+   "temporalidad": null,
+   "minuto": "[47:26]",
+   "cita": "Estamos esperando una gotita más arriba para irnos para abajo y no se nos fue.",
+   "hora_bogota": "20:35",
+   "zonas": {
+    "entrada": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.523
+    },
+    "objetivo": {
+     "color": "azul",
+     "fuerza": "medio",
+     "distancia": 0.156
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "no operar",
+   "condicion": "No entrar en la mitad del movimiento: arriesgar 0,34% para ganar 0,44% no tiene coherencia; esperar precio A o precio B.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[16:05]",
+   "cita": "aquí buscarías un objetivo de un límite de pérdida del 0.34% a buscar una ganancia el 044. ¿Tiene coherencia técnica en términos de gestión? No, no, no.",
+   "hora_bogota": "20:03"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "venta",
+   "condicion": "Esperar que el pullback de 4 h llegue a 76.200 para vender; si no llega, buscar otra operación.",
+   "entrada": 76200,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": "4 horas",
+   "minuto": "[19:23]",
+   "cita": "lo ideal sería esperarlo más arribita, ¿no? Tener esa paciencia, si nos llega lo tomamos, si no llega pues buscaremos otro tipo de operación",
+   "hora_bogota": "20:07",
+   "zonas": {
+    "entrada": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": -183.894
+    }
+   }
+  },
+  {
+   "activo": "EURUSD",
+   "simbolo": "EURUSD",
+   "direccion": "compra",
+   "condicion": "Unirse a la continuación alcista tras el pullback solo si hay confirmación de estructura con la entrada de Asia; invalidación en 1.12125; cerrar como máximo a las 8 am, antes de la noticia.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[10:02]",
+   "cita": "Si tenemos confirmación de estructura ahoritica con la con los chinos, pues nos unimos al movimiento [...] no es una operación que se pueda dejar abierta hasta mañana, máximo 8 de la mañana",
+   "hora_bogota": "19:57"
+  },
+  {
+   "activo": "USDJPY",
+   "simbolo": "USDJPY",
+   "direccion": "compra",
+   "condicion": "Dice que tiene 'buena pinta' esta noche, pero no se puede dejar abierta hasta mañana por la noticia.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[47:11]",
+   "cita": "Lo que es el dólar yen y el eurodólar tienen buena pinta la noche de hoy, pero sabemos que son operaciones que no se pueden dejar abiertas hasta mañana",
+   "hora_bogota": "20:34"
+  },
+  {
+   "activo": "Nasdaq 100",
+   "simbolo": "USTEC",
+   "direccion": "no operar",
+   "condicion": "No operar el Nasdaq de noche con la bolsa cerrada; solo en la apertura de Nueva York, una hora u hora y media.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[05:39]",
+   "cita": "Nasdaq va para abajo, pero Nasdaq no lo operamos por la noche.",
+   "hora_bogota": "19:53"
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "direccion": "esperar",
+   "condicion": "Esperar la llegada a 86-87 para tomar posición; no llegó.",
+   "entrada": 87,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[07:28]",
+   "cita": "Estábamos esperando los 87, les decía yo, esta mañana para tomar posiciones. No llegó",
+   "hora_bogota": "19:55"
+  }
+ ],
+ "lecciones": [
+  {
+   "texto": "La gestión de riesgo hace que una sola operación ganadora compense dos pérdidas del día.",
+   "minuto": "[04:13]"
+  },
+  {
+   "texto": "Cuando se cumple el target, pasar el stop al nivel de 1:2 y dejar correr: la ganancia mínima es 1:2 y cerrarla así protege las estadísticas.",
+   "minuto": "[11:00]"
+  },
+  {
+   "texto": "El Nasdaq solo se opera en la apertura de Nueva York (1-1,5 h); de noche sus movimientos no tienen fundamento.",
+   "minuto": "[06:51]"
+  },
+  {
+   "texto": "No dejar operaciones abiertas antes de una noticia: cerrar como máximo a las 8 am y reposicionarse después del dato.",
+   "minuto": "[09:50]"
+  },
+  {
+   "texto": "No entrar en la mitad del rango: esperar precio A o precio B para que el riesgo/beneficio tenga coherencia.",
+   "minuto": "[15:51]"
+  },
+  {
+   "texto": "Entrar con confirmaciones: cinco minutos de paciencia evitan que un mechazo te saque.",
+   "minuto": "[20:03]"
+  },
+  {
+   "texto": "ATAS y las herramientas de volumen sirven para proyectar hasta dónde puede ir el precio, nunca para decidir una entrada inmediata (tienen 15 minutos de retraso).",
+   "minuto": "[53:03]"
+  },
+  {
+   "texto": "No se opera adivinando noticias: se espera el dato y se lee cómo repercute en la estructura de precio.",
+   "minuto": "[1:13:29]"
+  }
+ ],
+ "avisos": [
+  "El Nasdaq no se opera de noche porque la bolsa de EE. UU. está cerrada.",
+  "ATAS tiene un retraso de 15 minutos; sirve solo para proyectar.",
+  "Según el profesor, la plataforma de la comunidad vinculada a Exness limita la pérdida por operación y pone el stop automáticamente si no se calcula bien (la cifra '172' no se entiende en la transcripción).",
+  "El profesor aclara que lo que dice no es consejo de inversión y que no puede dar señales.",
+  "Hay estafadores que se hacen pasar por el profesor; él nunca escribe ni sigue a nadie."
+ ],
+ "video_id": "M7xopjR331k",
+ "titulo": "Niveles y Confirmaciones: Cómo Leer el Mercado con Criterio",
+ "url": "https://www.youtube.com/watch?v=M7xopjR331k",
+ "inicio": "2026-11-09T19:47:46-05:00",
+ "duracion_seg": 6522,
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-10",
+ "comprobacion_citas": {
+  "citas": 26,
+  "fragmentos_no_literales": []
+ }
+}
