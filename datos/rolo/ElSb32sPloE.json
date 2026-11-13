@@ -1,0 +1,549 @@
+{
+ "resumen": "Directo de la última sesión de Asia de la semana, con un mercado lento y poca liquidez después de la fuerte caída del oro en la mañana. El profesor mantuvo un sesgo bajista en todo: en el oro, a pesar del pullback en 4 horas, la estructura sigue bajista tras perder los 3887; en Bitcoin, «solo cortos»; y en el petróleo esperaba una bajada tras unos inventarios de crudo con excedente. Abrió un scalp corto en Bitcoin que cerró en take profit. Dejó un corto de 4 horas en Bitcoin buscando 67.000. Mantuvo dos cortos en petróleo, con objetivos en 85 y alrededor de 82, y un corto en el oro, que según dijo seguían abiertos al terminar. Desaconsejó vender el dólar-yen solo por la idea de una intervención y pidió no perseguir el precio. Una parte grande del directo se fue en temas de la plataforma ETR, estafas (brokers, IB, USDT falsos) y por qué no usar cuentas demo. Al final avisó que el viernes hay que operar con cuidado por el IPC de las 8:30.",
+ "sesion": "Asia",
+ "contexto": "El oro perdió la zona de 3887 y en 4 horas hace un retesteo bajista o pullback. Para el profesor la configuración sigue bajista mientras no supere unos 4056, y el pullback podría llegar al 50% de la ineficiencia (3927-3940). Bitcoin bajó de su media de 200 días: el libro de órdenes muestra órdenes grandes de venta en 72.000 y compras esperando en 67.000, así que los rebotes son pullbacks para vender. El índice del dólar se calmó, aunque los bonos del Tesoro subieron mucho desde el mediodía (déficit fiscal de EE. UU.), y eso le preocupa para el oro.",
+ "operaciones": [
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": "5m",
+   "tipo": "scalp",
+   "quien": "profesor",
+   "minuto": "[41:13]",
+   "cita": "Pues en este momento estamos en corto en el Bitcoin. Entré nuevamente a otro corto en el Bitcoin.",
+   "notas": "Scalp corto en el pullback a la EMA. Cerró en TP en [1:23:41]: «Ya me cerró en profit el BTC». No dijo precios. Antes, en [17:35], dijo que ya había cerrado otra posición en BTC: «nosotros cerramos ya posición».",
+   "hora_bogota": "20:29"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": 67000,
+   "temporalidad": "4h",
+   "tipo": "swing",
+   "quien": "profesor",
+   "minuto": "[52:30]",
+   "cita": "podemos estar hablando de una posición de 72 eh aproximadamente 462. Busquémoslo un poco más arriba del 50 de la ineficiencia o 52573 eh para venta, discúlpenme. 723 dijimos, donde utilizaríamos 0.05 para buscar este objetivo de ruptura [...] casi que sobre los 67000",
+   "notas": "La entrada que dijo es confusa: «72 462», «52573», «723 dijimos». Está cerca de 72.300-72.500, pero no es inequívoca, por eso queda en null. Usó 0,05 lotes. Dijo «dejémosla puesta en mi cartera». En [1:23:17] contó que llevaba unos 8 USD de ganancia y en [1:33:24] que seguía abierta.",
+   "hora_bogota": "20:40",
+   "zonas": {
+    "take_profit": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": 85,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "[11:23]",
+   "cita": "Petróleo nuevamente sobre 87570. Todavía tenemos allí abierta la posicionita. En este momento está en negativo.",
+   "notas": "Es el corto de corto plazo. El objetivo de 85 sale de [1:33:55]: «La de corto plazo sobre 85». 87570 = precio del momento (87,57), no la entrada. Al cierre la mantuvo abierta («quedamos con el resto de operaciones»).",
+   "hora_bogota": "19:59"
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": 82,
+   "temporalidad": null,
+   "tipo": "swing",
+   "quien": "profesor",
+   "minuto": "[41:25]",
+   "cita": "un corto en el petróleo y otro corto en el petróleo ya de mayor margen, ¿no?, que es el que estamos proyectando para hacia zonas de los 82, 81",
+   "notas": "Es el segundo corto, de mayor plazo y en otra cartera. En [1:33:55] dijo: «La de mayor plazo lo estamos esperando sobre los 82 aproximadamente». No dijo entrada ni stop.",
+   "hora_bogota": "20:29"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "[1:33:24]",
+   "cita": "Tengo operación, tengo dos operaciones en venta en el petróleo, en dos carteras diferentes, una en el Bitcoin, en corto todavía y una en el corto en el oro. Tengo cuatro operaciones.",
+   "notas": "En [18:28] dijo que seguía en una operación en el oro abierta en la tarde con Nicolás Abril (de rango, buscando que el oro siguiera rompiendo a la baja). En [41:25] dijo «yo no alcancé a tomar la del oro». No queda claro si el corto del final es esa misma operación o una nueva. En [1:39:12]: «aceleración bajista en el oro. Estamos en cortos». No dijo precios.",
+   "hora_bogota": "21:21"
+  },
+  {
+   "activo": "Take-Two Interactive (acción tokenizada en Bitget)",
+   "simbolo": "TTWO",
+   "direccion": "compra",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "swing",
+   "quien": "profesor",
+   "minuto": "[39:44]",
+   "cita": "Nosotros compramos varias acciones de Take to Interactive. Eh, cuando salga el videojuego, como compramos varias, vamos a cerrar una parte parcial de la posición.",
+   "notas": "Acciones tokenizadas compradas en Bitget. Planea cerrar una parte cuando salga el videojuego (en una semana, aprox.) y el resto en la euforia posterior.",
+   "hora_bogota": "20:27"
+  },
+  {
+   "activo": "Oro y NVIDIA (tokenizados en Bitget)",
+   "simbolo": "XAUUSD",
+   "direccion": "compra",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "swing",
+   "quien": "profesor",
+   "minuto": "[1:06:12]",
+   "cita": "Eh, sí, que compramos oro. Compramos oro, compramos envidia, eh, compramos otra acción de envidia y compramos oro.",
+   "notas": "Compras de portafolio en Bitget («[NVIDIA]» = «envidia»). Es inversión, no trading intradía. No dijo precios.",
+   "hora_bogota": "20:54"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "compra",
+   "estado": "cerrada con ganancia",
+   "entrada": 3887,
+   "stop": null,
+   "take_profit": 3933,
+   "temporalidad": "5m",
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[34:25]",
+   "cita": "Alejo. Yo lo tomé. Llevamos en la mitad en 3887 para los 39 33.",
+   "notas": "Largo de un alumno tomado por ruptura y retesteo. En [45:23] contó que lo sacaron en 3915 por gestión de riesgo, con trailing a 2,5 («stop profit»). El profesor le dijo que no volviera a entrar persiguiendo el precio.",
+   "hora_bogota": "20:22",
+   "zonas": {
+    "entrada": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.92
+    },
+    "take_profit": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 7.514
+    }
+   }
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "direccion": "venta",
+   "estado": "cerrada",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "desconocido",
+   "quien": "alumno",
+   "minuto": "[11:23]",
+   "cita": "Me cerraron la operación del petróleo. Pues a mí me la canceló. Pegó una trepada, un mechazo ahí raro.",
+   "notas": "Un alumno cuenta que una mecha alcista le cerró la operación. Se supone que era un corto, como la del profesor. No se sabe si salió con pérdida ni a qué precio.",
+   "hora_bogota": "19:59"
+  }
+ ],
+ "niveles": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3887,
+   "nivel_hasta": null,
+   "tipo": "zona de trabajo",
+   "temporalidad": "4h",
+   "minuto": "[04:20]",
+   "cita": "se perdió hoy una zona importante que eran los 3887",
+   "notas": "Era soporte. Se perdió y ahora se está retesteando a la baja. Si la recupera, se plantearían subidas.",
+   "hora_bogota": "19:52",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.92
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3927,
+   "nivel_hasta": 3940,
+   "tipo": "objetivo",
+   "temporalidad": "4h",
+   "minuto": "[37:11]",
+   "cita": "3927 aproximadamente vendríamos a hacer liquidación parcial de la ineficiencia donde tendría sentido tomarla",
+   "notas": "Es el 50% de la ineficiencia, el techo esperado del pullback. También dijo 3933 («objetivo son 33») y 3940.",
+   "hora_bogota": "20:25",
+   "zonas": {
+    "nivel": {
+     "color": null
+    },
+    "nivel_hasta": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.514
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3933,
+   "nivel_hasta": null,
+   "tipo": "resistencia",
+   "temporalidad": "4h",
+   "minuto": "[44:52]",
+   "cita": "Objetivo son 33 dijimos aproximadamente, ¿no? Si estamos todos en largos 33 y ahí hacemos evaluación a ver si nos vamos bajo spike y tomamos posiciones",
+   "notas": "Dijo «33»; con el oro cerca de 3900 = 3933. Es el objetivo del pullback y el punto para valorar ventas.",
+   "hora_bogota": "20:33",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 7.514
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 4056,
+   "nivel_hasta": null,
+   "tipo": "resistencia",
+   "temporalidad": null,
+   "minuto": "[43:46]",
+   "cita": "El daño parcial del del de la estructura bajista se va a dar casi que sobre los 40 56.",
+   "notas": "Dijo «40 56». Por encima de ese nivel se dañaría la estructura bajista.",
+   "hora_bogota": "20:31",
+   "zonas": {
+    "nivel": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.226
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 67000,
+   "nivel_hasta": null,
+   "tipo": "liquidez",
+   "temporalidad": null,
+   "minuto": "[08:21]",
+   "cita": "Igual los 67,000 hay 111,000 pun 111,990 contratos, ¿no? Las posiciones mayoritarias están sobre las continúa siendo la zona de los $67,000",
+   "notas": "Órdenes de compra en el libro de órdenes. También es el objetivo de los cortos.",
+   "hora_bogota": "19:56",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 72000,
+   "nivel_hasta": null,
+   "tipo": "resistencia",
+   "temporalidad": "4h",
+   "minuto": "[09:42]",
+   "cita": "Igual miren los 72,000 acabaron de poner 124,000000.",
+   "notas": "Muchas órdenes de venta. Un pullback hasta aquí sería para seguir bajando.",
+   "hora_bogota": "19:57",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 70500,
+   "nivel_hasta": null,
+   "tipo": "otro",
+   "temporalidad": null,
+   "minuto": "[06:17]",
+   "cita": "Llegó a 70500. 70 500 y está haciendo, yo creo que está haciendo retesteo",
+   "notas": "Ruptura y retesteo en la zona de 70.500.",
+   "hora_bogota": "19:54",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 82000,
+   "nivel_hasta": null,
+   "tipo": "liquidez",
+   "temporalidad": null,
+   "minuto": "[09:42]",
+   "cita": "en la parte superior para los 82,000 ya pusieron 11 m000ones",
+   "notas": "Primer interés de órdenes en la parte alta del precio.",
+   "hora_bogota": "19:57",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "nivel": 85,
+   "nivel_hasta": null,
+   "tipo": "objetivo",
+   "temporalidad": null,
+   "minuto": "[18:02]",
+   "cita": "Proyecten $85 el petrol. Yo proyectaría, recuerden que hoy no, eh, esto no son señales, yo lo proyectaría hacia la zona de los 85.",
+   "notas": "Objetivo del corto de corto plazo.",
+   "hora_bogota": "20:06"
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "nivel": 81,
+   "nivel_hasta": 82,
+   "tipo": "objetivo",
+   "temporalidad": null,
+   "minuto": "[41:25]",
+   "cita": "que es el que estamos proyectando para hacia zonas de los 82, 81",
+   "notas": "Objetivo del corto de mayor plazo.",
+   "hora_bogota": "20:29"
+  },
+  {
+   "activo": "Dólar-yen",
+   "simbolo": "USDJPY",
+   "nivel": 164.15,
+   "nivel_hasta": null,
+   "tipo": "resistencia",
+   "temporalidad": "1D",
+   "minuto": "[21:31]",
+   "cita": "Estamos hablando 16415 para tener confirmado.",
+   "notas": "Dijo «16415». Con el dólar-yen cerca de 160 se entiende 164,15: el nivel en diario para confirmar la zona de posible intervención.",
+   "hora_bogota": "20:09"
+  }
+ ],
+ "oportunidades": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "condicion": "Si se confirma el retesteo bajista de 3887 con confluencias en 5 minutos: protección por encima de la zona y objetivo en los mínimos. Mejor aún tras ruptura y retesteo de los mínimos.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": "4h/5m",
+   "minuto": "[05:26]",
+   "cita": "Dado el caso que sea un retesteo bajista, ustedes ya saben que el cubrimiento de la operación tiene que estar más o menos sobre este sector y pues la búsqueda de recursos primaria tiene que ir a mínimos",
+   "hora_bogota": "19:53"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "esperar",
+   "condicion": "Solo si recupera los 3887 con fuerza compradora se plantearía un regreso hacia «los 72»; si no, seguir con la caída.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": "4h",
+   "minuto": "[14:11]",
+   "cita": "si se aperturan contratos de manera de manera fuerte en compras, vamos a ir a recuperación y vamos a irnos nuevamente hacia hacia zonas sobre los 72",
+   "hora_bogota": "20:02"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "compra",
+   "condicion": "Largo de corto plazo solo en el pullback, con entrada en 5 minutos, hasta el 50% de la ineficiencia (unos 3933-3940).",
+   "entrada": null,
+   "stop": null,
+   "objetivo": 3940,
+   "temporalidad": "5m",
+   "minuto": "[29:49]",
+   "cita": "ese pullback me puede dar oportunidad de tomarlo casi que hacia los 3940. Entonces empiezo a evaluar cuál va a ser mi mejor punto de entrada para irme en largo, pero en largo a corto plazo",
+   "hora_bogota": "20:17",
+   "zonas": {
+    "objetivo": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 0.514
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "condicion": "Cuando termine el pullback, cerca de 3933, ver si hay rechazo y abrir cortos.",
+   "entrada": 3933,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[1:06:59]",
+   "cita": "la entrada más fija para nosotros entrarle en corto era por allí los 33, pero esto ya está desacelerado",
+   "hora_bogota": "20:55",
+   "zonas": {
+    "entrada": {
+     "color": "blanca",
+     "fuerza": "alto",
+     "distancia": 7.514
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "venta",
+   "condicion": "Solo cortos: vender los pullbacks a la EMA 20 o a la zona de 72.000, con objetivo en 67.000. Nada de compras mientras no cambie la estructura.",
+   "entrada": 72000,
+   "stop": null,
+   "objetivo": 67000,
+   "temporalidad": "4h",
+   "minuto": "[51:39]",
+   "cita": "Ya el libro de órdenes nos nos confirmó que se puede llegar a profundizar el pullback hacia los $72,000",
+   "hora_bogota": "20:39",
+   "zonas": {
+    "entrada": {
+     "color": null
+    },
+    "objetivo": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "no operar",
+   "condicion": "No comprar Bitcoin, aunque haya rebotes fuertes de corto plazo.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[23:35]",
+   "cita": "En el Bitcoin no hay compras, como les digo, por más evidencia que tengan de corto plazo",
+   "hora_bogota": "20:11"
+  },
+  {
+   "activo": "Dólar-yen",
+   "simbolo": "USDJPY",
+   "direccion": "no operar",
+   "condicion": "No vender solo por la idea de una intervención del gobierno japonés sin evidencia técnica. Esperar a que se calme y ver qué operación da.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": "1D",
+   "minuto": "[22:12]",
+   "cita": "yo no metería ese corto ahí en este momento, mis estimados traders. Yo no, no buscaría cortos allí todavía, a menos de tener evidencia técnica real",
+   "hora_bogota": "20:10"
+  },
+  {
+   "activo": "Petróleo WTI",
+   "simbolo": "XTIUSD",
+   "direccion": "venta",
+   "condicion": "Seguir en corto por el excedente de inventarios de crudo, con objetivo en 85 y en 82-81 para el de mayor plazo.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": 85,
+   "temporalidad": null,
+   "minuto": "[13:30]",
+   "cita": "los números son alentadores para nuestro corto, ¿no? No hay nada que nos indique, nos podemos seguir en corto",
+   "hora_bogota": "20:01"
+  },
+  {
+   "activo": "General (viernes)",
+   "simbolo": "otro",
+   "direccion": "esperar",
+   "condicion": "Operar con cuidado el viernes en la apertura de Nueva York por el IPC mensual de las 8:30.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[1:41:07]",
+   "cita": "IP mensual 8:30 de la mañana es lo único que tenemos. Toca tener mañana cuidado en la operativa de Nueva York.",
+   "hora_bogota": "21:29"
+  }
+ ],
+ "lecciones": [
+  {
+   "texto": "En 4 horas se mira el contexto y la tendencia principal; en 5 minutos se aplica la estrategia (medias móviles, RSI y entrada).",
+   "minuto": "[30:04]"
+  },
+  {
+   "texto": "No cambiar el sesgo por un pullback: un rebote dentro de una tendencia bajista es una oportunidad para vender, no un cambio de tendencia.",
+   "minuto": "[07:52]"
+  },
+  {
+   "texto": "El principio de la estrategia es ruptura, retesteo y continuar con el precio.",
+   "minuto": "[16:39]"
+  },
+  {
+   "texto": "Un pullback sano suele llegar al 50% de la ineficiencia, medida de punta a punta de las mechas.",
+   "minuto": "[33:42]"
+  },
+  {
+   "texto": "Si la gestión de riesgo te sacó con ganancia, no vuelvas a entrar persiguiendo el precio.",
+   "minuto": "[45:46]"
+  },
+  {
+   "texto": "Con gestión de riesgo estricta, cualquier estrategia con un winrate de 3,5-4 de cada 10 ya da dinero: la rentabilidad sale de la gestión, no del dibujo.",
+   "minuto": "[1:31:25]"
+  },
+  {
+   "texto": "Es mejor empezar con 10 dólares en una cuenta de centavos que en demo, porque la demo no entrena la gestión emocional.",
+   "minuto": "[1:00:12]"
+  },
+  {
+   "texto": "El trading es un trabajo de rentabilizar, no de multiplicar el capital: las cuentas pequeñas crecen repitiendo el proceso.",
+   "minuto": "[26:47]"
+  }
+ ],
+ "avisos": [
+  "La plataforma ETR no conecta del todo para alumnos en Venezuela, Nicaragua y EE. UU.: deben cerrar sesión y entrar escribiendo «estudiante» en el correo (solo tienen noticias, calendario, psicotrading y lives).",
+  "Exness no admite a un alumno en Europa. Puede usar otro broker, pero debe comprobar en WikiFX que esté regulado.",
+  "El cálculo automático de lotes del ETR funciona con orden por stop loss o por take profit. Revisar que el activo sea el correcto: un alumno veía 200 lotes por poner el punto de invalidación en otro activo.",
+  "El lote mínimo es 0,01 en cualquier cuenta. En una cuenta de centavos equivale a 10 USD de exposición. En el ETR, la «D» mayúscula indica dólares y la minúscula, centavos.",
+  "En cripto (perpetuos), una segunda operación en la misma dirección se promedia con la primera; en un broker de CFD se abren contratos separados.",
+  "El spread del EURUSD en Exness sigue caro; en el oro estimó unos 12 USD por lote.",
+  "Cuidado con cuentas falsas del Trader Rolo, IB con markup o PnL, tokens falsos de USDT («USDT.» en BNB) y «USDT Flash».",
+  "Las acciones tokenizadas se compran en Bitget. A un alumno no se le reflejó la compra de NVIDIA."
+ ],
+ "video_id": "ElSb32sPloE",
+ "titulo": "Disciplina al Cierre: Cómo Evitar la Sobreoperación",
+ "url": "https://www.youtube.com/watch?v=ElSb32sPloE",
+ "inicio": "2026-11-12T19:48:09-05:00",
+ "duracion_seg": 6186,
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-13",
+ "comprobacion_citas": {
+  "citas": 29,
+  "fragmentos_no_literales": []
+ }
+}
