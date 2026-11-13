@@ -1,0 +1,86 @@
+{
+ "resumen": "José Luis Cava (equipo OPLA) usa el volumen de compradores y vendedores agresivos dentro de una sola vela de una hora del 12 de noviembre para explicar cómo, según él, las manos fuertes barrieron y compraron las acciones de Nvidia (la transcripción dice «envidia»). Recuerda que en su video del 11 de noviembre había marcado una zona de caída entre 160 y 148; el mínimo fue 148,80. Ve una capitulación de vendedores en torno a 150 y la entrada de compras agresivas cerca de 149. A corto plazo espera que Nvidia, que ahora cotiza en torno a 169, vaya hacia 178 mientras se mantenga por encima de 160. No descarta que intente llegar a 200, pero cree que no lo superará porque allí vio ventas masivas en el libro de órdenes. En la segunda parte dice que el mundo sufre una falta de liquidez, porque el endeudamiento de los gobiernos y la demanda de recursos de la IA absorben el dinero. Cree que los bancos centrales acabarán inyectando liquidez, como en 1929, y remite a otro video de OPLA. No dice que el video esté patrocinado.",
+ "temas": [
+  "Nvidia",
+  "libro de órdenes / order flow",
+  "manos fuertes y capitulación",
+  "crisis de liquidez",
+  "Reserva Federal y comparación con 1929"
+ ],
+ "tesis": [
+  {
+   "tipo": "prediccion",
+   "activo": "Nvidia",
+   "simbolo": "NVDA",
+   "direccion": "sube",
+   "horizonte": "corto",
+   "nivel": 178,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "mientras se mantenga por encima de 160",
+   "activa_desde_ya": true,
+   "cita": "mientras la cotización de envidia se mantenga por encima de 160, ahora mismo estará cotizando en torno a 169, va a tratar de dirigirse a la zona de los 178",
+   "minuto": "5:59",
+   "conviccion": "media"
+  },
+  {
+   "tipo": "prediccion",
+   "activo": "Nvidia",
+   "simbolo": "NVDA",
+   "direccion": "",
+   "horizonte": "corto",
+   "nivel": 200,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "no superará 200 (muro de ventas de las manos fuertes)",
+   "activa_desde_ya": true,
+   "cita": "Incluso yo no descartaría que intentase alcanzar el 200, pero el 200 de momento eso es un muro. Yo no creo que eso lo supere.",
+   "minuto": "6:15",
+   "conviccion": "media"
+  },
+  {
+   "tipo": "diagnostico",
+   "activo": "Nvidia",
+   "simbolo": "NVDA",
+   "direccion": "",
+   "horizonte": "",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "aparecen unas compras agresivas. ¿Las ven ustedes ahí en la zona de 149? Ahí lo tienen ustedes. Ahí entraron las manos fuertes.",
+   "minuto": "5:05",
+   "conviccion": "alta"
+  },
+  {
+   "tipo": "prediccion",
+   "activo": "liquidez del sistema financiero / bancos centrales",
+   "simbolo": "",
+   "direccion": "",
+   "horizonte": "mediano",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "el sistema financiero se enfrenta a una crisis de liquidez, concretamente una crisis de deuda pública y privada y que al final los banqueros centrales van a tener que inyectar liquidez en el sistema",
+   "minuto": "1:01",
+   "conviccion": "alta"
+  }
+ ],
+ "video_id": "20K77Er6xpA",
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-13",
+ "comprobacion_citas": {
+  "tesis": 4,
+  "fragmentos_no_literales": []
+ },
+ "titulo": "Así detectamos la COMPRA de las MANOS FUERTES y la MANIPULACIÓN previa. José Luis Cava",
+ "canal": "Jose Luis Cava",
+ "fecha": "2026-11-13"
+}
