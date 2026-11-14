@@ -18,6 +18,7 @@
 - El repositorio es de la organización de Javier (`inversion-lab`) desde el 2026-10-29.
 
 ## Lo último que se hizo
+- 2026-11-13 · **La página pasa al estilo visual de AIGOS, sin su marca** (orden de Eduardo: todo entregable suyo lleva ese sello). Cambió solo `sitio/estilo.css` y `index.html`: papel, tinta y bosque, nada de azul ni gradientes ni animaciones; títulos en Sora y texto en Inter. Modo oscuro verde cálido. La guía está en la Agenda (`ESTILO_ENTREGABLES.md`).
 - 2026-11-03 · Eduardo decide unir las líneas de las plantillas MT5 del profesor con los precios dichos en los
   directos, porque "ahí están las posibilidades de entradas y salidas". Se usa el código de colores del profesor
   (clase 03): azul = medio, blanca = alto, amarilla = altísimo.
