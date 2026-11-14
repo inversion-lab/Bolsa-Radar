@@ -2,7 +2,7 @@
 
 Pasos, en orden; cada uno informa y, si falla, los demás siguen:
   1. Abre MetaTrader 5 si no está abierto y espera a que conecte.
-  2. Recuerda la caja 1: sin bots desde el 2026-10-28 (trading supervisado con ETR Edge).
+  2. Recuerda la caja 1: sin bots desde el 2026-10-28 (oro con el Panel de Riesgo propio en MT5).
   3. Trae lo último del repo (git pull).
   4. Pone al día la nube: lanza noticias y mercado (con cierre diario si falta el de ayer) y espera a que terminen.
   5. Videos nuevos de Cava (lunes a viernes; recupera los que falten).
@@ -86,7 +86,7 @@ def main():
     except Exception as e:  # noqa: BLE001
         print("fallo:", e)
     paso(2, "Caja 1")
-    print("Sin bots desde el 2026-10-28: scalp e intradía en vivo con el profesor (ETR Edge). Zoom NY 8:15 a. m. y Asia 7:45 p. m. (Bogotá).")
+    print("Sin bots desde el 2026-10-28: scalp e intradía en oro con el Panel de Riesgo propio en MT5. Sesiones NY 9:15 a. m. y Asia 7:45 p. m. (Bogotá).")
     paso(3, "Repo al día")
     corre("git", "pull", "-q", "--rebase", "--autostash", "-X", "theirs")
     paso(4, "Nube: noticias, mercado y cierre diario")

@@ -22,7 +22,7 @@ Javier); `gh` en este PC usa la cuenta **Aigosco**. Si vuelve a cambiar: `REPO` 
 Cuando el usuario encienda el PC y diga **"ejecutar bolsa"** (o "arranca todo", o `/ejecutar-bolsa`), se usa la skill
 personal `C:\Users\franc\.claude\skills\ejecutar-bolsa\SKILL.md`. Esa skill corre `local/arrancar.py`, que hace esto:
 1. abre MT5 (`C:\Program Files\MetaTrader 5 IC Markets Global\terminal64.exe`) y espera a que conecte (solo datos para la revista);
-2. recuerda la caja 1: sin bots desde el 2026-10-28 (trading supervisado en vivo con ETR Edge, ver `Trading/curso_tu_primer_trade/`);
+2. recuerda la caja 1: sin bots desde el 2026-10-28 (oro con el Panel de Riesgo propio en MT5, `Trading/vivo/mt5/PanelRiesgo.mq5`);
 3. ejecuta `git pull`;
 4. lanza noticias y mercado en la nube (con cierre diario si falta) y espera a que terminen;
 5. revisa los videos nuevos de Cava;
@@ -128,7 +128,7 @@ datos/            todo lo publicado (ver sección 5)
    miden hasta su disparador.
 4. **Lectura con IA:** una vez al día por la mañana (no tres). Solo con el paquete de datos; las ideas son para discutir.
 5. **YouTube:** nunca listar el canal entero (provocó un bloqueo de IP el 2026-10-17); solo los últimos 3–5 videos.
-6. No hay bots desde el 2026-10-28: la caja 1 es trading supervisado (curso Tu Primer Trade, Exness + ETR Edge). No crear bots que operen sin que el usuario lo pida.
+6. No hay bots desde el 2026-10-28: la caja 1 se opera a mano en oro con nuestro Panel de Riesgo en MT5 (desde el 13-nov-2026 ya no se usa ETR Edge; el curso queda como material de estudio). No crear bots que operen sin que el usuario lo pida.
 
 ## 7. Cómo operar (comandos frecuentes)
 Desde `C:\Users\franc\Bolsa-Radar` con el Python del PC (`$PY`):

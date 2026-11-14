@@ -94,7 +94,7 @@ const CAJAS = [
     ver: [["#t-ciclo", "Ciclo de la deuda"], ["#t-valor", "Valor 10 años"], ["#t-bonos", "Bonos"]], estudiar: "a-caja3-largo", leccion: ["a-03-ciclo-largo-6-etapas", "Ciclo largo"] },
   { n: 2, nombre: "Mediano plazo", horizonte: "meses a 1–2 años", estado: "borrador", para: "Empresas baratas frente a sus propios 10 años, con calidad y tendencia; divisas y materias primas según el régimen de bonos.",
     ver: [["#t-radar", "Radar S&P 500"], ["#t-valor", "Valor 10 años"], ["#t-ideas", "Ideas"]], estudiar: "a-caja2-mediano", leccion: ["a-04-dinero-y-moneda-de-reserva", "Dinero y monedas"] },
-  { n: 1, nombre: "Intradía · corto plazo", horizonte: "minutos a horas · scalp + intradía", estado: "en formación", para: "Operativa diaria guiada en vivo por el profesor del curso Tu Primer Trade (Exness + ETR Edge), con riesgo fijo. Scalp e intradía son la misma operativa: cada operación se etiqueta por su duración (scalp, menos de 1 h; intradía, horas) para medir cuál rinde más.",
+  { n: 1, nombre: "Intradía · corto plazo", horizonte: "minutos a horas · scalp + intradía", estado: "en formación", para: "Operativa diaria en oro con nuestro propio Panel de Riesgo en MetaTrader 5: lote automático por % de riesgo, objetivo del 4 % y protección automática. Scalp e intradía son la misma operativa: cada operación se etiqueta por su duración (scalp, menos de 1 h; intradía, horas) para medir cuál rinde más.",
     ver: [["#t-supervisado", "Cómo se opera"], ["#t-vivos", "En vivo"], ["#t-agenda", "Agenda"], ["#t-tablero", "Tablero"]], estudiar: "a-caja1-intradia", leccion: ["a-08-como-invertir-segun-el-ciclo", "Cómo invertir"] },
 ];
 function cajas() {
@@ -389,21 +389,22 @@ function proximaOperativa() {
 function supervisado() {
   const p = proximaOperativa();
   const falta = p ? Math.round((p.t - Date.now()) / 60000) : null;
-  $("supervisado-meta").textContent = "Curso Tu Primer Trade · El Trader Rolo · broker Exness · plataforma ETR Edge";
-  const reglas = [["Riesgo por operación", "1,72 %", "del capital inicial del periodo"], ["Objetivo (TP)", "+4 %", "automático"],
-    ["Protección", "+2,5 → +1,8 %", "al llegar a +2,5 % el SL sube a +1,8 %"], ["Apalancamiento", "1:200", "norma de la comunidad"]];
+  $("supervisado-meta").textContent = "Herramienta propia · Panel de Riesgo en MetaTrader 5 · solo oro (XAUUSD)";
+  const reglas = [["Riesgo por operación", "1,72 %", "del capital; el lote se calcula solo y se redondea hacia abajo"], ["Objetivo (TP)", "+4 %", "del capital, o un múltiplo del riesgo (R)"],
+    ["Protección", "+2,2 → +1,6 %", "al llegar a +2,2 % el SL asegura +1,6 % y sigue al máximo a 0,6 %"], ["Riesgo abierto", "máx. 4 %", "suma de todas las operaciones abiertas"]];
   $("supervisado").innerHTML = `
-    <p>Los bots se retiraron. El scalp y el intradía se operan <b>en vivo, guiados por el profesor</b>; cada uno ejecuta en su propia cuenta y la plataforma fija el riesgo.</p>
-    ${p ? `<div class="senal"><div class="fila"><span class="sim">Próxima operativa: ${esc(p.nombre)}</span><span class="chip acento">${falta < 60 ? `en ${falta} min` : `en ${Math.floor(falta / 60)} h ${falta % 60} min`}</span></div>
-      <div class="dist">Zoom de lunes a viernes: Nueva York ~9:15 a. m. (desde el 2-nov, fin del horario de verano en EE. UU.) · Asia 7:45 p. m. (hora de Bogotá). Se entra desde ETR Edge → Comunidad.</div></div>` : ""}
-    <h3 class="sub">Reglas que impone ETR Edge</h3>
+    <p>El control de riesgo lo <b>diseñamos y construimos nosotros</b>: un panel dentro de MetaTrader 5 que no depende de ninguna plataforma externa. El operador marca en el gráfico <b>dónde se invalida la idea</b> y el panel calcula el resto, valida y entra con un clic.</p>
+    ${p ? `<div class="senal"><div class="fila"><span class="sim">Próxima sesión: ${esc(p.nombre)}</span><span class="chip acento">${falta < 60 ? `en ${falta} min` : `en ${Math.floor(falta / 60)} h ${falta % 60} min`}</span></div>
+      <div class="dist">Sesiones de trabajo de lunes a viernes: Nueva York ~9:15 a. m. · Asia 7:45 p. m. (hora de Bogotá).</div></div>` : ""}
+    <h3 class="sub">Reglas que aplica el panel</h3>
     <div class="indicadores">${reglas.map(([n, v, d]) => `<div class="indicador"><b>${esc(n)}</b><span class="v num">${esc(v)}</span><span class="nota">${esc(d)}</span></div>`).join("")}</div>
-    <h3 class="sub">Cada operación</h3>
-    <ol class="ficha-lista"><li>Antes del Zoom: revisar la agenda de noticias y el tablero de esta página.</li>
-      <li>Solo entradas que el profesor valide o que cumplan lo enseñado.</li>
-      <li>Marcar <b>dónde se invalida</b> la operación (el stop): ETR calcula el lote y el TP.</li>
-      <li>Al cerrar, completar el journal y etiquetar la operación: <b>scalp</b> (menos de 1 h) o <b>intradía</b> (horas).</li></ol>
-    <p class="nota">Lo que decide el resultado: con el plan puro (riesgo 1,72 contra 4) basta acertar el 30 %; si casi todas las ganadoras se cierran en la protección (+1,8 %), hace falta cerca del 49 %. Lo medimos en el journal. Detalle y paso a paso en <code>curso_tu_primer_trade/</code> del repo del equipo. Material de estudio, no recomendación de inversión.</p>`;
+    <h3 class="sub">Qué hace el panel</h3>
+    <ol class="ficha-lista"><li><b>Líneas en el gráfico</b> para compra o venta: el SL y el TP se mueven con el ratón; en modo automático siguen al precio con la distancia elegida.</li>
+      <li><b>Antes de enviar muestra</b> el lote, cuánto se pierde y cuánto se gana (en dinero y en %), la relación en R, el margen y el riesgo abierto total.</li>
+      <li><b>Bloquea o avisa</b> si se pasa del riesgo abierto máximo, si hay posiciones sin SL, si falta margen, si el lote queda por debajo del mínimo o si el stop queda pegado al spread.</li>
+      <li><b>Entra con un clic</b>, ya con su SL y su TP, y aplica solo la protección: desde +2,2 % asegura +1,6 % y la va subiendo de 0,1 en 0,1 %.</li>
+      <li>Cada operación pasa sola al <b>diario de trading</b> (Excel), etiquetada como <b>scalp</b> (menos de 1 h) o <b>intradía</b> (horas). Un aviso por Telegram dice cuándo el oro llega a una línea de los mapas de niveles.</li></ol>
+    <p class="nota">Lo que decide el resultado: con el plan puro (riesgo 1,72 contra 4) basta acertar el 30 %; si casi todas las ganadoras se cierran en la protección (+1,6 %), hace falta cerca del 52 %. Lo medimos en el diario. El margen de la protección se eligió tras estudiar 14 meses de velas de 1 minuto. Material de estudio, no recomendación de inversión.</p>`;
 }
 
 /* ---------- caja 1: en vivos del profesor (local/rolo_vivos.py) ---------- */
