@@ -1,27 +1,27 @@
 {
  "lo_esencial": [
-  "Es sábado: los precios son los del cierre del viernes 13. No hay eventos de impacto alto en las últimas 12 h ni en las próximas 36 h. Los siguientes son el lunes 16: IPC de Canadá a las 13:30Z y Warsh, presidente de la Fed, a las 17:00Z.",
-  "El tema dominante es la Fed. Daly, Collins y Goolsbee hablan de más subidas de tasas (Reuters, FXStreet, CNBC, Bloomberg). El bono a 10 años cerró en 5,154% (+6,07% en 5 días). El FT dice que los Treasuries van a su peor semana desde el 'liberation day'.",
-  "El PPI de EE. UU. salió en 0,3% frente al 0,4% previsto, y el PPI subyacente en línea (0,3%). Aun así el mercado lo leyó como inflación que se extiende (Reuters). Desde el dato, el oro bajó 0,19%, el EUR/USD 0,26% y el S&P 500 0,49%: el dólar no se debilitó pese al dato blando.",
-  "Riesgo y tecnología: la crisis de Nvidia (salida de Huang, escándalo de espionaje, el secretario de Comercio Lutnick bajo la lupa) golpeó a los fabricantes de chips. El Nasdaq perdió 1,27% en el día y su tendencia diaria ya es bajista. El S&P 500 y el DAX mantienen las dos tendencias alcistas.",
-  "Los activos refugio y cripto caen. El oro tocó su mínimo de 2026 cerca de 3850 (FXStreet), Goldman bajó su objetivo a 4150 y el oro está un 13% bajo su media de 200 días. El Bitcoin perdió los 70.000 y cerró en 68.943, en mínimo de 12 semanas.",
-  "La única señal del tablero con probabilidad ALTA es la compra de USD/JPY con cierre de 4h sobre 160.188. El precio está a 0,26% del gatillo. El bot de tendencia no tiene posiciones abiertas."
+  "La semana cerró con dólar y tasas arriba. El bono a 10 años está en 5.154% y subió 6.07% en 5 días. El DXY está en 103.42, con tendencia alcista diaria y de 4h.",
+  "Varios miembros de la Fed piden más subidas: Daly, Collins y Goolsbee. Warsh, en cambio, dijo que la IA frenaría la inflación, y sus colegas no están de acuerdo (Washington Post). Warsh habla el lunes 16 a las 17:00 UTC.",
+  "El PPI de octubre salió en 0.3%, debajo de la previsión de 0.4%. El core PPI salió en línea (0.3%). Aun así, Reuters dice que la inflación se está extendiendo. El dato no frenó las apuestas a nuevas subidas.",
+  "Oro, plata, cripto y Nasdaq caen con tendencia bajista. El oro está en 3877.8, cerca de su mínimo de 2026 (FXStreet). Bitcoin rompió 70.000 y está en 68.943. El escándalo de Nvidia golpeó a los fabricantes de chips.",
+  "El único plan con probabilidad alta en el paquete es la compra de USD/JPY. Se activa con un cierre de 4h sobre 160.188, a +0.26% del precio. Las compras de S&P 500 y DAX tienen probabilidad media. Todas las ventas tienen probabilidad baja.",
+  "El bot de tendencia (demo) tiene 0 posiciones abiertas."
  ],
  "temas": [
   {
    "tema": "Fed y tasas",
    "modo": "cruce",
-   "que_paso": "Varios miembros de la Fed se inclinan por subir tasas. Collins dice que vendrán más subidas (Reuters, citando a Bloomberg TV) y Daly ve probable tener que subir por el empeoramiento de la inflación (Reuters). El rendimiento a 10 años pasó del 5% (CNBC: 5,17%; Yahoo: sobre 5%). El dólar va a su mejor semana en más de un mes (Bloomberg). El lunes hay índice Empire State y discursos de la Fed (Investing.com).",
-   "coinciden": "Todos los medios ven a la Fed más inclinada a subir tasas, rendimientos al alza y un dólar firme. También coinciden en el daño colateral: bolsa tecnológica, dólar australiano y Bitcoin a la baja (Yahoo, FXStreet).",
-   "discrepan": "El desacuerdo está dentro de la propia Fed. El Washington Post dice que el presidente Warsh sostiene que la IA bajará la inflación y que sus colegas no lo creen. Yahoo plantea que Warsh 'quiere respuestas' sobre la inflación por IA. Las palabras de Warsh del lunes pueden chocar con el tono duro del resto.",
-   "efecto_posible": "Interpretación: un dólar fuerte con rendimientos altos favorece al USD/JPY y al DXY, que tienen las dos tendencias alcistas, y presiona al oro, al EUR/USD y al Bitcoin. Si Warsh suena menos duro que sus colegas, puede haber un alivio breve. Según F1, los eventos de la Fed mueven el oro de forma 'de libro' el 100% de las veces a 15 minutos (mediana 0,289% en 1 h).",
+   "que_paso": "Varios miembros de la Fed hablaron de subir las tasas. Daly dijo que la Fed probablemente tendrá que subirlas (Reuters). Collins dijo que vienen más subidas (Reuters, citando a Bloomberg TV). El bono a 10 años tocó 5.17% (CNBC). El FT dice que los bonos del Tesoro van camino de su peor semana desde el 'liberation day'. El dólar va hacia su mejor semana en más de un mes (Bloomberg). El lunes hay discursos de la Fed (Investing.com).",
+   "coinciden": "Todos los medios dicen lo mismo: la Fed se inclina por subir, los rendimientos superan el 5% y el dólar se fortalece. Yahoo y FXStreet unen ese giro a la caída de Bitcoin y del dólar australiano.",
+   "discrepan": "El presidente Warsh dijo que la IA ayudaría a contener la inflación, y sus colegas no están de acuerdo (Washington Post). Yahoo dice que Warsh 'quiere respuestas' sobre la inflación de la IA. Su postura no está clara y su discurso del lunes puede aclararla.",
+   "efecto_posible": "Interpretación: el tono duro favorece al dólar (USD/JPY, USD/CAD, DXY) y a los rendimientos. Pesa sobre el oro, la plata, las criptos, el Nasdaq y las divisas de riesgo (AUD, NZD). Si Warsh suena más suave que sus colegas, ese movimiento podría revertir en parte.",
    "medios": [
     "Reuters",
     "Bloomberg",
-    "CNBC",
     "Financial Times",
-    "Yahoo Finance",
+    "CNBC",
     "The Washington Post",
+    "Yahoo Finance",
     "FXStreet",
     "Investing.com"
    ]
@@ -29,26 +29,26 @@
   {
    "tema": "Inflación",
    "modo": "cruce",
-   "que_paso": "En octubre, el PPI de EE. UU. subió 0,3% mensual (previsión 0,4%) y el subyacente 0,3%, en línea. Reuters lo describe como una subida moderada con inflación que se extiende. Yahoo destaca el 6,5% de inflación mayorista. Goolsbee y Collins advierten que la inflación se está extendiendo y piden firmeza.",
-   "coinciden": "Los medios coinciden en que el dato no alivió los temores. Hablan de inflación 'que se extiende' (Reuters, FXStreet) y de que mantiene vivas las apuestas sobre la Fed (Yahoo). Goolsbee dice que la Fed debe recuperar credibilidad (Bloomberg, CNBC).",
-   "discrepan": "FXStreet llama al PPI 'mixto' y Yahoo/Crypto habla de un 'PPI suave'. Yahoo, en cambio, titula con el 6,5% 'caliente'. Sobre el choque energético, Bessent y Goolsbee discrepan sobre su papel en la inflación (Reuters).",
-   "efecto_posible": "Interpretación: un dato de cabecera blando no frenó el alza de rendimientos, así que el mercado mira la inflación de fondo. Mientras sea así, los datos blandos tendrán poco efecto alcista en oro y bolsa. Lo medido: tras el PPI, el oro cayó 0,19% y el S&P 500 0,49%.",
+   "que_paso": "El PPI de octubre subió 0.3% mensual. La previsión era 0.4% y el dato anterior fue 1.3%. El core PPI subió 0.3%, igual que la previsión. Reuters dice que el alza fue moderada, pero que la inflación se extiende a más rubros. Goolsbee pidió que la Fed recupere su credibilidad contra la inflación y advirtió de subidas más agresivas. Collins también ve que la inflación se extiende.",
+   "coinciden": "Los medios coinciden en que la inflación se está ampliando. También coinciden en que los miembros de la Fed citados (Goolsbee, Collins, Daly) quieren seguir subiendo tasas.",
+   "discrepan": "Cambia cómo lee cada medio el dato. Reuters habla de un alza 'moderada'. FXStreet lo llama 'mixto'. Yahoo titula que la inflación mayorista llegó a 6.5% y que eso apagó el rebote de la bolsa. Además, Bessent y Goolsbee no se ponen de acuerdo sobre cuánto pesa el choque de energía en la inflación (Reuters).",
+   "efecto_posible": "Interpretación: aunque el PPI salió debajo de lo previsto, no frenó las apuestas a subidas. Desde el dato, el oro cayó 0.19%, el EUR/USD 0.26% y el S&P 500 0.49%. Fue un dato suave, pero el mercado lo leyó como duro.",
    "medios": [
     "Reuters",
-    "Yahoo Finance",
-    "FXStreet",
     "Bloomberg",
     "CNBC",
+    "FXStreet",
+    "Yahoo Finance",
     "The Washington Post"
    ]
   },
   {
    "tema": "Empleo",
    "modo": "resumen",
-   "que_paso": "En EE. UU., las solicitudes de subsidio subieron a 200 mil el jueves 12 (FXStreet, Kitco). Pluang lo leyó como debilidad y Reuters describió el mercado laboral como resistente. El oro probó 3900 tras el dato. En el Reino Unido preocupa el paro juvenil (Reuters) y la libra viene de tres días de caída antes de sus datos de empleo e inflación (FXStreet). La Fed de Minneapolis publicó un análisis sobre desempleo de larga duración.",
+   "que_paso": "En EE. UU., las solicitudes semanales de subsidio por desempleo subieron a 200K (FXStreet, Kitco). Reuters dice que el mercado laboral sigue resistente. Pluang, en cambio, lee el dato como una señal de debilidad que bajó el oro. La Fed de Minneapolis publicó un análisis sobre el desempleo de larga duración. Fuera de EE. UU., el Reino Unido estudia recortes de ayudas sociales por el aumento del desempleo juvenil. La libra espera datos de empleo e inflación.",
    "coinciden": "",
    "discrepan": "",
-   "efecto_posible": "Interpretación: el empleo de EE. UU. no inclina hoy la balanza; la inflación pesa más. Para la libra, el índice de salarios del martes 17 y el IPC del miércoles 18 son el foco. GBP/USD está a 0,05% de su gatillo de venta (1.32186), pero con probabilidad baja.",
+   "efecto_posible": "Interpretación: con la Fed centrada en la inflación, el empleo pasa a un segundo plano. El próximo dato de solicitudes (19-nov, previsión 199K) tiene impacto medio. Para la libra pesan el índice de salarios (17-nov) y el IPC británico (18-nov).",
    "medios": [
     "Reuters",
     "FXStreet",
@@ -62,10 +62,10 @@
   {
    "tema": "Oro y metales",
    "modo": "cruce",
-   "que_paso": "El oro y la plata cerraron la semana con pérdidas (WSJ). El oro tocó su nivel más bajo de 2026, cerca de 3850 (FXStreet). Goldman bajó su objetivo de fin de año a 4150 y el de 2027 a 4800 (Kitco). La plata abrió con una caída del 3% (Yahoo) y sigue en un canal bajista (FXStreet). En cobre hay pulso entre mineras y fundiciones por el precio de referencia (Kitco).",
-   "coinciden": "Hay consenso bajista en el corto plazo, y el motivo es el temor a una Fed más dura (FXStreet, Kitco).",
-   "discrepan": "Kitco habló de un oro 'probando resistencia en 3900' tras el PPI, mientras FXStreet dijo que el oro 'recorta ganancias'. Un dato de apoyo: India importó más oro y su déficit comercial llegó al máximo de un año (Reuters). Goldman recorta su objetivo, pero 4150 sigue por encima del precio actual.",
-   "efecto_posible": "Interpretación: oro (3877,8), plata y cobre tienen las dos tendencias bajistas y están cerca de sus gatillos de venta (oro 3856,7, a -0,54%; plata 48,915; cobre 6,106). Pero las ventas tienen probabilidad baja en el laboratorio. Riesgo de rebote si Warsh suena menos duro.",
+   "que_paso": "El oro y la plata cerraron la semana con pérdidas (WSJ). El oro tocó su mínimo de 2026, cerca de 3,850 (FXStreet). Goldman Sachs bajó su objetivo para fin de año a 4,150 y el de 2027 a 4,800 (Kitco). La plata abrió con una caída de 3% y sigue en un canal bajista (Yahoo, FXStreet). La causa citada es el miedo a que la Fed siga subiendo.",
+   "coinciden": "Los medios coinciden en la dirección: los metales bajan por la presión de la Fed y de los rendimientos. Los precios del paquete lo confirman. El oro está en 3877.8: -4.84% en 5 días y -13.29% frente a su media de 200 días. La plata está en 48.8: -5.8% en 5 días.",
+   "discrepan": "Kitco habla de que el oro 'prueba la resistencia de 3,900'. FXStreet destaca el mínimo del año. Goldman recortó su objetivo, pero ese objetivo sigue arriba del precio actual. En cobre hay una disputa entre mineras y fundiciones por su precio de referencia (Kitco).",
+   "efecto_posible": "Interpretación: el oro tiene tendencia bajista en diario y en 4h. Está a 0.54% del gatillo de venta (3856.7), pero esa venta tiene probabilidad baja en el laboratorio. La compra está lejos (4130.2). No hay ventaja clara en ninguno de los dos lados.",
    "medios": [
     "WSJ",
     "FXStreet",
@@ -77,45 +77,46 @@
   {
    "tema": "Energía",
    "modo": "cruce",
-   "que_paso": "El petróleo tiene señales cruzadas. El FT dice que el mercado mundial pasa a superávit porque se recuperan los envíos del Golfo. Ed Morse ve posible bajar a 50 dólares (Bloomberg). Por otro lado, el WSJ y Yahoo reportaron subidas el viernes por la tensión en Oriente Medio. Trump extiende 90 días la exención de transporte para petróleo y fertilizantes (Bloomberg).",
-   "coinciden": "La oferta mejora: superávit (FT), crudo de África Occidental más barato para algunos compradores (Bloomberg) y exención de transporte extendida.",
-   "discrepan": "Unos medios destacan la subida del día por Oriente Medio (WSJ, Yahoo, FXStreet: el petróleo sostiene al dólar canadiense). Otros miran el fondo bajista por exceso de oferta (FT, Bloomberg). En gas natural, Investing.com reporta una inyección menor de lo esperado y el WSJ una 'superior a la media'.",
-   "efecto_posible": "Interpretación: WTI (88,74) y Brent (95,95) tienen tendencia diaria alcista y de 4h bajista, sin alineación. Caen 9,4% en un mes. La compra está cerca (WTI 89,64, Brent 97,12), pero con probabilidad baja. Un petróleo más barato restaría presión a la inflación, aunque hoy domina la Fed.",
+   "que_paso": "Los titulares sobre el petróleo apuntan en dos direcciones. El FT dice que el mercado mundial pasó a tener excedente porque se recuperaron los envíos del Golfo. Ed Morse dice que el barril puede bajar a 50 dólares (Bloomberg). Bloomberg también informa que el crudo de África Occidental se abarató para algunos compradores. Por otro lado, el WSJ y Yahoo informan alzas el viernes por la tensión en Oriente Medio. Trump extiende 90 días una exención de transporte para petróleo y fertilizantes.",
+   "coinciden": "La mayoría de los medios ve un mercado con oferta suficiente, salvo por el riesgo geopolítico.",
+   "discrepan": "Los medios no se ponen de acuerdo sobre el corto plazo. El FT y Bloomberg hablan de excedente y precios más bajos. El WSJ, Yahoo y FXStreet hablan de un crudo más firme por Oriente Medio. Bessent y Goolsbee discuten cuánto pesa la energía en la inflación.",
+   "efecto_posible": "Interpretación: el WTI está en 88.74 y el Brent en 95.95. Ambos bajan -9.4% en el mes y tienen tendencia de 4h bajista, frente a una diaria alcista. Como las dos tendencias no coinciden, ningún plan tiene buena probabilidad. Un petróleo más firme apoya al dólar canadiense.",
    "medios": [
     "Financial Times",
     "Bloomberg",
     "WSJ",
-    "Yahoo Finance",
-    "FXStreet",
     "Reuters",
+    "FXStreet",
+    "Yahoo Finance",
     "Investing.com"
    ]
   },
   {
    "tema": "Geopolítica",
    "modo": "resumen",
-   "que_paso": "Europa designó asesores de seguridad nacional como su equipo para las negociaciones con Rusia (NYT, Bloomberg), mientras EE. UU. y Rusia dirigen las conversaciones sobre Ucrania. Bloomberg informa que la economía rusa se frena por los ataques ucranianos. En Oriente Medio, Axios dice que Netanyahu presiona a Trump para reanudar la guerra, y en Bloomberg un analista sostiene que 'Irán ganó la guerra'. MarketWatch advierte que bloquear el acceso de China a los chips de Nvidia podría desatar una guerra comercial breve.",
+   "que_paso": "Hay varios focos sin relación entre sí. Según Axios, Netanyahu presiona a Trump para reanudar la guerra (contra Irán, según el contexto del WSJ y de Bloomberg). Europa formó un equipo para negociar con Rusia, mientras EE. UU. y Rusia llevan las conversaciones sobre Ucrania (NYT, Bloomberg). La economía rusa se frena por los ataques ucranianos. MarketWatch advierte que bloquear el acceso de China a los chips de Nvidia podría causar una guerra comercial breve. Hay titulares sin relevancia para el mercado (Dolly Parton, Manchester City).",
    "coinciden": "",
    "discrepan": "",
-   "efecto_posible": "Interpretación: la presión para reanudar la guerra con Irán es el riesgo con más efecto potencial sobre el petróleo y los refugios. Las negociaciones de Ucrania avanzan sin fecha clara. El frente EE. UU.-China por chips pesa sobre el Nasdaq.",
+   "efecto_posible": "Interpretación: si se reanuda el conflicto con Irán, es un riesgo al alza para el petróleo y de huida de riesgo. Un avance en las negociaciones sobre Ucrania iría en sentido contrario. Ninguno de los dos está confirmado en el paquete.",
    "medios": [
     "Axios",
     "The New York Times",
     "Bloomberg",
+    "WSJ",
     "MarketWatch",
-    "WSJ"
+    "Kitco"
    ]
   },
   {
    "tema": "China",
    "modo": "cruce",
-   "que_paso": "El caso Nvidia escala. Tras la salida de Jensen Huang crecen las preocupaciones por espionaje chino (Bloomberg). Bessent culpa al Departamento de Comercio de Lutnick por la 'fuga' de chips a China (CNBC) y Lutnick acepta testificar. Reuters dice que hay 3.000 millones de dólares en proyectos chinos de IA en riesgo. Las acciones chinas de IA caen por temor a más restricciones (FT).",
-   "coinciden": "Los medios coinciden en que el caso tensa la relación EE. UU.-China por los chips y afecta a ambos lados: Nvidia y el sector de IA en China.",
-   "discrepan": "La gravedad no está clara. El Departamento de Justicia no ha concluido que Alice Huang fuera espía (Reuters vía Investing.com). Ives (Bloomberg) dice que la salida de Huang es 'lo mejor para China'. MarketWatch ve una guerra comercial 'breve'. Aparte, el crédito en China decepciona pese al apoyo oficial (Bloomberg).",
-   "efecto_posible": "Interpretación: es un riesgo bajista para el Nasdaq (tendencia diaria bajista, 4h aún alcista) y, por contagio, para el Nikkei, que tiene las dos tendencias bajistas. El escándalo político puede seguir dando titulares la próxima semana.",
+   "que_paso": "El caso Nvidia domina este tema. Jensen Huang deja la empresa. Hay sospechas de espionaje chino (Alice Huang). Además, EE. UU. revisa las ventas de chips a China. Reuters dice que hay 3.000 millones de dólares en proyectos chinos de IA en riesgo. Bessent culpa al Departamento de Comercio de Lutnick por la 'fuga' de chips, y Lutnick aceptaría testificar. Las acciones chinas de IA caen por temor a restricciones más duras (FT).",
+   "coinciden": "Todos los medios ven más tensión entre EE. UU. y China por los chips, con daño para Nvidia y para la IA china.",
+   "discrepan": "MarketWatch habla de una guerra comercial 'breve'. Ives dice que la salida de Huang es lo mejor que le pudo pasar a China. Según Investing/Reuters, el Departamento de Justicia todavía no concluyó que Alice Huang sea espía. Aparte, el crédito en China crece menos de lo esperado (Bloomberg).",
+   "efecto_posible": "Interpretación: el caso presiona al Nasdaq, que cayó -1.27% en el día y tiene tendencia diaria bajista. Afecta menos al Dow (+0.03%). Mientras no se aclare, es un filtro de riesgo para las compras en índices tecnológicos.",
    "medios": [
-    "Bloomberg",
     "Reuters",
+    "Bloomberg",
     "CNBC",
     "Financial Times",
     "MarketWatch",
@@ -125,10 +126,10 @@
   {
    "tema": "Cripto",
    "modo": "cruce",
-   "que_paso": "El Bitcoin perdió los 70.000, cerró en 68.943 (-3,36% en el día) y marcó su mínimo de 12 semanas (Yahoo). El rebote del PPI 'blando' se deshizo. MSCI saca a Strategy de su índice, los mineros preparan ventas de 2.077 BTC y el volumen cripto de Robinhood cae 48%.",
-   "coinciden": "Los titulares coinciden en las causas: temor a subidas de la Fed, demanda débil y presión vendedora (mineros, salida de Strategy del MSCI).",
-   "discrepan": "Hay matices en el horizonte. Un economista veterano advierte que lo peor puede no haber pasado. Otra nota repasa qué hizo el Bitcoin cada vez que tocó su media de 200 semanas. Ojo: casi todo viene de un solo agregador (Yahoo Finance) más FXStreet.",
-   "efecto_posible": "Interpretación: BTC y ETH tienen las dos tendencias bajistas, pero las ventas tienen probabilidad baja en el laboratorio (BTC 67.627,5; ETH 1.897,08). El cripto opera el fin de semana, así que se puede mover antes de que abran los demás mercados.",
+   "que_paso": "Bitcoin cayó a su mínimo de 12 semanas y rompió los 70.000. Llegó a 70K tras el PPI suave, pero ese rebote se deshizo. Se citan varias causas: el temor a subidas de la Fed, que MSCI saque a Strategy de sus índices, y la venta prevista de 2,077 BTC por parte de los mineros. El volumen cripto de Robinhood cayó 48%.",
+   "coinciden": "Los medios coinciden en que hay menos demanda y más presión vendedora, y en que el giro de la Fed deshizo casi todo el rally del verano.",
+   "discrepan": "Cada titular pone el peso en una causa distinta: la Fed, la salida de MSCI o la venta de los mineros. Un veterano advierte que lo peor puede no haber pasado. Otro artículo repasa qué hizo Bitcoin cuando tocó su media de 200 semanas. Casi todo viene de Yahoo Finance, así que hay poca diversidad de fuentes.",
+   "efecto_posible": "Interpretación: BTC (68.943) y ETH (1951.76) tienen tendencia bajista en diario y en 4h. Las ventas tienen probabilidad baja en el laboratorio y las compras están a +8% del precio. No hay plan con ventaja.",
    "medios": [
     "Yahoo Finance",
     "FXStreet"
@@ -137,13 +138,14 @@
   {
    "tema": "Bolsa y empresas",
    "modo": "resumen",
-   "que_paso": "Los índices de EE. UU. bajaron el viernes por el golpe de Nvidia a los fabricantes de chips y el salto de los rendimientos largos (Yahoo). La junta de Nvidia aún no eligió firma para buscar el reemplazo permanente de Huang (CNBC). Hay preguntas sobre los lazos de la firma de los hijos de Lutnick con Nvidia (CNBC). AMD y Dell estuvieron entre los grandes movimientos del día (Investing.com). Wella pidió salir a bolsa en NYSE y el Supremo revisará una demanda contra Robinhood.",
+   "que_paso": "El caso Nvidia golpeó a los fabricantes de chips. Nvidia va hacia su peor semana desde la caída por los aranceles, y su directiva todavía no eligió una firma para buscar el reemplazo de Huang. Los rendimientos altos también pesaron sobre la bolsa (Yahoo). AMD y Dell estuvieron entre las acciones con más movimiento. Hay noticias sueltas: TJX baja, Wella pide salir a bolsa en NYSE y la Corte Suprema verá un caso de Robinhood.",
    "coinciden": "",
    "discrepan": "",
-   "efecto_posible": "Interpretación: el S&P 500 (7554,7) aguanta mejor que el Nasdaq (-1,27%), y el Dow quedó plano. La rotación fuera de la tecnología protege a los índices amplios por ahora. Para el S&P 500, el gatillo de compra (7710,35) está a +2,06% y el de venta a -2,7%: no hay señal cercana.",
+   "efecto_posible": "Interpretación: el S&P 500 (7554.7) mantiene tendencia alcista en diario y en 4h. El Nasdaq tiene tendencia diaria bajista. La caída se concentra en tecnología. El DAX (+7.12% sobre su media de 200 días) se ve más fuerte.",
    "medios": [
-    "Yahoo Finance",
     "CNBC",
+    "Bloomberg",
+    "Yahoo Finance",
     "Investing.com",
     "MarketWatch"
    ]
@@ -154,72 +156,91 @@
    "activo": "USD/JPY",
    "clave": "USDJPY",
    "horizonte": "corto",
-   "idea": "Compra del dólar contra el yen si se confirma la ruptura. Es la única señal con probabilidad ALTA del tablero.",
-   "plan": "Esperar un cierre de 4h sobre 160.188 (a +0,26%). Stop en 158.854 (Supertrend 4h) y objetivo en 162.856 (2R). Sin ese cierre no hay entrada. Es una operación corta, porque mantenerla semanas tiene coste de swap.",
-   "a_favor": "Las dos tendencias son alcistas y el laboratorio le dio ventaja dentro y fuera de muestra. La Fed habla de subir tasas (Collins, Daly, Goolsbee), el bono a 10 años está en 5,15% y el dólar va a su mejor semana en más de un mes (Bloomberg).",
-   "en_contra": "Tras el PPI apenas se movió (-0,09%). Warsh habla el lunes y, según el Washington Post, cree que la IA bajará la inflación: un tono menos duro podría frenar al dólar. El gatillo aún no se cumple.",
-   "que_la_invalida": "Un cierre de 4h bajo 158.854 o la pérdida de la tendencia de 4h. También un discurso de Warsh que haga bajar con fuerza los rendimientos."
+   "idea": "Comprar USD/JPY si confirma el gatillo. El dólar viene fuerte por las apuestas a que la Fed suba las tasas.",
+   "plan": "Entrar solo con un cierre de 4h sobre 160.188 (a +0.26% del precio actual, 159.769). Stop en 158.854 (Supertrend 4h) y objetivo en 162.856 (2R). No anticiparse. Si el discurso de Warsh (16-nov, 17:00 UTC) suena duro, el gatillo puede activarse.",
+   "a_favor": "Tiene tendencia alcista en diario y en 4h, y es el único plan con probabilidad ALTA en el laboratorio. Los rendimientos están sobre el 5% y el dólar va a su mejor semana en más de un mes (Bloomberg). Daly, Collins y Goolsbee hablan de subir tasas.",
+   "en_contra": "Warsh dijo que la IA frenaría la inflación. Si confirma esa postura, puede enfriar al dólar. Según el estudio F1, las noticias de la Fed mueven en los primeros minutos, no definen la tendencia.",
+   "que_la_invalida": "Un cierre de 4h bajo 158.854 o un giro a tendencia bajista en 4h. Si cierra bajo 157.892, se activa la venta, que tiene probabilidad baja."
   },
   {
    "activo": "Oro",
    "clave": "XAUUSD",
    "horizonte": "corto",
-   "idea": "No comprar el oro todavía. La venta está cerca, pero en el laboratorio pierde: mejor observar.",
-   "plan": "Esperar. La venta se activaría con un cierre de 4h bajo 3856,7 (a -0,54%), con stop en 3981,67 y objetivo en 3606,76, pero su probabilidad es baja. La compra exige un cierre de 4h sobre 4130,2 (a +6,51%), demasiado lejos.",
-   "a_favor": "Contexto bajista: mínimo de 2026 cerca de 3850 (FXStreet), Goldman baja su objetivo a 4150, pérdida semanal (WSJ), 13% bajo su media de 200 días y temor a una Fed más dura.",
-   "en_contra": "Las ventas de la estrategia pierden en el laboratorio. India aumentó sus compras de oro (Reuters). El analista Cava mantiene su tesis alcista de largo plazo, hoy en contra, y su marcador sobre el oro es pobre (1 cumplida, 28 tesis en contra).",
-   "que_la_invalida": "Para la visión bajista: un cierre de 4h sobre 3981,67 (Supertrend 4h) o un giro menos duro de la Fed que debilite al dólar."
+   "idea": "No operar el oro por ahora. Está cerca del gatillo de venta, pero esa venta no tiene ventaja medida.",
+   "plan": "Esperar. La venta se activa con un cierre de 4h bajo 3856.7 (stop 3981.67, objetivo 3606.76), pero en el laboratorio pierde. La compra exige un cierre de 4h sobre 4130.2, a +6.51% (7.5 ATR), demasiado lejos.",
+   "a_favor": "La caída tiene fundamento: tendencia bajista en diario y en 4h, -13.29% frente a la media de 200 días, mínimo de 2026 cerca de 3,850 y Goldman bajó su objetivo.",
+   "en_contra": "En el laboratorio, las ventas de esta estrategia pierden. Goldman todavía apunta a 4,150 para fin de año. Kitco habla de una prueba de la resistencia de 3,900. De 34 tesis de analistas sobre el oro, 28 van en contra de lo que dicen.",
+   "que_la_invalida": "Un cierre de 4h sobre 4130.2 cambiaría el escenario técnico. Un discurso suave de Warsh podría frenar la caída."
   },
   {
    "activo": "DAX",
    "clave": "DE40",
    "horizonte": "corto",
-   "idea": "Compra táctica del DAX si rompe 27001,7. Europa resiste mejor que la tecnología de EE. UU.",
-   "plan": "Entrar solo con un cierre de 4h sobre 27001,7 (a +0,94%). Stop en 26305,3 (Supertrend 4h) y objetivo en 28394,5 (2R). Probabilidad media: operación corta por el coste del swap.",
-   "a_favor": "Las dos tendencias son alcistas: +3,6% en 5 días y 7% sobre su media de 200 días. Pablo Gil plantea condiciones para que Europa gane terreno frente a EE. UU., pero todavía condicionales.",
-   "en_contra": "Rendimientos globales al alza, la crisis de Nvidia y el contagio en los semiconductores. Pablo Gil no recomienda hoy comprar Europa contra EE. UU.",
-   "que_la_invalida": "Un cierre de 4h bajo 26305,3 o una caída fuerte del Nasdaq que arrastre a Europa."
+   "idea": "Comprar el DAX en una ruptura corta. Es el índice con mejor estructura del tablero.",
+   "plan": "Entrar con un cierre de 4h sobre 27001.7 (a +0.94% del precio, 26749.95). Stop en 26305.3 (Supertrend 4h) y objetivo en 28394.5 (2R). Es una operación corta, porque mantenerla semanas cuesta swap.",
+   "a_favor": "Tiene tendencia alcista en diario y en 4h. Sube +5.39% en el mes y +7.12% sobre la media de 200 días. Tiene probabilidad MEDIA en el laboratorio. Pablo Gil plantea condiciones en las que Europa podría ganar terreno, aunque son condicionales.",
+   "en_contra": "No hay titulares de Europa que apoyen la subida. El contagio del caso Nvidia y los rendimientos sobre el 5% pesan sobre la bolsa en general.",
+   "que_la_invalida": "Un cierre de 4h bajo 26305.3 o un giro bajista de la tendencia de 4h."
   },
   {
    "activo": "S&P 500",
    "clave": "US500",
    "horizonte": "corto",
-   "idea": "Esperar con el S&P 500: tendencia alcista, pero sin gatillo cercano y con la tecnología débil.",
-   "plan": "Esperar. La compra exige un cierre de 4h sobre 7710,35 (a +2,06%), con stop en 7438,94 y objetivo en 8253,17 (probabilidad media, operación corta). La venta, bajo 7350,35, tiene probabilidad baja.",
-   "a_favor": "Las dos tendencias son alcistas y está 2,9% sobre su media de 200 días. El Dow se mantuvo plano: hay rotación y no un desplome general.",
-   "en_contra": "El Nasdaq ya tiene tendencia diaria bajista, Nvidia está en crisis y el bono a 10 años supera el 5%. El marcador de analistas sobre el US500 es malo (3 cumplidas, 26 fallidas), así que no sirve de guía.",
-   "que_la_invalida": "Un cierre de 4h bajo 7438,94 (Supertrend 4h) rompe el escenario alcista."
+   "idea": "Comprar el S&P 500 solo si rompe. Hoy el gatillo está lejos.",
+   "plan": "Esperar. El gatillo de compra es un cierre de 4h sobre 7710.35 (+2.06%, 2.5 ATR). Stop en 7438.94 y objetivo en 8253.17. Probabilidad media y mejor como operación corta. La venta (bajo 7350.35) tiene probabilidad baja.",
+   "a_favor": "Tiene tendencia alcista en diario y en 4h y sube +2.41% en 5 días. Aguanta mejor que el Nasdaq.",
+   "en_contra": "El caso Nvidia golpea a los chips y los bonos a 10 años superan el 5%. Tras el PPI, el S&P cayó -0.49%. El marcador de analistas en US500 tiene 3 tesis cumplidas y 26 fallidas.",
+   "que_la_invalida": "Un cierre de 4h bajo 7438.94 (Supertrend) o una tendencia de 4h bajista."
   },
   {
    "activo": "Bitcoin",
    "clave": "BTCUSD",
    "horizonte": "corto",
-   "idea": "No intentar adivinar el suelo del Bitcoin. Tendencia bajista, pero la venta tiene probabilidad baja.",
-   "plan": "Esperar. La venta sería con cierre de 4h bajo 67.627,5 (a -1,91%), stop en 71.924 y objetivo en 59.034,5, con probabilidad baja. La compra (cierre de 4h sobre 74.786,1, a +8,48%) queda lejos.",
-   "a_favor": "Visión bajista: mínimo de 12 semanas, salida de Strategy del MSCI, mineros vendiendo y temor a la Fed (Yahoo). Las dos tendencias son bajistas.",
-   "en_contra": "Las ventas pierden en el laboratorio. Yahoo recuerda la conducta del Bitcoin en su media de 200 semanas, un posible soporte. Las noticias vienen casi todas de una sola fuente.",
-   "que_la_invalida": "Un cierre de 4h sobre 71.924 (Supertrend 4h) anula la presión bajista."
+   "idea": "No hay plan con ventaja en Bitcoin. No conviene comprar ni vender en corto.",
+   "plan": "Esperar. La venta se activa con un cierre de 4h bajo 67627.5 (stop 71924, objetivo 59034.5), pero tiene probabilidad baja. La compra está a +8.48% (74786.1).",
+   "a_favor": "La presión vendedora es clara: mínimo de 12 semanas, la salida de Strategy de MSCI, los mineros vendiendo y el temor a la Fed. Tiene tendencia bajista en diario y en 4h.",
+   "en_contra": "En el laboratorio, las ventas de esta estrategia pierden. Hay un artículo sobre los rebotes históricos de Bitcoin en su media de 200 semanas. Casi todas las noticias vienen de una sola fuente (Yahoo).",
+   "que_la_invalida": "Un cierre de 4h sobre 74786.1, o un cambio de tono de la Fed hacia menos subidas."
   }
  ],
- "agenda_accion": [],
- "analistas": "El marcador pide prudencia. En el S&P 500, de 45 tesis se cumplieron 3 y fallaron 26. En el oro, 28 de 34 tesis van en contra del precio. Sus opiniones no deben pesar más que el plan técnico. Cava mantiene una tesis alcista de largo plazo en oro por la futura inyección de liquidez: hoy va en contra. Sobre Nvidia se contradice: el 11-nov veía tendencia bajista hacia 147 desde el 20 de noviembre, y el 13-nov la ve subir hacia 178 mientras se mantenga sobre 160. Sus tesis alcistas en aseguradoras europeas (Allianz, Zurich, ETF EXH5) van a favor, pero espera correcciones para entrar. Pablo Gil no recomienda rotar de EE. UU. a Europa todavía; lo deja sujeto a soportes en los ratios. Sobre el Brent dice que bajaría si se consolida una salida diplomática, en línea con los titulares de superávit del FT, aunque sigue condicional.",
- "vigilar": [
-  "Lunes 16, 17:00Z: habla Warsh, presidente de la Fed. Es clave porque su visión sobre la IA y la inflación choca con la de sus colegas. El evento lleva probabilidad ALTA para la compra de USD/JPY sobre 160.188.",
-  "Lunes 16, 13:30Z: IPC de Canadá (general, mediana y recortado). USD/CAD está a 0,23% del gatillo de compra (1.43), pero con probabilidad baja.",
-  "Lunes: índice Empire State y discursos de la Fed (Investing.com).",
-  "Martes 17, 13:30Z: ventas minoristas de EE. UU. (previsión 0,2%; subyacente 0,4%). Miércoles 18, 19:00Z: actas del FOMC.",
-  "USD/JPY: cierre de 4h sobre 160.188 (señal de probabilidad alta) o bajo 158.854 (invalidación).",
-  "Oro: cierre de 4h bajo 3856,7, con el mínimo de 2026 cerca de 3850 según FXStreet. Venta de probabilidad baja: solo observar.",
-  "Bono a 10 años: gatillo de 4h en 5,174 (último 5,154). Si sigue subiendo, presiona al oro, al Nasdaq y al cripto.",
-  "Bitcoin durante el fin de semana: 67.627,5 (gatillo de venta) y 71.924 (Supertrend 4h).",
-  "Caso Nvidia: testimonio de Lutnick, reemplazo de Huang y posibles restricciones de chips a China. Afecta al Nasdaq, cuya tendencia de 4h sigue alcista con stop de referencia en 27.307.",
-  "Oriente Medio: la presión de Netanyahu para reanudar la guerra (Axios) puede devolver la prima de riesgo al petróleo."
+ "agenda_accion": [
+  {
+   "evento_id": 149174,
+   "lectura": "IPC mensual de Canadá: previsión 0.3%, anterior 0.1%. Importa porque el dólar canadiense está cerca de su mínimo de un mes, y el petróleo firme le da algo de apoyo (Yahoo, FXStreet). Si el dato sale débil, el escenario es comprar USD/CAD con un cierre de 4h sobre 1.43 (stop 1.4177, objetivo 1.4546). Tiene probabilidad BAJA: en divisas, esta compra no dio ventaja. No conviene entrar por el dato. La venta (bajo 1.4105) también tiene probabilidad baja y va contra la tendencia alcista."
+  },
+  {
+   "evento_id": 149177,
+   "lectura": "IPC mediano interanual de Canadá: previsión 2.0%, anterior 1.9%. Sale junto con el IPC mensual y la lectura es la misma. El USD/CAD (1.42668) tiene tendencia alcista en diario y en 4h, empujado por el dólar fuerte. Aun así, la compra con gatillo en 1.43 tiene probabilidad baja. No hay opción de entrada con ventaja."
+  },
+  {
+   "evento_id": 149178,
+   "lectura": "IPC recortado interanual de Canadá: previsión 1.9%, anterior 1.8%. Completa el bloque del IPC canadiense. El gatillo de compra (1.43) está a +0.23% y es fácil que se active con ruido. Su probabilidad sigue siendo baja. Conviene esperar y usar el dato solo como filtro de riesgo para quien ya tenga posición."
+  },
+  {
+   "evento_id": 155893,
+   "lectura": "Habla el presidente de la Fed, Warsh. Es el evento clave de la semana. Varios de sus colegas (Daly, Collins, Goolsbee) piden subir las tasas, mientras él dijo que la IA frenaría la inflación (Washington Post). Si suena duro, el escenario es comprar USD/JPY con un cierre de 4h sobre 160.188 (stop 158.854, objetivo 162.856). Tiene probabilidad ALTA, con las dos tendencias a favor y a solo +0.26% del precio. Si suena suave, la guía sugiere ventas en USD/JPY y compras en oro y EUR/USD, todas de probabilidad baja. Según el estudio F1, el oro se mueve 'de libro' en el 100% de los casos a los 15 minutos, con un movimiento mediano de 0.289% en una hora. Pero eso no decide la tendencia: hay que esperar el cierre de 4h."
+  },
+  {
+   "evento_id": 155894,
+   "lectura": "Habla Bullock, gobernadora del RBA. El AUD/USD (0.67787) se debilita por los rendimientos de EE. UU. y por las expectativas de subidas de la Fed (FXStreet). Está a -0.04% del gatillo de venta (0.677599, stop 0.683206, objetivo 0.666385), pero esa venta tiene probabilidad BAJA. La compra (sobre 0.693145) está lejos y también tiene probabilidad baja. No conviene entrar. El discurso es de noche (22:50 UTC), con poca liquidez."
+  }
  ],
- "generado": "2026-11-14T13:10:05Z",
+ "analistas": "El marcador acumulado muestra que las tesis de los analistas aciertan poco. En S&P 500 hay 45 tesis: 3 cumplidas y 26 fallidas. En oro hay 34: 1 cumplida, 4 fallidas y 28 en curso pero en contra. En Bitcoin hay 12: ninguna cumplida y 9 en contra. Solo el bono a 10 años (1 cumplida, 0 fallidas) y el petróleo WTI (3 cumplidas, 2 fallidas) salen mejor. Cava es muy alcista con el oro a largo plazo, por la impresión de dinero, pero hoy el precio va en su contra. Sus tesis sobre las aseguradoras europeas (Allianz, Zurich, el ETF EXH5) van a favor, aunque él mismo espera una corrección para entrar. Sobre Nvidia publicó tesis contradictorias según el día: lateral, subida a 178/189 y bajada condicional a 147. Pablo Gil no recomienda rotar de EE. UU. a Europa todavía y solo marca señales condicionales. Conviene tomarlas como contexto, no como señal.",
+ "vigilar": [
+  "Discurso de Warsh, 16-nov a las 17:00 UTC: comprobar si suena duro como sus colegas o mantiene la tesis de que la IA frena la inflación.",
+  "USD/JPY: si hay cierre de 4h sobre 160.188, se activa el plan de probabilidad alta. Un cierre bajo 158.854 lo invalida.",
+  "Oro: un cierre de 4h bajo 3856.7 activa una venta de probabilidad baja. Es solo una referencia de riesgo, no una entrada.",
+  "Bono a 10 años: con un cierre de 4h sobre 5.174, el bono sigue subiendo y aumenta la presión sobre el oro, las criptos y el Nasdaq.",
+  "Caso Nvidia y China: el testimonio de Lutnick y nuevas restricciones de chips como riesgo para el Nasdaq.",
+  "IPC de Canadá (16-nov, 13:30 UTC) y gatillo de USD/CAD en 1.43 (probabilidad baja).",
+  "Ventas minoristas de EE. UU. (17-nov) y actas del FOMC (18-nov): son los próximos datos de impacto alto para el dólar.",
+  "Petróleo: titulares sobre Irán e Israel, por el riesgo de que se reanude la guerra, frente al excedente que describe el FT."
+ ],
+ "generado": "2026-11-15T13:10:05Z",
  "modelo": "claude-opus-5-5 (Claude Code en el PC, plan Pro)",
- "paquete": "paquete_2026-11-14_13.md",
+ "paquete": "paquete_2026-11-15_13.md",
  "tokens": {
-  "entrada": 52740,
-  "salida": 10488
+  "entrada": 55172,
+  "salida": 11845
  }
 }
