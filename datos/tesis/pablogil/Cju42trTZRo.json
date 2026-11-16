@@ -1,0 +1,24 @@
+{
+ "resumen": "Pablo Gil dedica el video a lo que llama la «gran mentira» de los ingresos pasivos. Según él, lo engañoso es venderlos como dinero fácil, rentable, seguro y sin esfuerzo, y mostrar solo lo que entra en la cuenta sin enseñar qué le pasa al patrimonio que lo produce. Con ejemplos numéricos explica cuatro casos: los dividendos no crean riqueza por sí solos, porque el precio teórico baja lo mismo que se reparte; una rentabilidad por dividendo alta puede deberse a que el precio se hundió; en un alquiler, la rentabilidad bruta del 6 % queda en torno al 3,6 % neto después de meses vacíos y gastos; y en los bonos, el cupón no es la rentabilidad hasta el vencimiento. También advierte de la inflación, que con un 3 % anual se lleva cerca del 26 % del poder de compra en 10 años, y de los negocios digitales que en realidad exigen trabajo y costes. Su conclusión es que hay que mirar la rentabilidad total después de costes, impuestos e inflación, saber de dónde sale el dinero y qué riesgos se asumen. El video está patrocinado por Mintos, plataforma de préstamos donde el autor muestra su cuenta, con un 9,1 % neto anual, y ofrece un código de bonificación. No hace predicciones sobre ningún activo concreto del mercado.",
+ "temas": [
+  "ingresos pasivos",
+  "dividendos y rentabilidad total",
+  "inversión inmobiliaria en alquiler",
+  "bonos y depósitos",
+  "inflación y poder de compra",
+  "negocios digitales",
+  "patrocinio Mintos (préstamos P2P)",
+  "educación financiera"
+ ],
+ "tesis": [],
+ "video_id": "Cju42trTZRo",
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-16",
+ "comprobacion_citas": {
+  "tesis": 0,
+  "fragmentos_no_literales": []
+ },
+ "titulo": "La GRAN MENTIRA de los INGRESOS PASIVOS",
+ "canal": "Pablo Gil Trader",
+ "fecha": "2026-11-15"
+}

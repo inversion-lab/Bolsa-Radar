@@ -1,0 +1,54 @@
+{
+ "resumen": "Pablo Gil analiza la caída mundial de los servicios de Microsoft (Outlook, Teams, OneDrive, Microsoft 365, Copilot) que empezó el jueves 12 de noviembre. Afectó a más de 70 países, a hospitales del NHS, a ministerios japoneses, a los visados de Nueva Zelanda y a mercados financieros: hubo operadores que volvieron al teléfono, a WhatsApp o al fax, y bolsas como Euronext, Nasdaq y Deutsche Börse tuvieron problemas con el correo. Según Microsoft, la causa fue un fallo técnico y no un ciberataque: la sobrecarga de los servidores que seguían funcionando provocó un efecto dominó. Gil sostiene que el problema de fondo es económico: la economía está muy concentrada en unos pocos proveedores de nube (Microsoft, Amazon, Google), y eso convierte un fallo localizado en un riesgo sistémico. Recuerda los casos de CrowdStrike en 2024 y de AWS en 2025, y advierte que la inteligencia artificial aumentará esta dependencia. Concluye que eficiencia y seguridad no siempre van juntas, y que empresas y gobiernos deberían invertir más en sistemas de respaldo y planes de continuidad. No da predicciones ni recomendaciones sobre activos de mercado. No menciona patrocinio.",
+ "temas": [
+  "caída de Microsoft",
+  "concentración del riesgo en la nube",
+  "riesgo sistémico tecnológico",
+  "dependencia digital e inteligencia artificial",
+  "planes de continuidad y redundancia"
+ ],
+ "tesis": [
+  {
+   "tipo": "diagnostico",
+   "activo": "economía global / infraestructura en la nube",
+   "simbolo": "",
+   "direccion": "",
+   "horizonte": "",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "Cuando miles de compañías dependen de un mismo proveedor, un fallo aparentemente localizado puede convertirse en un problema sistémico.",
+   "minuto": "3:49",
+   "conviccion": "alta"
+  },
+  {
+   "tipo": "recomendacion",
+   "activo": "empresas y gobiernos (sistemas de respaldo)",
+   "simbolo": "",
+   "direccion": "",
+   "horizonte": "largo",
+   "nivel": null,
+   "magnitud_pct": null,
+   "fecha_desde": "",
+   "fecha_limite": "",
+   "condicion": "",
+   "activa_desde_ya": true,
+   "cita": "deberíamos preguntarnos si empresas, gobiernos y organismos estratégicos están invirtiendo lo suficiente en sistemas de respaldo y planes de continuidad",
+   "minuto": "5:58",
+   "conviccion": "media"
+  }
+ ],
+ "video_id": "p5emHEQxlUw",
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-16",
+ "comprobacion_citas": {
+  "tesis": 2,
+  "fragmentos_no_literales": []
+ },
+ "titulo": "¿Por qué la caída de Microsoft es un problema para la economía?",
+ "canal": "Pablo Gil Trader",
+ "fecha": "2026-11-14"
+}
