@@ -1,15 +1,15 @@
 {
- "actualizado": "2026-11-17T20:46:24Z",
+ "actualizado": "2026-11-18T20:22:59Z",
  "feeds": {
   "bloomberg/markets": {
    "ok": true,
    "items": 20,
-   "nuevos": 19
+   "nuevos": 20
   },
   "bloomberg/economics": {
    "ok": true,
    "items": 20,
-   "nuevos": 19
+   "nuevos": 20
   },
   "bloomberg/politics": {
    "ok": true,
@@ -28,18 +28,18 @@
   },
   "bloomberg/opinion": {
    "ok": true,
-   "items": 20,
+   "items": 19,
    "nuevos": 19
   },
   "yahoo/oro": {
    "ok": true,
-   "items": 18,
-   "nuevos": 18
+   "items": 16,
+   "nuevos": 16
   },
   "yahoo/plata": {
    "ok": true,
-   "items": 18,
-   "nuevos": 15
+   "items": 15,
+   "nuevos": 13
   },
   "yahoo/sp500": {
    "ok": true,
@@ -48,33 +48,33 @@
   },
   "yahoo/nasdaq": {
    "ok": true,
-   "items": 17,
-   "nuevos": 10
+   "items": 18,
+   "nuevos": 11
   },
   "yahoo/bitcoin": {
    "ok": true,
-   "items": 19,
-   "nuevos": 17
+   "items": 20,
+   "nuevos": 20
   },
   "yahoo/dolar": {
    "ok": true,
-   "items": 12,
-   "nuevos": 9
+   "items": 13,
+   "nuevos": 10
   },
   "cnbc/economia": {
    "ok": true,
    "items": 30,
-   "nuevos": 2
+   "nuevos": 3
   },
   "cnbc/mercados": {
    "ok": true,
    "items": 30,
-   "nuevos": 2
+   "nuevos": 7
   },
   "cnbc/top": {
    "ok": true,
    "items": 30,
-   "nuevos": 29
+   "nuevos": 26
   },
   "wsj/mercados": {
    "ok": true,
@@ -84,7 +84,7 @@
   "marketwatch/top": {
    "ok": true,
    "items": 10,
-   "nuevos": 8
+   "nuevos": 9
   },
   "ft/mercados": {
    "ok": true,
@@ -104,7 +104,7 @@
   "fed/comunicados": {
    "ok": true,
    "items": 20,
-   "nuevos": 0
+   "nuevos": 1
   },
   "fed/discursos": {
    "ok": true,
@@ -114,22 +114,22 @@
   "google/reuters": {
    "ok": true,
    "items": 100,
-   "nuevos": 95
+   "nuevos": 96
   },
   "google/oro": {
    "ok": true,
    "items": 100,
-   "nuevos": 99
+   "nuevos": 98
   },
   "google/fed": {
    "ok": true,
-   "items": 87,
-   "nuevos": 71
+   "items": 75,
+   "nuevos": 66
   },
   "google/geopolitica": {
    "ok": true,
    "items": 100,
-   "nuevos": 95
+   "nuevos": 96
   },
   "google/investing": {
    "ok": true,
@@ -139,7 +139,7 @@
   "google/fxstreet": {
    "ok": true,
    "items": 100,
-   "nuevos": 94
+   "nuevos": 93
   }
  }
 }
