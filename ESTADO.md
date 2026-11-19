@@ -1,6 +1,7 @@
 # Estado: Bolsa-Radar (actualizado 2026-11-03)
 
 ## En qué vamos
+- 2026-11-19 · Nuevo `local/subir_trading.bat`: al final de cava_diario, lectura_ia_pc, rolo_vivos y publicar_desde_pc sube a GitHub lo que estos scripts generan dentro del repo Trading (cerebro/4_bitacora_viva y fuentes/). Antes quedaba sin commit y la Agenda avisaba «Trading: cambios sin commit».
 - La página (https://inversion-lab.github.io/Bolsa-Radar/) se actualiza **solo a las 7, 8 y 9 a. m. de Colombia, de
   lunes a viernes**. A otras horas no se actualiza, salvo que Eduardo lo pida explícitamente.
 - **En la nube (GitHub Actions):**

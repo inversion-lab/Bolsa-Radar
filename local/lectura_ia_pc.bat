@@ -5,3 +5,4 @@ set "TRADING_DIR=C:\Users\franc\OneDrive\Desktop\Proyectos Python\Trading"
 if not exist "%TRADING_DIR%\.venv\Scripts\python.exe" set "TRADING_DIR=%USERPROFILE%\Proyectos\Trading"
 set PYTHONIOENCODING=utf-8
 "%TRADING_DIR%\.venv\Scripts\python.exe" local\lectura_ia_pc.py >> "%TEMP%\bolsa_radar_lectura.log" 2>&1
+call "%~dp0subir_trading.bat"
