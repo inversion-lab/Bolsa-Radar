@@ -1,0 +1,496 @@
+{
+ "resumen": "Directo nocturno (apertura de Asia) con sesgo claramente bajista en el oro, apoyado en el índice del dólar fuerte en 4 horas. El profesor llegó con una venta de petróleo abierta varios días antes, la venta de oro de la mañana ya cerrada en ganancia y una venta estructural de BTC en 4 horas en pequeña pérdida flotante. Durante el directo abrió una venta corta de BTC, que cerró en take profit, y una venta de oro replicada en dos carteras: una cerró en take profit y la otra la cerró la plataforma ETR en stop profit. La venta del petróleo (USOIL) también la cerró el ETR en stop profit, con +1,8 % de la cartera. Su balance fue de cuatro operaciones: dos take profit y dos stop profits. La venta swing de BTC siguió abierta con un flotante de -0,52 %. Gran parte del directo fue la invitada Paula Chávez hablando de lo fundamental (13F, Fed, VIX, Nvidia, computación cuántica). El profesor insistió varias veces en no meter compras en el oro y en vender desde la zona alta de la lateralización.",
+ "sesion": "Asia",
+ "contexto": "El oro está en fase correctiva confirmada tras perder la zona de los 89 (inicio del rally de octubre del año anterior). Marcó mínimos cerca de 3719 y está en un pullback de unos 373 puntos. El índice del dólar está por encima de 103 y acelerando en 4 horas, lo que refuerza el sesgo bajista. Según el profesor, BTC está en lateralización/acumulación desde febrero y no en un 'cruce de la muerte'. El petróleo tuvo un retroceso por noticias del conflicto en Medio Oriente.",
+ "operaciones": [
+  {
+   "activo": "Petróleo (USOIL)",
+   "simbolo": "XTIUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "swing",
+   "quien": "profesor",
+   "minuto": "[2:19]",
+   "cita": "tenemos todavía nuestra famosa venta en el petróleo, ya con un margen flotante positivo, el 2.45 de la cartera, eh, posición que llevábamos desde hace varios días.",
+   "notas": "Abierta desde hacía varios días. En [1:18:04] dice: 'me devolvió la del USil. Bueno, nos sacó con el 1.8% de beneficio de la cartera': la cerró el ETR en stop profit. No dijo entrada, stop ni TP. Se asume WTI porque dijo 'USil' (USOIL).",
+   "hora_bogota": "19:49"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "[2:35]",
+   "cita": "Se cerró ya en profit la operación del oro que habamos dejado esta mañana y pues vaya que estuvo bastante bonita esa posición.",
+   "notas": "Venta de la mañana, cerrada antes del directo. En [5:05] dice que se sobreextendió y la cerró en profit. No dio precios.",
+   "hora_bogota": "19:49"
+  },
+  {
+   "activo": "Bitcoin (estructural 4H)",
+   "simbolo": "BTCUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": "4H",
+   "tipo": "swing",
+   "quien": "profesor",
+   "minuto": "[2:35]",
+   "cita": "continuamos con nuestra posición estructural del BTC en 4 horas con un margen negativo apenas del 0.46% 46% del volumen de la cartera",
+   "notas": "La dirección es venta por el contexto ('¿usted está en ventas en el Bitcoin? Eh, estamos Sí', [5:17]) y porque busca descuentos hacia la acumulación de febrero. En [1:19:07] da un límite de riesgo de 1.72; el TP se oye incompleto ('los $,000'), así que queda null. En [1:19:30] va en flotante -0,52 %.",
+   "hora_bogota": "19:49"
+  },
+  {
+   "activo": "Bitcoin (corto plazo)",
+   "simbolo": "BTCUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": "1m",
+   "tipo": "scalp",
+   "quien": "profesor",
+   "minuto": "[39:03]",
+   "cita": "Take profit en el BTC, muchachos. Take profit. Salimos en profit ya en el BTC.",
+   "notas": "Abierta durante el directo. En [10:38] dice 'Ahí va el BTC invalidándome' y en [11:17] reconoce que puso el stop cubriendo solo el último máximo 'por ponerme a tradiar en un minuto' y calculó un 1 a 2. En [31:13] llevaba casi un 20 % de recorrido. No dijo precios.",
+   "hora_bogota": "20:25"
+  },
+  {
+   "activo": "Oro (corto plazo)",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": "1m",
+   "tipo": "scalp",
+   "quien": "profesor",
+   "minuto": "[30:32]",
+   "cita": "El corto que pusimos en el oro, sí, pero miren esa Rosa de Guadalupe [...] La repliqué en las dos carteras.",
+   "notas": "Operación de alto riesgo buscando un patrón de agotamiento en el pullback. En [1:15:15] la describe como 'una operación de corto plazo en el oro que quedó check' y 'muy cortica', cerrada en take profit. No dijo precios.",
+   "hora_bogota": "20:17"
+  },
+  {
+   "activo": "Oro (cartera ETR)",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "intradía",
+   "quien": "profesor",
+   "minuto": "[1:01:28]",
+   "cita": "Entonces ahí nos cerró en stop profit. Bueno, ETR haciendo su trabajo ahí, pues bueno, hace parte de la dinámica",
+   "notas": "Es la réplica de la venta de oro en la otra cartera, la de 'mayor placito' según [44:43]. La cerró en stop profit la protección del ETR. No dijo precios.",
+   "hora_bogota": "20:48"
+  },
+  {
+   "activo": "Petróleo",
+   "simbolo": "XTIUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "desconocido",
+   "quien": "dudoso",
+   "minuto": "[1:29:44]",
+   "cita": "Yo lo estaba mandando hasta los 81 y el pullback me sacó en stop profit y llegó a 81 200.",
+   "notas": "No está claro si habla el profesor o un alumno. Justo antes el profesor le dice a otra persona 'sigue tú en ese corto'. El objetivo dicho fue 'los 81', pero falta la cifra completa, así que el TP queda null.",
+   "hora_bogota": "21:16"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "venta",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[51:53]",
+   "cita": "Yo ya salí, yo ya salí en Ya cerré, ya salí en profit de la caída. Ya es un a dos allí.",
+   "notas": "Alumno que salió en 1 a 2. El profesor le dice que asegure en 1 a 2 y la deje correr.",
+   "hora_bogota": "20:38"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "compra",
+   "estado": "desconocido",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": "15m",
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[7:47]",
+   "cita": "yo cogí una también una al al alza y yo tuve en cuenta los criterios de primero daño en estructura de un minuto,",
+   "notas": "Alumno en compra. El profesor responde que todavía no hay ruptura ni retesteo.",
+   "hora_bogota": "19:54"
+  },
+  {
+   "activo": "Desconocido",
+   "simbolo": "desconocido",
+   "direccion": "compra",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[5:30]",
+   "cita": "Estoy en un largo, pero estoy que lo cierro.",
+   "notas": "Alumno en largo, protegido por el ETR ('ahí estás protegido'). No se dice el activo.",
+   "hora_bogota": "19:52"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "cerrada con pérdida",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[1:16:03]",
+   "cita": "Yo hice vente en el oro, pero me saco stop los sale.",
+   "notas": "El profesor le responde que el stop debía ir en la punta del spike.",
+   "hora_bogota": "21:02"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "compra",
+   "estado": "cerrada con ganancia",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": "5m",
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[1:21:58]",
+   "cita": "yo hice una compra, pero bueno, fue el inicio en en el tema de la estrategia de nosotros medias móviles en 5 minutos [...] y pues salió correctamente.",
+   "notas": "Compra contra la tendencia. El profesor le pide no olvidar el contexto del activo.",
+   "hora_bogota": "21:08"
+  },
+  {
+   "activo": "Cripto en spot (Bitget)",
+   "simbolo": "otro",
+   "direccion": "compra",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "swing",
+   "quien": "alumno",
+   "minuto": "[1:06:17]",
+   "cita": "yo sí abrí compra con Cico X en Billet, pero como dice la profesora a largo tiempo.",
+   "notas": "Posición en spot de largo plazo; el activo se oye mal en la transcripción. El profesor aclara que eso es otra cosa y que en intradía/scalping hay que tener cuidado.",
+   "hora_bogota": "20:53"
+  },
+  {
+   "activo": "Lira turca",
+   "simbolo": "USDTRY",
+   "direccion": "venta",
+   "estado": "desconocido",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "desconocido",
+   "quien": "alumno",
+   "minuto": "[1:16:19]",
+   "cita": "Y yo es que una venta en la libra turca.",
+   "notas": "Lo dice en tono de broma. El profesor comenta que la lira turca 'no se puede operar'.",
+   "hora_bogota": "21:03"
+  }
+ ],
+ "niveles": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3719,
+   "nivel_hasta": null,
+   "tipo": "mínimo",
+   "temporalidad": null,
+   "minuto": "[2:50]",
+   "cita": "estamos viendo reacción en zona inferior después de haber llegado a esos mínimos concurrentes de los 3719",
+   "notas": "Mínimos del día, con reacción en la zona inferior.",
+   "hora_bogota": "19:49",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3723,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": "5m",
+   "minuto": "[4:50]",
+   "cita": "tomar una posición alcista después de esa aceleración y un soporte válido hacia los 3723, pues difícilmente",
+   "notas": "Soporte desde donde arrancó el pullback de unos 373 puntos.",
+   "hora_bogota": "19:51",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3700,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": "5m",
+   "minuto": "[1:03:19]",
+   "cita": "yo sé que aquí tienen ustedes un soporte fuerte que son los 3,700, punto psicológico del precio",
+   "notas": "Lo propone como precio de reacción para continuar a la baja.",
+   "hora_bogota": "20:50",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3452.98,
+   "nivel_hasta": null,
+   "tipo": "objetivo",
+   "temporalidad": null,
+   "minuto": "[28:11]",
+   "cita": "3452.98 habíamos enviado. A día de hoy ya no sé.",
+   "notas": "Proyección de descuento hecha hace unos 4 meses, que antes veían irrealizable y hoy ya no tanto.",
+   "hora_bogota": "20:15",
+   "zonas": {
+    "nivel": {
+     "color": "amarilla",
+     "fuerza": "altísimo",
+     "distancia": 0.0
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3400,
+   "nivel_hasta": 3450,
+   "tipo": "liquidez",
+   "temporalidad": null,
+   "minuto": "[39:15]",
+   "cita": "este 3,400, si el oro ya llega a esto que ustedes están diciendo, que sería como a esta zona de soporte, como le llamo yo, ustedes le llaman, creo que zona de liquidez",
+   "notas": "Zona que menciona un alumno (3400-3450) y comenta la invitada Paula: se alcanzaría si caen los índices.",
+   "hora_bogota": "20:26",
+   "zonas": {
+    "nivel": {
+     "color": null
+    },
+    "nivel_hasta": {
+     "color": "amarilla",
+     "fuerza": "altísimo",
+     "distancia": 2.98
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 74000,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": "1W",
+   "minuto": "[52:35]",
+   "cita": "O sea, el de 74,000 que estuvimos mencionando se fue con el mercado.",
+   "notas": "Lo dice la invitada Paula: nivel de corto plazo perdido; la zona semanal no se respetó.",
+   "hora_bogota": "20:39",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Índice del dólar",
+   "simbolo": "DXY",
+   "nivel": 103,
+   "nivel_hasta": null,
+   "tipo": "otro",
+   "temporalidad": "4H",
+   "minuto": "[1:20:51]",
+   "cita": "¿Cómo le van a meter ustedes una compra al oro con un índice del dólar sobre 103 y con esta aceleración?",
+   "notas": "DXY por encima de 103 y acelerando, lo que refuerza el sesgo bajista en oro y EURUSD.",
+   "hora_bogota": "21:07",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "VIX",
+   "simbolo": "VIX",
+   "nivel": 30,
+   "nivel_hasta": null,
+   "tipo": "otro",
+   "temporalidad": null,
+   "minuto": "[46:40]",
+   "cita": "cuando empieza a llegar a niveles superiores a 30 es que nos empieza a generar como pánico y más miedo.",
+   "notas": "Lo dice la invitada Paula. El VIX estaba en 24,55.",
+   "hora_bogota": "20:33"
+  }
+ ],
+ "oportunidades": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "condicion": "Buscar la continuación bajista: definir la lateralización del pullback (precio A y B) y vender en la zona superior del rango, esperando la ruptura en la apertura de Londres. Toma 3700 como precio de reacción.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": 3700,
+   "temporalidad": "5m",
+   "minuto": "[1:03:19]",
+   "cita": "En teoría deberíamos darle continuidad bajista al al movimiento y buscar como precio de reacción 3,700. Obviamente no nos vamos a ir a ceros, posicionarnos un poco más arriba",
+   "hora_bogota": "20:50",
+   "zonas": {
+    "objetivo": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "no operar",
+   "condicion": "No abrir compras en el pullback mientras la tendencia dominante sea bajista; no son zonas de compra hasta que haya lateralización y evidencia técnica.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": "4H",
+   "minuto": "[1:05:54]",
+   "cita": "si decimos que esto está cayendo para que empiece a subir, nosotros necesitamos lateralización. Entonces, esto no son zonas de compra.",
+   "hora_bogota": "20:52"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "esperar",
+   "condicion": "No buscar largos tras la aceleración bajista hasta tener ruptura de la estructura de corto plazo y retesteo.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": "5m",
+   "minuto": "[7:20]",
+   "cita": "Cuando tenemos confirmación de ruptura de precio, míralo, cuando vamos a hacerle daño a la estructura de corto plazo, ruptura, retesteo y decimos, \"No, fuimos para arriba.\" Antes de eso no tenemos nada.",
+   "hora_bogota": "19:54"
+  },
+  {
+   "activo": "Euro/dólar",
+   "simbolo": "EURUSD",
+   "direccion": "venta",
+   "condicion": "Misma configuración que el oro: vender en la punta de la lateralización (zona superior) en 1 minuto, a favor de la tendencia dominante de 4 horas.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": "1m",
+   "minuto": "[1:21:31]",
+   "cita": "Estamos viendo un minuto en el en el eurodólar, punta de lateralización, zona superior y pues nos vamos a a ir a favor de la tendencia dominante.",
+   "hora_bogota": "21:08"
+  },
+  {
+   "activo": "Petróleo",
+   "simbolo": "XTIUSD",
+   "direccion": "venta",
+   "condicion": "A quien siga en el corto: asegurar 1 a 2 si entró en el spike y dejar correr la operación.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[1:29:33]",
+   "cita": "No, pues bájalo, sigue tú en ese corto. Asegura uno a dos si lo hiciste en Spike. Asegura uno a dos y mándalo lejos.",
+   "hora_bogota": "21:16"
+  }
+ ],
+ "lecciones": [
+  {
+   "texto": "No operar contra la tendencia dominante ni comprar porque 'ya bajó mucho': eso es sesgo de anclaje.",
+   "minuto": "[1:04:46]"
+  },
+  {
+   "texto": "En una tendencia bajista, los pullbacks son lateralizaciones: se buscan el precio A y B y se vende en la zona superior del rango.",
+   "minuto": "[1:00:18]"
+  },
+  {
+   "texto": "Solo hay cambio de estructura con ruptura y retesteo; antes de eso no hay nada.",
+   "minuto": "[7:20]"
+  },
+  {
+   "texto": "El stop va en la punta del spike, cubriendo todos los máximos relevantes y no solo el último.",
+   "minuto": "[1:16:03]"
+  },
+  {
+   "texto": "Asegurar 1 a 2 y dejar correr el resto de la posición.",
+   "minuto": "[51:53]"
+  },
+  {
+   "texto": "No cambiar el criterio propio por las posiciones que tengan los demás.",
+   "minuto": "[5:30]"
+  },
+  {
+   "texto": "Se operan contextos, no un solo gráfico: revisar el índice del dólar en 4 horas antes de operar oro o EURUSD.",
+   "minuto": "[1:21:31]"
+  },
+  {
+   "texto": "El trading es un negocio de probabilidades: con alrededor de un 35 % de winrate y una pérdida controlada basta para rentabilizar; no es un casino.",
+   "minuto": "[1:25:34]"
+  }
+ ],
+ "avisos": [
+  "La plataforma ETR de la comunidad cierra las posiciones automáticamente en stop profit para proteger las carteras; según el profesor, eso bajó su ratio a 1.14 y no se cumple el 1 a 2.",
+  "El profesor dice que la lira turca 'no se puede operar' por su comportamiento en 5 minutos.",
+  "A quien empieza le sugiere operar solo uno o dos activos.",
+  "El profesor viaja: dice que seguirá operando la apertura de Nueva York desde Asia; no hubo clase completa al día siguiente.",
+  "Advierte sobre cuentas falsas: él nunca envía mensajes ni ofrece inversiones por privado.",
+  "Buena parte del directo fue el análisis fundamental de la invitada Paula Chávez, no del profesor."
+ ],
+ "video_id": "wqF7nS0eyTM",
+ "titulo": "El Precio Deja Pistas: Cómo Leer la Intención del Mercado",
+ "url": "https://www.youtube.com/watch?v=wqF7nS0eyTM",
+ "inicio": "2026-11-18T19:46:49-05:00",
+ "duracion_seg": 5544,
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-19",
+ "comprobacion_citas": {
+  "citas": 27,
+  "fragmentos_no_literales": []
+ }
+}
