@@ -1,0 +1,404 @@
+{
+ "resumen": "Directo corto en la apertura de Asia del domingo, transmitido por el profesor desde Asia (13 horas de diferencia) y con varios problemas de audio. Mantiene un sesgo claramente bajista en oro, Nasdaq y cripto: dice que estamos en una fase correctiva y que solo se buscan ventas en la parte alta de los pullbacks y lateralizaciones, nunca compras. En oro cerró a mano, con flotante negativo, una operación que el pullback estaba invalidando «con turbo», y prefirió esperar a reposicionarse. Más tarde explicó en vivo el patrón de agotamiento (encapsulamiento entre la media de 20 y la de 50, pérdida de la 50 y retesteo) y el empujón bajista se dio; al despedirse dijo «quedamos ahí con un tradcito positivo en Asia». Para Nueva York marcó una ruta: reacción en la zona de dolor cerca de los 3580 y descuento posterior hacia los 3500, con un peor escenario de liquidación total del rally hacia los 3450-3452. En Bitcoin (mínimo cerca de 55.000) ve oportunidades de largo plazo y de DCA, pero no quiere promediar a la baja sin ver antes una lateralización. Insistió en no cargar operaciones en la apertura de Asia y en gestionar con el ETR a 1:2,2.",
+ "sesion": "Asia",
+ "contexto": "Según el profesor, los mercados entran oficialmente en una fase correctiva fuerte: el Nasdaq y el oro anularon todo el rally, y Bitcoin tocó cerca de 55.000. En oro no ve evidencia técnica de soporte relevante: los 3500 pueden romperse y el peor escenario es una liquidación total del rally hacia los 3450. Lo considera un pullback de un activo de naturaleza alcista, no una pérdida del refugio. El gap de la apertura de Asia no indica recuperación y el contexto de 4 horas sigue cayendo fuerte.",
+ "operaciones": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "cerrada con pérdida",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": "5m",
+   "tipo": "scalp",
+   "quien": "profesor",
+   "minuto": "[25:32]",
+   "cita": "Está invaliidando toda. Creo que nos va a tocar cerrar manual. Voy a cerrar manual y más bien esperamos reposicionamiento porque no vale la pena ahí tener una operación abierta con ese movimiento de aceleración tan fuerte. 3620.",
+   "notas": "El pullback del oro estaba invalidando la venta y el profesor la cerró a mano con flotante negativo ([25:58]: «Cierro esto para no tener esto ahí abierto en flotante, en flotantes negativos»). No dijo la entrada ni el stop. El «3620» que menciona no está claro si es el precio de cierre.",
+   "hora_bogota": "20:12"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "desconocido",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": "5m",
+   "tipo": "scalp",
+   "quien": "dudoso",
+   "minuto": "[1:22:48]",
+   "cita": "Bueno, quedamos ahí con un tradcito positivo en Asia.",
+   "notas": "Venta por el patrón de agotamiento después del pullback. Antes había dicho «ya se les dio el tradecito» [1:13:02]. No queda claro si el profesor abrió la operación ni con qué precios; dijo que no era inteligente meter operaciones en la apertura de Asia.",
+   "hora_bogota": "21:09"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "desconocido",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[1:01:37]",
+   "cita": "Yo entré en ventas arriba y que suave y Spike fuerte.",
+   "notas": "Un alumno cuenta que vendió arriba y le llegó un spike en contra. No se dice cómo terminó.",
+   "hora_bogota": "20:48"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "desconocido",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[1:06:43]",
+   "cita": "Yo entre arriba donde tú marcaste esa zona venta, ¿verdad? Sí, abajo en los 35 lo pondría más arriba. Eh, el take profit, o sea, el corto del take profit, eh, 135 40.",
+   "notas": "Venta de un alumno en la zona que marcó el profesor. Las cifras «los 35» y «135 40» son ambiguas y no se completan.",
+   "hora_bogota": "20:53"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "cerrada",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": "5m",
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[1:13:17]",
+   "cita": "Sí, lo cogí, lo cogí muy pronto. Ahí preferí invalidar eso.",
+   "notas": "Un alumno entró en la venta demasiado pronto y la cerró (la invalidó).",
+   "hora_bogota": "20:59"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "estado": "abierta",
+   "entrada": null,
+   "stop": null,
+   "take_profit": null,
+   "temporalidad": null,
+   "tipo": "scalp",
+   "quien": "alumno",
+   "minuto": "[1:18:23]",
+   "cita": "Pues es que la verdad el stopn lo tengo sobre Spike, pero pues es que me está poniendo casi como un uno a 1000",
+   "notas": "Un alumno con el ETR y el stop sobre el spike. El profesor le dice que entró muy abajo y que se maneja 1:2,2.",
+   "hora_bogota": "21:05"
+  }
+ ],
+ "niveles": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3500,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": null,
+   "minuto": "[04:36]",
+   "cita": "vimos soporte sobre los $3,500 en el oro y pues un soporte que según aparente aparentemente según lo que estamos viendo fácilmente puede romper",
+   "notas": "Lo ve débil: sin fondo técnico. Más tarde es el objetivo del descuento para Nueva York.",
+   "hora_bogota": "19:51",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3450,
+   "nivel_hasta": 3452,
+   "tipo": "zona de trabajo",
+   "temporalidad": null,
+   "minuto": "[17:57]",
+   "cita": "Nosotros tenemos una zona sobre los 3452.",
+   "notas": "El peor escenario: liquidación total del rally. En [38:07] dice «3450 aproximadamente».",
+   "hora_bogota": "20:04",
+   "zonas": {
+    "nivel": {
+     "color": "amarilla",
+     "fuerza": "altísimo",
+     "distancia": 2.98
+    },
+    "nivel_hasta": {
+     "color": "amarilla",
+     "fuerza": "altísimo",
+     "distancia": 0.98
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3580,
+   "nivel_hasta": null,
+   "tipo": "zona de trabajo",
+   "temporalidad": "5m",
+   "minuto": "[1:05:44]",
+   "cita": "Hay zona de dolor clarísima, muchachos, hacia la hacia el punto de los 358 más o menos.",
+   "notas": "Dijo «los 358». Con el oro cerca de 3600 se completa como 3580. Allí espera reacción y lateralización antes de seguir bajando.",
+   "hora_bogota": "20:52",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "nivel": 3634.5,
+   "nivel_hasta": null,
+   "tipo": "otro",
+   "temporalidad": "5m",
+   "minuto": "[1:16:14]",
+   "cita": "venta sobre 36 invalidación, digamos 36 34.5 364.5, ¿sí o no?",
+   "notas": "Invalidación de ejemplo para la venta (sobre el spike). Dijo «36 34.5», que se lee como 3634,5. Es un ejemplo para enseñar a mover el SL.",
+   "hora_bogota": "21:02",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 55000,
+   "nivel_hasta": null,
+   "tipo": "mínimo",
+   "temporalidad": null,
+   "minuto": "[46:00]",
+   "cita": "lo mínimo que llegó en todo el año fue 58,000, ahoritica lo bajaron a 55,000",
+   "notas": "Mínimo reciente.",
+   "hora_bogota": "20:32",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 58000,
+   "nivel_hasta": null,
+   "tipo": "soporte",
+   "temporalidad": null,
+   "minuto": "[46:00]",
+   "cita": "lo mínimo que llegó en todo el año fue 58,000",
+   "notas": "Parte inferior del rango del año, donde «las grandes carteras» acumularon.",
+   "hora_bogota": "20:32",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 61000,
+   "nivel_hasta": null,
+   "tipo": "zona de trabajo",
+   "temporalidad": null,
+   "minuto": "[06:47]",
+   "cita": "teníamos una tesis en la que estábamos comprando en zonas cercanas a los $61,000",
+   "notas": "Tesis de compra anterior que el mercado invalidó.",
+   "hora_bogota": "19:53",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "nivel": 50000,
+   "nivel_hasta": null,
+   "tipo": "liquidez",
+   "temporalidad": null,
+   "minuto": "[54:00]",
+   "cita": "ahí donde los cojas en liquidez esos 50,000 es nuestra oportunidad",
+   "notas": "Oportunidad de compra de largo plazo.",
+   "hora_bogota": "20:40",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Nasdaq 100",
+   "simbolo": "USTEC",
+   "nivel": 24985,
+   "nivel_hasta": null,
+   "tipo": "mínimo",
+   "temporalidad": null,
+   "minuto": "[06:34]",
+   "cita": "Nasdaq cayendo todavía aún más de a mínimos por allí de los 29 24985.",
+   "notas": "La transcripción dice «29 24985»; se toma 24985 como el mínimo citado.",
+   "hora_bogota": "19:53",
+   "zonas": {
+    "nivel": {
+     "color": null
+    }
+   }
+  }
+ ],
+ "oportunidades": [
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "condicion": "Reentrar en venta en el pullback a la media de 20 de 4 horas y seguir el movimiento bajista.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": "4h",
+   "minuto": "[30:07]",
+   "cita": "para mí sería continuarle continuar en los 20 de 4 horas, ¿no? Sería bueno, buena reentrada, 20 de 4 horas y continuar con movimiento bajista",
+   "hora_bogota": "20:16"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "condicion": "Ruta para Nueva York: esperar reacción en la zona de dolor (unos 3580) y lateralización en Asia, y luego vender buscando el descuento hacia los 3500.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": 3500,
+   "temporalidad": "5m",
+   "minuto": "[1:05:44]",
+   "cita": "Si lo ven, ahí creo que vamos a tener reacción de precio, posible lateralización de Asia y descuento posterior hacia zona de los 3500, donde deberíamos estar encontrando el precio para Nueva York.",
+   "hora_bogota": "20:52",
+   "zonas": {
+    "objetivo": {
+     "color": null
+    }
+   }
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "venta",
+   "condicion": "Mejor posición: un trade de spike más arriba, en lo que dijo «453 aproximadamente». La cifra completa es ambigua.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[1:13:45]",
+   "cita": "Busquen a ver si Londres los deja, les bailes cierra gap, ¿no? Y pues mejor posición de todas sería buscar eh 453 aproximadamente ahí arriba como trade de spy.",
+   "hora_bogota": "21:00"
+  },
+  {
+   "activo": "Oro",
+   "simbolo": "XAUUSD",
+   "direccion": "no operar",
+   "condicion": "No comprar: con el contexto de 4 horas cayendo fuerte y sin acumulación, cualquier compra va contra la tendencia.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": "4h",
+   "minuto": "[1:17:28]",
+   "cita": "Compras en el oro son inexistentes en este momento. Contexto de 4 horas es un mercado cayendo fuerte.",
+   "hora_bogota": "21:04"
+  },
+  {
+   "activo": "Bitcoin",
+   "simbolo": "BTCUSD",
+   "direccion": "esperar",
+   "condicion": "No promediar a la baja: esperar a que el movimiento bajista se lateralice y entonces evaluar acumulación. A largo plazo ve oportunidad de DCA.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[22:42]",
+   "cita": "no sé hasta qué punto sea que promediemos a la baja sin ver lateralización. Preferiría yo que evaluáramos algún tipo de lateralización de ese movimiento tan agresivo bajista",
+   "hora_bogota": "20:09"
+  },
+  {
+   "activo": "Mercado general",
+   "simbolo": "otro",
+   "direccion": "esperar",
+   "condicion": "No cargar operaciones en la apertura de Asia del domingo; operar fuerte en Nueva York.",
+   "entrada": null,
+   "stop": null,
+   "objetivo": null,
+   "temporalidad": null,
+   "minuto": "[58:40]",
+   "cita": "no creo que sea tan inteligente que nos pongamos a meter operaciones en este momento, ¿no? Pilas ahí.",
+   "hora_bogota": "20:45"
+  }
+ ],
+ "lecciones": [
+  {
+   "texto": "Ajustar la estrategia a la fase del mercado: en una fase correctiva se vende desde la parte alta de los pullbacks y lateralizaciones buscando rupturas inferiores.",
+   "minuto": "[10:19]"
+  },
+  {
+   "texto": "No comprar el cuchillo cayendo: antes de pensar en compras hay que ver lateralización o acumulación en 4 horas.",
+   "minuto": "[24:09]"
+  },
+  {
+   "texto": "La media de 50 filtra la estructura y la de 20 el momentum; el patrón de agotamiento es el encapsulamiento, la pérdida de la 50 y el retesteo, y entonces se va con el precio.",
+   "minuto": "[57:18]"
+  },
+  {
+   "texto": "Un pullback en 4 horas no es más que un rango en 5 minutos, donde el precio pasa el 70% del tiempo.",
+   "minuto": "[1:06:14]"
+  },
+  {
+   "texto": "La invalidación va sobre el spike o el máximo anterior, y con el ETR la relación es 1:2,2.",
+   "minuto": "[1:18:23]"
+  },
+  {
+   "texto": "Una pérdida es solo una operación más y no daña la cartera; con el ETR bastan 2 o 3 operaciones al día.",
+   "minuto": "[1:02:01]"
+  },
+  {
+   "texto": "Los gaps no son zonas mágicas: son movimientos muy ineficientes que el precio suele cubrir.",
+   "minuto": "[50:29]"
+  },
+  {
+   "texto": "Las medias cruzándose en un pullback no son reversión alcista, solo lateralización.",
+   "minuto": "[16:38]"
+  }
+ ],
+ "avisos": [
+  "Transmitió desde Asia con 13 horas de diferencia y hubo problemas de audio, y los dibujos de la pantalla no se vieron en YouTube.",
+  "No recomienda Binance («no soy muy amigo de eso»).",
+  "Las medias móviles pueden salir distintas según el broker o el proveedor de liquidez.",
+  "Desaconseja operar fuerte en la apertura de Asia, sobre todo el domingo por la noche.",
+  "Japón tenía festivo ese día, según un alumno.",
+  "El dato importante de la semana es el del miércoles (PCE), según un alumno; el viernes el mercado cierra temprano.",
+  "La operación del EURUSD de días anteriores cerró en positivo con el ETR, pero no dijo su dirección ni sus precios."
+ ],
+ "video_id": "a_J3cSTuCFg",
+ "titulo": "Cierre Técnico: Cómo Leer Rechazos y Continuaciones",
+ "url": "https://www.youtube.com/watch?v=a_J3cSTuCFg",
+ "inicio": "2026-11-22T19:46:38-05:00",
+ "duracion_seg": 5061,
+ "origen": "claude-code automático (claude-opus-5-5, plan Pro)",
+ "fecha_extraccion": "2026-11-23",
+ "comprobacion_citas": {
+  "citas": 21,
+  "fragmentos_no_literales": []
+ }
+}
