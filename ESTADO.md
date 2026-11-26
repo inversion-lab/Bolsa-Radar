@@ -1,4 +1,4 @@
-# Estado: Bolsa-Radar (actualizado 2026-11-03)
+# Estado: Bolsa-Radar (actualizado 2026-11-26)
 
 ## En qué vamos
 - 2026-11-19 · Nuevo `local/subir_trading.bat`: al final de cava_diario, lectura_ia_pc, rolo_vivos y publicar_desde_pc sube a GitHub lo que estos scripts generan dentro del repo Trading (cerebro/4_bitacora_viva y fuentes/). Antes quedaba sin commit y la Agenda avisaba «Trading: cambios sin commit».
@@ -19,6 +19,16 @@
 - El repositorio es de la organización de Javier (`inversion-lab`) desde el 2026-10-29.
 
 ## Lo último que se hizo
+- 2026-11-26 · datos del PC 2026-11-26 12:00 (según los commits; lo anotó la Agenda)
+- 2026-11-26 · datos del PC 2026-11-26 11:30 (según los commits; lo anotó la Agenda)
+- 2026-11-26 · datos del PC 2026-11-26 09:35 (según los commits; lo anotó la Agenda)
+- 2026-11-26 · datos del PC 2026-11-26 08:35 (según los commits; lo anotó la Agenda)
+- 2026-11-26 · lectura IA (PC) 2026-11-26T13:10Z (según los commits; lo anotó la Agenda)
+- 2026-11-26 · datos del PC 2026-11-26 07:35 (según los commits; lo anotó la Agenda)
+- 2026-11-26 · datos del PC 2026-11-26 07:21 (según los commits; lo anotó la Agenda)
+- 2026-11-25 · datos del PC 2026-11-25 22:00 (según los commits; lo anotó la Agenda)
+- 2026-11-25 · datos del PC 2026-11-25 21:40 (según los commits; lo anotó la Agenda)
+- 2026-11-25 · mercado 2026-11-25T22:28Z (según los commits; lo anotó la Agenda)
 - 2026-11-13 · **La página pasa al estilo visual de AIGOS, sin su marca** (orden de Eduardo: todo entregable suyo lleva ese sello). Cambió solo `sitio/estilo.css` y `index.html`: papel, tinta y bosque, nada de azul ni gradientes ni animaciones; títulos en Sora y texto en Inter. Modo oscuro verde cálido. La guía está en la Agenda (`ESTILO_ENTREGABLES.md`).
 - 2026-11-03 · Eduardo decide unir las líneas de las plantillas MT5 del profesor con los precios dichos en los
   directos, porque "ahí están las posibilidades de entradas y salidas". Se usa el código de colores del profesor
